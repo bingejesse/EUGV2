@@ -1604,3 +1604,6 @@ D:\C#\projects\智能储物柜\20150402EUG--SVN\code\IEC.UI\obj\x86\Debug\Genera
 D:\C#\projects\智能储物柜\20150402EUG--SVN\code\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
 F:\temp\eug20150402\code\IEC.UI\bin\Debug\Customer.hbm.xml
 D:\C#\projects\智能储物柜\20150402EUG--SVN\code\IEC.UI\bin\Debug\Customer.hbm.xml
+D:\C#\projects\EUGV2\code\IEC.UI\bin\Debug\IEC.UI.exe.config
+D:\C#\projects\EUGV2\code\IEC.UI\obj\x86\Debug\IEC.UI.exe
+D:\C#\projects\EUGV2\code\IEC.UI\obj\x86\Debug\IEC.UI.pdb
