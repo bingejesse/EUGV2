@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain" assembly="Domain">
+  <class name="Cabinet" table="cabinet">
+    <id name="ID" column="id">
+      <generator class="assigned"/>
+    </id>
+    <property name="Key" column="key" type="int" />
+    <property name="Idle" column="idle" type="" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.View", "IEC.UI\SC.View.csproj", "{9C87FBB2-64E8-4743-B892-56B3E468BB39}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89E1869E-3227-42C7-9BD7-CBBF38611DCA} = {89E1869E-3227-42C7-9BD7-CBBF38611DCA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.Control", "DareneExpressCabinetClient\SC.Control.csproj", "{61568729-1B65-4F63-93F6-1D2A61A5EC03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.Database", "Domain\SC.Database.csproj", "{89E1869E-3227-42C7-9BD7-CBBF38611DCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C87FBB2-64E8-4743-B892-56B3E468BB39}.Debug|x86.ActiveCfg = Debug|x86
+		{9C87FBB2-64E8-4743-B892-56B3E468BB39}.Debug|x86.Build.0 = Debug|x86
+		{9C87FBB2-64E8-4743-B892-56B3E468BB39}.Release|x86.ActiveCfg = Release|x86
+		{9C87FBB2-64E8-4743-B892-56B3E468BB39}.Release|x86.Build.0 = Release|x86
+		{61568729-1B65-4F63-93F6-1D2A61A5EC03}.Debug|x86.ActiveCfg = Debug|x86
+		{61568729-1B65-4F63-93F6-1D2A61A5EC03}.Debug|x86.Build.0 = Debug|x86
+		{61568729-1B65-4F63-93F6-1D2A61A5EC03}.Release|x86.ActiveCfg = Release|x86
+		{61568729-1B65-4F63-93F6-1D2A61A5EC03}.Release|x86.Build.0 = Release|x86
+		{89E1869E-3227-42C7-9BD7-CBBF38611DCA}.Debug|x86.ActiveCfg = Debug|x86
+		{89E1869E-3227-42C7-9BD7-CBBF38611DCA}.Debug|x86.Build.0 = Debug|x86
+		{89E1869E-3227-42C7-9BD7-CBBF38611DCA}.Release|x86.ActiveCfg = Release|x86
+		{89E1869E-3227-42C7-9BD7-CBBF38611DCA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

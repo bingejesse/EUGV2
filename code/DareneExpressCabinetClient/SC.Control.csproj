@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61568729-1B65-4F63-93F6-1D2A61A5EC03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DareneExpressCabinetClient</RootNamespace>
+    <AssemblyName>DareneExpressCabinetClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge.Video, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Storage\dll\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.0.0.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Storage\dll\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Storage\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Storage\dll\System.Speech.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\RemoteOpenLogic.cs" />
+    <Compile Include="Controller\SystemController.cs" />
+    <Compile Include="Resource\AboutConfig.cs" />
+    <Compile Include="Resource\CommLister.cs" />
+    <Compile Include="Resource\CemmberData.cs" />
+    <Compile Include="Resource\ELocksManager.cs" />
+    <Compile Include="Resource\InfoCenterLister.cs" />
+    <Compile Include="Resource\IniConfigManager.cs" />
+    <Compile Include="Resource\SoftUpdateManager.cs" />
+    <Compile Include="Resource\table\Box.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource\BoxsManager.cs" />
+    <Compile Include="Resource\table\About.cs" />
+    <Compile Include="Resource\table\Courier.cs" />
+    <Compile Include="Resource\PackageManager.cs" />
+    <Compile Include="Resource\table\DeliverLog.cs" />
+    <Compile Include="Resource\table\ELock.cs" />
+    <Compile Include="Resource\table\Package.cs" />
+    <Compile Include="Resource\table\PickUpLog.cs" />
+    <Compile Include="Service\BoxControlService.cs" />
+    <Compile Include="Service\BoxsManagerService.cs" />
+    <Compile Include="Service\CameraService.cs" />
+    <Compile Include="Service\CardReader.cs" />
+    <Compile Include="Service\CourierService.cs" />
+    <Compile Include="Service\DatabaseService.cs" />
+    <Compile Include="Service\ELocksManagerService.cs" />
+    <Compile Include="Service\Factory\ServicesFactory.cs" />
+    <Compile Include="Service\Imple\BoxControlServiceImplByCan.cs" />
+    <Compile Include="Service\Imple\BoxControlServiceImplByHttp.cs" />
+    <Compile Include="Service\Imple\CameraServiceImpl.cs" />
+    <Compile Include="Service\Imple\CameraServiceImplByAforge.cs" />
+    <Compile Include="Service\Imple\DatabaseServiceImpl.cs" />
+    <Compile Include="Service\Imple\ServerServiceImpl.cs" />
+    <Compile Include="Service\Imple\VoiceServiceImpl.cs" />
+    <Compile Include="Service\PackageManagerService.cs" />
+    <Compile Include="Service\ServerService.cs" />
+    <Compile Include="Service\SMSCenterService.cs" />
+    <Compile Include="Service\VoiceService.cs" />
+    <Compile Include="Tools\Can\CanManager.cs" />
+    <Compile Include="Tools\Can\DataFilter.cs" />
+    <Compile Include="Tools\Can\IFilter.cs" />
+    <Compile Include="Tools\Can\PDUProducter.cs" />
+    <Compile Include="Tools\Can\ShakeHands.cs" />
+    <Compile Include="Tools\Can\UsbCanCom.cs" />
+    <Compile Include="Tools\ConfigLoad.cs" />
+    <Compile Include="Tools\CryptoHelper.cs" />
+    <Compile Include="Tools\CSoundPlayer.cs" />
+    <Compile Include="Tools\GetPath.cs" />
+    <Compile Include="Tools\HttpWebResponseUtility.cs" />
+    <Compile Include="Tools\CMD5.cs" />
+    <Compile Include="Tools\IniFileController.cs" />
+    <Compile Include="Tools\PasswordBuilder.cs" />
+    <Compile Include="Tools\Pick.cs" />
+    <Compile Include="Tools\TimeTest.cs" />
+    <Compile Include="Tools\UnixTime.cs" />
+    <Compile Include="Tools\VGuangQR.cs" />
+    <Compile Include="Tools\WebServiceCall.cs" />
+    <Compile Include="Tools\XmlHelper.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\SC.Database.csproj">
+      <Project>{89E1869E-3227-42C7-9BD7-CBBF38611DCA}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SCSystem.vdproj" />
+    <Content Include="Storage\dll\AForge.Video.DirectShow.dll" />
+    <Content Include="Storage\dll\AForge.Video.dll" />
+    <Content Include="Storage\dll\Newtonsoft.Json.dll" />
+    <Content Include="Storage\dll\System.Speech.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,185 @@
+E:\temp\20140715EUGV2\EUG\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140715EUGV2\EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+E:\temp\20140715EUGV2\EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+E:\temp\20140715EUGV2\EUG\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140715EUGV2\EUG\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140715EUGV2\EUG\Domain\bin\Debug\Domain.exe.config
+E:\temp\20140715EUGV2\EUG\Domain\bin\Debug\Domain.exe
+E:\temp\20140715EUGV2\EUG\Domain\bin\Debug\Domain.pdb
+E:\temp\20140715EUGV2\EUG\Domain\bin\Debug\Iesi.Collections.dll
+E:\temp\20140715EUGV2\EUG\Domain\bin\Debug\NHibernate.dll
+E:\temp\20140715EUGV2\EUG\Domain\obj\x86\Debug\Domain.exe
+E:\temp\20140715EUGV2\EUG\Domain\obj\x86\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\EUG\Domain\bin\Debug\Domain.exe.config
+D:\C#\projects\智能储物柜\EUG\Domain\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\EUG\Domain\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\EUG\Domain\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\EUG\Domain\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\EUG\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+D:\C#\projects\智能储物柜\EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+D:\C#\projects\智能储物柜\EUG\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\EUG\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\C#\projects\智能储物柜\EUG\Domain\obj\x86\Debug\Domain.exe
+D:\C#\projects\智能储物柜\EUG\Domain\obj\x86\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\EUG\Domain\bin\Debug\Customer.hbm.xml
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\bin\Debug\Customer.hbm.xml
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\bin\Debug\Domain.exe.config
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\bin\Debug\Domain.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\bin\Debug\Domain.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\bin\Debug\Iesi.Collections.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\bin\Debug\MySql.Data.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\bin\Debug\NHibernate.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\obj\x86\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\obj\x86\Debug\Domain.csproj.GenerateResource.Cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\obj\x86\Debug\Domain.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\Domain\obj\x86\Debug\Domain.pdb
+E:\temp\20140721EUG\EUG\Domain\bin\Debug\Customer.hbm.xml
+E:\temp\20140721EUG\EUG\Domain\bin\Debug\Domain.exe.config
+E:\temp\20140721EUG\EUG\Domain\bin\Debug\Domain.exe
+E:\temp\20140721EUG\EUG\Domain\bin\Debug\Domain.pdb
+E:\temp\20140721EUG\EUG\Domain\bin\Debug\Iesi.Collections.dll
+E:\temp\20140721EUG\EUG\Domain\bin\Debug\MySql.Data.dll
+E:\temp\20140721EUG\EUG\Domain\bin\Debug\NHibernate.dll
+E:\temp\20140721EUG\EUG\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140721EUG\EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+E:\temp\20140721EUG\EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+E:\temp\20140721EUG\EUG\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140721EUG\EUG\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140721EUG\EUG\Domain\obj\x86\Debug\Domain.exe
+E:\temp\20140721EUG\EUG\Domain\obj\x86\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\bin\Debug\Customer.hbm.xml
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\bin\Debug\Domain.exe.config
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\obj\x86\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140721EUG\EUG\Domain\obj\x86\Debug\Domain.pdb
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\bin\Debug\Customer.hbm.xml
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\bin\Debug\Domain.exe.config
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\bin\Debug\Domain.exe
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\bin\Debug\Domain.pdb
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\bin\Debug\Iesi.Collections.dll
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\bin\Debug\MySql.Data.dll
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\bin\Debug\NHibernate.dll
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\obj\x86\Debug\Domain.exe
+E:\temp\20140723EUG\20140723EUG\EUG\Domain\obj\x86\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140724EUG\Domain\bin\Debug\Customer.hbm.xml
+D:\C#\projects\智能储物柜\20140724EUG\Domain\bin\Debug\Domain.exe.config
+D:\C#\projects\智能储物柜\20140724EUG\Domain\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140724EUG\Domain\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140724EUG\Domain\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140724EUG\Domain\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140724EUG\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140724EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+D:\C#\projects\智能储物柜\20140724EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140724EUG\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140724EUG\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\C#\projects\智能储物柜\20140724EUG\Domain\obj\x86\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140724EUG\Domain\obj\x86\Debug\Domain.pdb
+C:\Users\zyh\Desktop\eug\Domain\bin\Debug\Customer.hbm.xml
+C:\Users\zyh\Desktop\eug\Domain\bin\Debug\Domain.exe.config
+C:\Users\zyh\Desktop\eug\Domain\bin\Debug\Domain.exe
+C:\Users\zyh\Desktop\eug\Domain\bin\Debug\Domain.pdb
+C:\Users\zyh\Desktop\eug\Domain\bin\Debug\Iesi.Collections.dll
+C:\Users\zyh\Desktop\eug\Domain\bin\Debug\MySql.Data.dll
+C:\Users\zyh\Desktop\eug\Domain\bin\Debug\NHibernate.dll
+C:\Users\zyh\Desktop\eug\Domain\obj\x86\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Desktop\eug\Domain\obj\x86\Debug\Domain.Form1.resources
+C:\Users\zyh\Desktop\eug\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+C:\Users\zyh\Desktop\eug\Domain\obj\x86\Debug\Domain.csproj.GenerateResource.Cache
+C:\Users\zyh\Desktop\eug\Domain\obj\x86\Debug\Domain.exe
+C:\Users\zyh\Desktop\eug\Domain\obj\x86\Debug\Domain.pdb
+E:\temp\20140724EUG\code\Domain\bin\Debug\Customer.hbm.xml
+E:\temp\20140724EUG\code\Domain\bin\Debug\Domain.exe.config
+E:\temp\20140724EUG\code\Domain\bin\Debug\Domain.exe
+E:\temp\20140724EUG\code\Domain\bin\Debug\Domain.pdb
+E:\temp\20140724EUG\code\Domain\bin\Debug\Iesi.Collections.dll
+E:\temp\20140724EUG\code\Domain\bin\Debug\MySql.Data.dll
+E:\temp\20140724EUG\code\Domain\bin\Debug\NHibernate.dll
+E:\temp\20140724EUG\code\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140724EUG\code\Domain\obj\x86\Debug\Domain.Form1.resources
+E:\temp\20140724EUG\code\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+E:\temp\20140724EUG\code\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140724EUG\code\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140724EUG\code\Domain\obj\x86\Debug\Domain.exe
+E:\temp\20140724EUG\code\Domain\obj\x86\Debug\Domain.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\bin\Debug\Customer.hbm.xml
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\bin\Debug\Domain.exe.config
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\bin\Debug\Domain.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\bin\Debug\Domain.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\bin\Debug\Iesi.Collections.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\bin\Debug\MySql.Data.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\bin\Debug\NHibernate.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\obj\x86\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\obj\x86\Debug\Domain.csproj.GenerateResource.Cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\obj\x86\Debug\Domain.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\Domain\obj\x86\Debug\Domain.pdb
+E:\temp\20140728EUG\code\Domain\bin\Debug\Customer.hbm.xml
+E:\temp\20140728EUG\code\Domain\bin\Debug\Domain.exe.config
+E:\temp\20140728EUG\code\Domain\bin\Debug\Domain.exe
+E:\temp\20140728EUG\code\Domain\bin\Debug\Domain.pdb
+E:\temp\20140728EUG\code\Domain\bin\Debug\Iesi.Collections.dll
+E:\temp\20140728EUG\code\Domain\bin\Debug\MySql.Data.dll
+E:\temp\20140728EUG\code\Domain\bin\Debug\NHibernate.dll
+E:\temp\20140728EUG\code\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140728EUG\code\Domain\obj\x86\Debug\Domain.Form1.resources
+E:\temp\20140728EUG\code\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+E:\temp\20140728EUG\code\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140728EUG\code\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140728EUG\code\Domain\obj\x86\Debug\Domain.exe
+E:\temp\20140728EUG\code\Domain\obj\x86\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\bin\Debug\Customer.hbm.xml
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\bin\Debug\Domain.exe.config
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\obj\x86\Debug\Domain.Form1.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\obj\x86\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140731EUG\code\Domain\obj\x86\Debug\Domain.pdb
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\bin\Debug\Customer.hbm.xml
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\bin\Debug\Domain.exe.config
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\bin\Debug\Domain.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\bin\Debug\Domain.pdb
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\bin\Debug\Iesi.Collections.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\bin\Debug\MySql.Data.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\bin\Debug\NHibernate.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\obj\x86\Debug\Domain.csprojResolveAssemblyReference.cache
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\obj\x86\Debug\Domain.Form1.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\obj\x86\Debug\Domain.csproj.GenerateResource.Cache
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\obj\x86\Debug\Domain.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\Domain\obj\x86\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\bin\Debug\Customer.hbm.xml
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\bin\Debug\Domain.exe.config
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\obj\x86\Debug\Domain.Form1.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\obj\x86\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\Domain\obj\x86\Debug\Domain.pdb

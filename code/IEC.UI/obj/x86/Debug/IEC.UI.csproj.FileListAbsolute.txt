@@ -1,0 +1,673 @@
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\bin\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\bin\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.frmback.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.exe.licenses
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\documents\visual studio 2010\Projects\IEC.UI\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\IEC.UI.frmback.resources
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\eu\EU.UI\IEC.UI\obj\x86\Debug\IEC.UI.exe.licenses
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmback.resources
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe.licenses
+=======
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Desktop\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+C:\Users\zyh\Desktop\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+L:\新建文件夹\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+L:\新建文件夹\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+L:\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+C:\Users\doraGT\Desktop\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\新建文件夹\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\20140714EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\复件 20140715EUG\EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\temp\20140715EUGV2\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\temp\20140715EUGV2\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140715EUGV2\EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+C:\Users\zyh\Desktop\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+C:\Users\zyh\Desktop\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+D:\C#\projects\智能储物柜\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+D:\C#\projects\智能储物柜\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\bin\Debug\log4net.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\EUG\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\log4net.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\Domain.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\NHibernate.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\Domain.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\bin\Debug\MySql.Data.dll
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\Domain.exe
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\log4net.dll
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\MySql.Data.dll
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\NHibernate.dll
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+E:\temp\20140721EUG\EUG\IEC.UI\bin\Debug\Domain.pdb
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140721EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\log4net.dll
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140721EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\baiduyundownload\EUGv0.2\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+F:\baiduyundownload\EUGv0.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+F:\baiduyundownload\EUGv0.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.blankControl.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmGetPackage_InputPwd.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140721EUG\EU\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\Domain.exe
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\log4net.dll
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\NHibernate.dll
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\MySql.Data.dll
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+E:\temp\20140723EUG\20140723EUG\EUG\IEC.UI\bin\Debug\Domain.pdb
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\log4net.dll
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\Domain.exe
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\MySql.Data.dll
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\NHibernate.dll
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\bin\Debug\Domain.pdb
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\baiduyundownload\EUGv0.3.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\log4net.dll
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\log4net.dll
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\Domain.exe
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\NHibernate.dll
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\MySql.Data.dll
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\Iesi.Collections.dll
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+C:\Users\zyh\Desktop\eug\IEC.UI\bin\Debug\Domain.pdb
+C:\Users\zyh\Desktop\eug\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+C:\Users\zyh\Desktop\eug\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+C:\Users\zyh\Desktop\eug\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+C:\Users\zyh\Desktop\eug\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+C:\Users\zyh\Desktop\eug\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+C:\Users\zyh\Desktop\eug\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+C:\Users\zyh\Desktop\eug\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+D:\C#\projects\智能储物柜\20140724EUG\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\IEC.UI.exe.config
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\IEC.UI.exe
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\log4net.dll
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\Domain.exe
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\MySql.Data.dll
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\NHibernate.dll
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\Iesi.Collections.dll
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+E:\temp\20140724EUG\code\IEC.UI\bin\Debug\Domain.pdb
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140724EUG\code\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\IEC.UI.exe.config
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\IEC.UI.exe
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\log4net.dll
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\Domain.exe
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\MySql.Data.dll
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\NHibernate.dll
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\Iesi.Collections.dll
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+E:\temp\20140728EUG\code\IEC.UI\bin\Debug\Domain.pdb
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\temp\20140728EUG\code\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\log4net.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\Domain.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\MySql.Data.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\NHibernate.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\bin\Debug\Domain.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\IEC.UI.exe.config
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\IEC.UI.pdb
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\log4net.dll
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\20140731EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.superManager.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmAbout.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmFunction.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmManager.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\log4net.dll
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\Domain.exe
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\MySql.Data.dll
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\NHibernate.dll
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\bin\Debug\Domain.pdb
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmAbout.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmFunction.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmManager.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.superManager.resources
+E:\baiduyundownload\EUGv0.9.2\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\IEC.UI.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\IEC.UI.pdb
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\log4net.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\Domain.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\MySql.Data.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\NHibernate.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\Iesi.Collections.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\bin\Debug\Domain.pdb
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csprojResolveAssemblyReference.cache
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmAbout.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmFunction.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.frmManager.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.superManager.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\IEC.UI\obj\x86\Debug\IEC.UI.csproj.GenerateResource.Cache
+E:\baiduyundownload\EUGv0.9.4\EUG\IEC.UI\bin\Debug\IEC.UI.exe.config
+E:\baiduyundownload\EUGv0.9.4\EUG\IEC.UI\obj\x86\Debug\IEC.UI.exe
+E:\baiduyundownload\EUGv0.9.4\EUG\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\IEC.UI.exe.config
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\IEC.UI.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\IEC.UI.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\DareneExpressCabinetClient.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\log4net.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\Newtonsoft.Json.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\DareneExpressCabinetClient.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.chooseBox.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.confirmConsigneeTel.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.frmAbout.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.frmFunction.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.frmMain.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.frmManager.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.getHelp.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.getPackageSuccess.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputConsigneeTel.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierID.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.inputCourierPwd.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.InputPwdPanel.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.mainPanel.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnICID.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnIDPwd.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnScanTN.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.returnSuccess.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.savePackageSuccess.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.scanTrackingNum.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.Splash.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\IEC.UI.superManager.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140819EUG\code\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog

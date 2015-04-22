@@ -1,0 +1,57 @@
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.exe.config
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\Customer.hbm.xml
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\Domain.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\log4net.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\MySql.Data.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\NHibernate.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\Iesi.Collections.dll
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\bin\Debug\Domain.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.csprojResolveAssemblyReference.cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.FrmMain.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.Properties.Resources.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.csproj.GenerateResource.Cache
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.exe
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.pdb
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.frmManager.resources
+C:\Users\zyh\Documents\Visual Studio 2010\Projects\20140728\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.frmAbout.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\Customer.hbm.xml
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.exe.config
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.pdb
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\Domain.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\log4net.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\Newtonsoft.Json.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\MySql.Data.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\NHibernate.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\Iesi.Collections.dll
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\bin\Debug\Domain.pdb
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.csprojResolveAssemblyReference.cache
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.frmAbout.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.FrmMain.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.frmManager.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.Properties.Resources.resources
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.csproj.GenerateResource.Cache
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.exe
+E:\baiduyundownload\EUGv0.9.3\EUG\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\Customer.hbm.xml
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.exe.config
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\DareneExpressCabinetClient.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\Domain.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\log4net.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\Newtonsoft.Json.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\NHibernate.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\bin\Debug\Domain.pdb
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.frmAbout.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.FrmMain.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.frmManager.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.Properties.Resources.resources
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.exe
+D:\C#\projects\智能储物柜\20140819EUG\code\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.pdb

@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C87FBB2-64E8-4743-B892-56B3E468BB39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IEC.UI</RootNamespace>
+    <AssemblyName>IEC.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tubiao.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ADODB, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=11.8.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.8.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.8.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=11.8.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=11.8.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL" />
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.4.0.0, Culture=neutral, PublicKeyToken=e8a75d24b142be49, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Schema, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Data.Schema.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Data.Schema.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.StdFormat, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data" />
+    <Reference Include="Microsoft.VisualStudio.AppDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Data.Schema.Package, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TemplateWizardInterface, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TextManager.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MSDATASRC, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmMessagebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMessagebox.Designer.cs">
+      <DependentUpon>FrmMessagebox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="关于\FrmPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="关于\FrmPassword.Designer.cs">
+      <DependentUpon>FrmPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IMyUC.cs" />
+    <Compile Include="KeyboardInstance.cs" />
+    <Compile Include="UserControlsManager.cs" />
+    <Compile Include="关于\getHelpInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="关于\getHelpInfo.Designer.cs">
+      <DependentUpon>getHelpInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="存包裹\chooseBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="存包裹\chooseBox.Designer.cs">
+      <DependentUpon>chooseBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="存包裹\confirmConsigneeTel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="存包裹\confirmConsigneeTel.Designer.cs">
+      <DependentUpon>confirmConsigneeTel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="关于\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="关于\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="关于\frmFunction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="关于\frmFunction.Designer.cs">
+      <DependentUpon>frmFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="关于\frmManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="关于\frmManager.Designer.cs">
+      <DependentUpon>frmManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="关于\getHelp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="关于\getHelp.Designer.cs">
+      <DependentUpon>getHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="存包裹\FrmSavaPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="存包裹\FrmSavaPackage.Designer.cs">
+      <DependentUpon>FrmSavaPackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="收件人取件\getPackageSuccess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="收件人取件\getPackageSuccess.Designer.cs">
+      <DependentUpon>getPackageSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="存包裹\inputConsigneeTel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="存包裹\inputConsigneeTel.Designer.cs">
+      <DependentUpon>inputConsigneeTel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="存包裹\inputCourierID.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="存包裹\inputCourierID.Designer.cs">
+      <DependentUpon>inputCourierID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="存包裹\inputCourierPwd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="存包裹\inputCourierPwd.Designer.cs">
+      <DependentUpon>inputCourierPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="收件人取件\InputPwdPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="收件人取件\InputPwdPanel.Designer.cs">
+      <DependentUpon>InputPwdPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="mainPanel.Designer.cs">
+      <DependentUpon>mainPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="快递员取回\returnICID.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="快递员取回\returnICID.Designer.cs">
+      <DependentUpon>returnICID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="快递员取回\returnIDPwd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="快递员取回\returnIDPwd.Designer.cs">
+      <DependentUpon>returnIDPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="快递员取回\returnScanTN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="快递员取回\returnScanTN.Designer.cs">
+      <DependentUpon>returnScanTN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="快递员取回\returnSuccess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="快递员取回\returnSuccess.Designer.cs">
+      <DependentUpon>returnSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="存包裹\savePackageSuccess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="存包裹\savePackageSuccess.Designer.cs">
+      <DependentUpon>savePackageSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="存包裹\scanTrackingNum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="存包裹\scanTrackingNum.Designer.cs">
+      <DependentUpon>scanTrackingNum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoading.Designer.cs">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="关于\superManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="关于\superManager.Designer.cs">
+      <DependentUpon>superManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vKeyboardRenderer.cs" />
+    <Content Include="configInfo\qrcode.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="update.xml" />
+    <EmbeddedResource Include="FrmMessagebox.resx">
+      <DependentUpon>FrmMessagebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="关于\FrmPassword.resx">
+      <DependentUpon>FrmPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="关于\getHelpInfo.resx">
+      <DependentUpon>getHelpInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="存包裹\chooseBox.resx">
+      <DependentUpon>chooseBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="存包裹\confirmConsigneeTel.resx">
+      <DependentUpon>confirmConsigneeTel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="关于\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="关于\frmFunction.resx">
+      <DependentUpon>frmFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="关于\frmManager.resx">
+      <DependentUpon>frmManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="关于\getHelp.resx">
+      <DependentUpon>getHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="存包裹\FrmSavaPackage.resx">
+      <DependentUpon>FrmSavaPackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="收件人取件\getPackageSuccess.resx">
+      <DependentUpon>getPackageSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="存包裹\inputConsigneeTel.resx">
+      <DependentUpon>inputConsigneeTel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="存包裹\inputCourierID.resx">
+      <DependentUpon>inputCourierID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="存包裹\inputCourierPwd.resx">
+      <DependentUpon>inputCourierPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="收件人取件\InputPwdPanel.resx">
+      <DependentUpon>InputPwdPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainPanel.resx">
+      <DependentUpon>mainPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="快递员取回\returnICID.resx">
+      <DependentUpon>returnICID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="快递员取回\returnIDPwd.resx">
+      <DependentUpon>returnIDPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="快递员取回\returnScanTN.resx">
+      <DependentUpon>returnScanTN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="快递员取回\returnSuccess.resx">
+      <DependentUpon>returnSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="存包裹\savePackageSuccess.resx">
+      <DependentUpon>savePackageSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="存包裹\scanTrackingNum.resx">
+      <DependentUpon>scanTrackingNum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoading.resx">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="关于\superManager.resx">
+      <DependentUpon>superManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <Content Include="configInfo\config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\灰色节点.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\进度条.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绿色节点.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\进度条_副本.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\灰色节点_副本2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绿色节点_副本.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\灰色节点_副本.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绿色节点.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-small.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\灰色节点30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\灰色节点47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绿色节点30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绿色节点47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\灰色节点40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绿色节点40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\进度条100_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\大_高150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\小_高90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\中_高120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DareneExpressCabinetClient\SC.Control.csproj">
+      <Project>{61568729-1B65-4F63-93F6-1D2A61A5EC03}</Project>
+      <Name>SC.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\SC.Database.csproj">
+      <Project>{89E1869E-3227-42C7-9BD7-CBBF38611DCA}</Project>
+      <Name>SC.Database</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\图标logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bj-small.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="configInfo\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="configInfo\配置说明.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dll\DevComponents.DotNetBar.Keyboard.dll" />
+    <Content Include="dll\DevComponents.DotNetBar.SuperGrid.dll" />
+    <Content Include="dll\DevComponents.DotNetBar2.dll" />
+    <Content Include="dll\DevComponents.Instrumentation.dll" />
+    <Content Include="dll_vguang.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ECanVci.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dll\Gma.QrCodeNet.Encoding.dll" />
+    <Content Include="tubiao.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
