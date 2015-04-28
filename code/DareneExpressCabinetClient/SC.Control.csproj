@@ -44,6 +44,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Storage\dll\AForge.Video.DirectShow.dll</HintPath>
     </Reference>
+    <Reference Include="DotNetSpeech, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>Storage\dll\DotNetSpeech.dll</HintPath>
+      <Aliases>global</Aliases>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Storage\dll\Newtonsoft.Json.dll</HintPath>
@@ -107,6 +113,7 @@
     <Compile Include="Service\Imple\DatabaseServiceImpl.cs" />
     <Compile Include="Service\Imple\ServerServiceImpl.cs" />
     <Compile Include="Service\Imple\VoiceServiceImpl.cs" />
+    <Compile Include="Service\Imple\VoiceServiceImplByDotNetSpeech.cs" />
     <Compile Include="Service\PackageManagerService.cs" />
     <Compile Include="Service\ServerService.cs" />
     <Compile Include="Service\SMSCenterService.cs" />
@@ -168,6 +175,7 @@
     <Content Include="SCSystem.vdproj" />
     <Content Include="Storage\dll\AForge.Video.DirectShow.dll" />
     <Content Include="Storage\dll\AForge.Video.dll" />
+    <Content Include="Storage\dll\DotNetSpeech.dll" />
     <Content Include="Storage\dll\Newtonsoft.Json.dll" />
     <Content Include="Storage\dll\System.Speech.dll" />
   </ItemGroup>

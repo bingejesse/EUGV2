@@ -1,0 +1,13 @@
+INFO  2015-04-23 22:10:09,175 [Domain.CLog4net] System starting！
+INFO  2015-04-23 22:10:10,609 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-23 22:10:10,640 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-23 22:10:11,140 [Domain.CLog4net] Select * from about 执行结束:328ms
+INFO  2015-04-23 22:10:11,140 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-23 22:10:11,249 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-23 22:10:11,280 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-23 22:10:11,280 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-23 22:10:11,390 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-23 22:10:11,390 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-23 22:10:11,499 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-23 22:10:11,499 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-23 22:10:11,608 [Domain.CLog4net] RemoteOpenLogic is loaded

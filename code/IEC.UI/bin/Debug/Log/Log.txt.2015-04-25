@@ -1,0 +1,840 @@
+INFO  2015-04-25 13:24:47,030 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:24:49,257 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:24:49,302 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:24:49,917 [Domain.CLog4net] Select * from about 执行结束:421ms
+INFO  2015-04-25 13:24:49,923 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:24:50,034 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-04-25 13:24:50,055 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:24:50,055 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:24:50,161 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 13:24:50,162 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:24:50,287 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 13:24:50,287 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:24:50,388 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-04-25 13:24:53,704 [Domain.CLog4net] System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DareneExpressCabinetClient.Tools.HttpWebResponseUtility.CreatePostHttpResponse(String url, IDictionary`2 parameters, Nullable`1 timeout, String userAgent, Encoding requestEncoding, CookieCollection cookies) 位置 D:\C#\projects\EUGV2\code\DareneExpressCabinetClient\Tools\HttpWebResponseUtility.cs:行号 154
+ERROR 2015-04-25 13:24:53,718 [Domain.CLog4net] ServiceShakeHandSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DareneExpressCabinetClient.Service.Imple.ServerServiceImpl.ServiceShakeHand(About about, IDictionary`2 dic) 位置 D:\C#\projects\EUGV2\code\DareneExpressCabinetClient\Service\Imple\ServerServiceImpl.cs:行号 557
+INFO  2015-04-25 13:24:54,729 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:24:54,731 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:24:54,806 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:24:56,574 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:24:59,942 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:25:02,590 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:25:02,976 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:25:06,716 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:25:08,933 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:25:10,421 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:25:13,522 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:25:17,122 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:27:19,299 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:27:20,722 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:27:20,742 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:27:21,275 [Domain.CLog4net] Select * from about 执行结束:374ms
+INFO  2015-04-25 13:27:21,279 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:27:21,390 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 13:27:21,459 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:27:21,459 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:27:21,570 [Domain.CLog4net] Select * from elock 执行结束:16ms
+INFO  2015-04-25 13:27:21,571 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:27:21,686 [Domain.CLog4net] Select * from package where taken='1' 执行结束:16ms
+INFO  2015-04-25 13:27:21,687 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:27:21,788 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 13:27:22,881 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429939758}
+
+INFO  2015-04-25 13:27:23,022 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:27:23,024 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:27:23,344 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:27:24,351 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:27:25,480 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:27:26,961 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:27:29,599 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:27:31,716 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 13:27:32,939 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:27:36,797 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:27:37,230 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:27:39,167 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:27:41,513 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:27:43,095 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:27:43,516 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:27:51,037 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:27:59,609 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:00,045 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:28:03,083 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:03,507 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:28:05,333 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:05,772 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:28:07,325 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:07,783 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:28:09,553 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:09,987 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:28:11,467 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:11,923 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:28:13,992 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:14,455 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:28:16,244 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:28:18,163 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:18,617 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:28:23,959 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:28:27,304 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:26,752 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:29:28,226 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:29:28,252 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:29:28,781 [Domain.CLog4net] Select * from about 执行结束:343ms
+INFO  2015-04-25 13:29:28,785 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:29:28,894 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 13:29:28,914 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:29:28,915 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:29:29,022 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-04-25 13:29:29,023 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:29:29,129 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 13:29:29,129 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:29:29,230 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 13:29:30,370 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429939885}
+
+INFO  2015-04-25 13:29:30,522 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:29:30,524 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:29:30,846 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:29:32,152 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:32,533 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:33,813 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:29:35,379 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:35,658 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:36,713 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:36,989 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:40,016 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:29:41,388 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:41,670 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:42,915 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:43,203 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:44,493 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:44,771 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:45,967 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:46,244 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:47,567 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:47,844 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:50,469 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:50,743 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:52,055 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:29:53,551 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:29:53,841 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:29:55,152 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:30:24,247 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:30:25,759 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:30:25,807 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:30:26,320 [Domain.CLog4net] Select * from about 执行结束:344ms
+INFO  2015-04-25 13:30:26,324 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:30:26,435 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 13:30:26,455 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:30:26,457 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:30:26,566 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 13:30:26,568 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:30:26,673 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 13:30:26,673 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:30:26,790 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 13:30:27,894 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429939943}
+
+INFO  2015-04-25 13:30:28,017 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:30:28,019 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:30:28,345 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:30:30,299 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:30:31,442 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:30:33,115 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:30:35,429 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:30:35,879 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:30:37,551 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:30:39,033 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:30:41,499 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:30:41,938 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:30:44,386 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:30:46,181 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:30:46,632 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:30:48,173 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:30:48,630 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:32:12,372 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:32:13,767 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:32:13,794 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:32:14,328 [Domain.CLog4net] Select * from about 执行结束:359ms
+INFO  2015-04-25 13:32:14,332 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:32:14,447 [Domain.CLog4net] Select * from box 执行结束:16ms
+ERROR 2015-04-25 13:32:14,470 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:32:14,470 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:32:14,577 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 13:32:14,579 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:32:14,693 [Domain.CLog4net] Select * from package where taken='1' 执行结束:16ms
+INFO  2015-04-25 13:32:14,693 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:32:14,794 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 13:32:15,866 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429940050}
+
+INFO  2015-04-25 13:32:16,000 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:32:16,001 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:32:16,327 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:32:19,619 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:32:20,735 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:32:29,173 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:32:38,534 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:32:41,562 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:32:41,775 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:32:47,455 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:32:50,229 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:32:50,666 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:32:54,732 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:32:55,167 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:32:57,516 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:33:06,240 [Domain.CLog4net] 进入输入账号界面
+INFO  2015-04-25 13:33:08,215 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-04-25 13:33:08,216 [Domain.CLog4net] 用进入扫描快递单号界面
+INFO  2015-04-25 13:33:15,694 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:33:19,449 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:33:19,874 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:33:21,890 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:33:23,841 [Domain.CLog4net] 进入输入密码界面
+INFO  2015-04-25 13:33:25,083 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-04-25 13:33:25,084 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-04-25 13:33:25,256 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:16ms
+INFO  2015-04-25 13:33:25,258 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:33:25,259 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:33:25,261 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:33:25,262 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:34:55,849 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:34:57,191 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:34:57,221 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:34:57,728 [Domain.CLog4net] Select * from about 执行结束:328ms
+INFO  2015-04-25 13:34:57,732 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:34:57,845 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-04-25 13:34:57,870 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:34:57,871 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:34:57,979 [Domain.CLog4net] Select * from elock 执行结束:16ms
+INFO  2015-04-25 13:34:57,981 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:34:58,086 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 13:34:58,086 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:34:58,188 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 13:34:59,334 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429940214}
+
+INFO  2015-04-25 13:34:59,469 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:34:59,470 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:34:59,789 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:35:01,111 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:35:02,227 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:35:03,252 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:35:04,833 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:35:05,259 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:35:06,443 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:35:08,112 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:35:09,492 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 13:35:10,553 [Domain.CLog4net] 点击管理员，进入管理员密码输入界面
+INFO  2015-04-25 13:35:12,497 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:35:12,924 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:35:14,710 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:35:17,898 [Domain.CLog4net] 进入输入密码界面
+INFO  2015-04-25 13:35:19,137 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-04-25 13:35:19,139 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-04-25 13:35:19,310 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:19,311 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:19,312 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:19,313 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:19,314 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:20,269 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-04-25 13:35:20,270 [Domain.CLog4net] 选取柜门：27
+ERROR 2015-04-25 13:35:22,479 [Domain.CLog4net] Can发送开箱 response.Data == null
+INFO  2015-04-25 13:35:22,479 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-04-25 13:35:22,648 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:22,650 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:22,651 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:22,652 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:22,654 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:22,663 [Domain.CLog4net] 打开柜门:39，可能是can无回应
+INFO  2015-04-25 13:35:45,329 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:35:46,640 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:35:46,671 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:35:47,154 [Domain.CLog4net] Select * from about 执行结束:312ms
+INFO  2015-04-25 13:35:47,170 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:35:47,279 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 13:35:47,310 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:35:47,310 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:35:47,420 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 13:35:47,420 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:35:47,529 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 13:35:47,529 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:35:47,638 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 13:35:48,730 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429940263}
+
+INFO  2015-04-25 13:35:48,870 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:35:48,870 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:35:49,214 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:35:50,196 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:35:52,729 [Domain.CLog4net] 进入输入密码界面
+INFO  2015-04-25 13:35:53,969 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-04-25 13:35:53,970 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-04-25 13:35:54,143 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:54,145 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:54,146 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:54,147 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:54,148 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-04-25 13:35:55,004 [Domain.CLog4net] SELECT * FROM box where size=1 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-04-25 13:35:55,005 [Domain.CLog4net] 选取柜门：16
+INFO  2015-04-25 13:35:56,844 [Domain.CLog4net] 进入选取快递柜确认界面
+INFO  2015-04-25 13:35:56,852 [Domain.CLog4net] 进入扫描快递界面
+INFO  2015-04-25 13:35:57,057 [Domain.CLog4net] 点击继续存件
+INFO  2015-04-25 13:36:01,265 [Domain.CLog4net] 进入输入取件人手机号码界面
+INFO  2015-04-25 13:36:03,083 [Domain.CLog4net] 进入再次输入手机号码界面
+INFO  2015-04-25 13:36:04,031 [Domain.CLog4net] 再次输入手机号确认成功
+INFO  2015-04-25 13:36:04,301 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429940279}
+
+INFO  2015-04-25 13:36:04,586 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-04-25 13:36:04,622 [Domain.CLog4net] 拍照是否成功：True
+INFO  2015-04-25 13:36:04,645 [Domain.CLog4net] update box set idle='0',locationX='2',locationY='7',remark='',size='1',state='1' where code=16 执行结束:16ms
+INFO  2015-04-25 13:36:04,645 [Domain.CLog4net] 使用箱子：16 True
+INFO  2015-04-25 13:36:04,645 [Domain.CLog4net] 进入创建包裹结束界面
+INFO  2015-04-25 13:36:04,880 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('111','13705830170','13705830170','16','1','2015/4/25 13:36:04','0001/1/1 0:00:00','0','') 执行结束:0ms
+INFO  2015-04-25 13:36:04,893 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('111','13705830170','13705830170','16','2015/4/25 13:36:04','0','') 执行结束:16ms
+INFO  2015-04-25 13:36:04,893 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-04-25 13:36:04,893 [Domain.CLog4net] 创建包裹成功
+INFO  2015-04-25 13:36:20,341 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:36:20,855 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:36:23,862 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:36:26,871 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:36:29,892 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:36:31,830 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429940307}
+
+INFO  2015-04-25 13:36:32,096 [Domain.CLog4net] 服务器连接：{success:true,boxCode:'16',message:''}
+
+INFO  2015-04-25 13:36:32,117 [Domain.CLog4net] 拍照是否成功：True
+INFO  2015-04-25 13:36:32,124 [Domain.CLog4net] update box set idle='1',locationX='2',locationY='7',remark='',size='1',state='1' where code=16 执行结束:0ms
+INFO  2015-04-25 13:36:32,124 [Domain.CLog4net] 清空箱子：16 True
+INFO  2015-04-25 13:36:32,272 [Domain.CLog4net] 取件成功
+INFO  2015-04-25 13:36:32,284 [Domain.CLog4net] delete from package where packageCode='111' 执行结束:15ms
+INFO  2015-04-25 13:36:32,298 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('111','13705830170','13705830170','16','2015/4/25 13:36:32','0','0','') 执行结束:16ms
+INFO  2015-04-25 13:36:32,298 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-04-25 13:36:32,904 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:36:35,904 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:36:38,903 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:36:48,280 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 13:36:59,819 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:37:00,293 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:37:02,053 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:37:02,512 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:37:03,896 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:44:16,756 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:44:18,098 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:44:18,129 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:44:18,644 [Domain.CLog4net] Select * from about 执行结束:343ms
+INFO  2015-04-25 13:44:18,659 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:44:18,769 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 13:44:18,847 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:44:18,847 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:44:18,956 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 13:44:18,956 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:44:19,065 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 13:44:19,065 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:44:19,174 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-04-25 13:44:32,465 [Domain.CLog4net] System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DareneExpressCabinetClient.Tools.HttpWebResponseUtility.CreatePostHttpResponse(String url, IDictionary`2 parameters, Nullable`1 timeout, String userAgent, Encoding requestEncoding, CookieCollection cookies) 位置 D:\C#\projects\EUGV2\code\DareneExpressCabinetClient\Tools\HttpWebResponseUtility.cs:行号 154
+ERROR 2015-04-25 13:44:33,417 [Domain.CLog4net] ServiceShakeHandSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DareneExpressCabinetClient.Service.Imple.ServerServiceImpl.ServiceShakeHand(About about, IDictionary`2 dic) 位置 D:\C#\projects\EUGV2\code\DareneExpressCabinetClient\Service\Imple\ServerServiceImpl.cs:行号 557
+INFO  2015-04-25 13:44:59,963 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:45:01,305 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:45:01,321 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:45:01,835 [Domain.CLog4net] Select * from about 执行结束:312ms
+INFO  2015-04-25 13:45:01,835 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:45:01,945 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 13:45:01,991 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:45:01,991 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:45:02,101 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 13:45:02,101 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:45:02,210 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 13:45:02,210 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:45:02,319 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-04-25 13:45:08,512 [Domain.CLog4net] System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DareneExpressCabinetClient.Tools.HttpWebResponseUtility.CreatePostHttpResponse(String url, IDictionary`2 parameters, Nullable`1 timeout, String userAgent, Encoding requestEncoding, CookieCollection cookies) 位置 D:\C#\projects\EUGV2\code\DareneExpressCabinetClient\Tools\HttpWebResponseUtility.cs:行号 154
+ERROR 2015-04-25 13:45:08,543 [Domain.CLog4net] ServiceShakeHandSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DareneExpressCabinetClient.Service.Imple.ServerServiceImpl.ServiceShakeHand(About about, IDictionary`2 dic) 位置 D:\C#\projects\EUGV2\code\DareneExpressCabinetClient\Service\Imple\ServerServiceImpl.cs:行号 557
+INFO  2015-04-25 13:45:09,401 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:45:09,511 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:45:09,511 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:45:13,007 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:45:15,529 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:45:16,349 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:45:19,060 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:47:36,567 [Domain.CLog4net] System starting！
+INFO  2015-04-25 13:47:37,939 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 13:47:37,961 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 13:47:38,465 [Domain.CLog4net] Select * from about 执行结束:327ms
+INFO  2015-04-25 13:47:38,469 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 13:47:38,579 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-04-25 13:47:38,630 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 13:47:38,630 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 13:47:38,736 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-04-25 13:47:38,737 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 13:47:38,842 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 13:47:38,842 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 13:47:38,943 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 13:47:40,113 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429940975}
+
+INFO  2015-04-25 13:47:41,638 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:47:41,638 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 13:47:41,950 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 13:47:43,386 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 13:47:45,417 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:47:47,492 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:57:39,626 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429941574}
+
+INFO  2015-04-25 13:58:07,006 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 13:58:07,560 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 13:58:09,014 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 13:58:10,566 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:58:12,087 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 13:58:13,679 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 13:58:14,911 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 13:58:16,176 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 13:58:17,588 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 13:58:19,116 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 14:07:40,115 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429942175}
+
+INFO  2015-04-25 14:57:38,088 [Domain.CLog4net] System starting！
+INFO  2015-04-25 14:57:39,484 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 14:57:39,511 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 14:57:40,062 [Domain.CLog4net] Select * from about 执行结束:375ms
+INFO  2015-04-25 14:57:40,066 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 14:57:40,178 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 14:57:40,200 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 14:57:40,200 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 14:57:40,308 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 14:57:40,324 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 14:57:40,433 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 14:57:40,433 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 14:57:40,536 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 14:57:42,456 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 14:57:42,456 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429945176}
+
+INFO  2015-04-25 14:57:42,457 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 14:57:44,092 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 14:57:45,388 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 14:57:46,840 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 14:57:48,508 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 14:57:48,966 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 14:57:50,517 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 14:57:51,984 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 14:57:53,567 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 14:57:54,043 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:03:56,019 [Domain.CLog4net] System starting！
+INFO  2015-04-25 15:03:57,370 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 15:03:57,394 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 15:03:57,920 [Domain.CLog4net] Select * from about 执行结束:344ms
+INFO  2015-04-25 15:03:57,924 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 15:03:58,034 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 15:03:58,053 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 15:03:58,053 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 15:03:58,161 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-04-25 15:03:58,163 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 15:03:58,266 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 15:03:58,267 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 15:03:58,368 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 15:03:59,495 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429945554}
+
+INFO  2015-04-25 15:03:59,646 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:03:59,647 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 15:03:59,969 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:04:03,329 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:04:07,572 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:04:08,078 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:04:09,932 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:04:10,367 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:04:11,964 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 15:04:14,288 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 15:04:16,388 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:04:16,828 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:04:19,833 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:04:56,473 [Domain.CLog4net] System starting！
+INFO  2015-04-25 15:04:57,829 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 15:04:57,845 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 15:04:58,344 [Domain.CLog4net] Select * from about 执行结束:312ms
+INFO  2015-04-25 15:04:58,344 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 15:04:58,453 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 15:04:58,500 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 15:04:58,500 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 15:04:58,609 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 15:04:58,625 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 15:04:58,734 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 15:04:58,734 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 15:04:58,843 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 15:04:59,935 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429945614}
+
+INFO  2015-04-25 15:05:00,091 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:05:00,091 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 15:05:00,403 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:05:02,010 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 15:05:04,409 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:04,768 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:05,995 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:05:07,546 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:07,823 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:09,387 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:09,652 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:10,877 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:11,151 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:12,346 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:05:13,882 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 15:05:15,380 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:15,651 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:16,636 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:05:18,832 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 15:05:20,651 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:20,923 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:22,431 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:22,715 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:24,141 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:24,409 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:25,742 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:26,028 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:27,515 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:27,878 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:29,117 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:05:30,700 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:31,012 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:49,381 [Domain.CLog4net] System starting！
+INFO  2015-04-25 15:05:50,785 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 15:05:50,801 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 15:05:51,315 [Domain.CLog4net] Select * from about 执行结束:328ms
+INFO  2015-04-25 15:05:51,331 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 15:05:51,456 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-04-25 15:05:51,503 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 15:05:51,503 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 15:05:51,612 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 15:05:51,612 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 15:05:51,721 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 15:05:51,721 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 15:05:51,830 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 15:05:52,969 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429945667}
+
+INFO  2015-04-25 15:05:53,078 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:05:53,078 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 15:05:53,453 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:05:54,810 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:55,754 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:05:58,927 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:05:59,210 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:06:02,332 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:06:02,625 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:06:05,388 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:06:07,627 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:06:07,898 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:06:09,470 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 15:06:13,675 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:06:13,967 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:02,151 [Domain.CLog4net] System starting！
+INFO  2015-04-25 15:11:03,702 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 15:11:03,741 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 15:11:04,273 [Domain.CLog4net] Select * from about 执行结束:343ms
+INFO  2015-04-25 15:11:04,278 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 15:11:04,388 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-04-25 15:11:04,437 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 15:11:04,437 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 15:11:04,544 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-04-25 15:11:04,545 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 15:11:04,651 [Domain.CLog4net] Select * from package where taken='1' 执行结束:15ms
+INFO  2015-04-25 15:11:04,651 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 15:11:04,752 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 15:11:05,964 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429945980}
+
+INFO  2015-04-25 15:11:06,078 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:11:06,079 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 15:11:06,409 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:11:07,893 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:11:11,711 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:11:12,083 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:13,962 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:11:15,759 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:19,079 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:11:19,351 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:20,643 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:11:21,014 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:22,086 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:11:22,506 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:26,889 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:11:27,155 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:29,875 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 15:11:31,429 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:11:35,527 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:11:35,795 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:38,803 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:11:39,956 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 15:11:41,738 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:11:45,059 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:11:45,343 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:13:44,623 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:13:47,075 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:13:47,678 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:13:49,670 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 15:13:51,908 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 15:13:54,331 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:13:55,554 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:13:55,907 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:13:57,122 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:13:57,498 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:13:58,730 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:13:59,099 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:14:02,117 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:14:05,138 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:14:06,178 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:14:06,474 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:14:09,864 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:14:10,143 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:14:57,244 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:14:57,524 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:15:26,698 [Domain.CLog4net] System starting！
+INFO  2015-04-25 15:15:28,214 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 15:15:28,256 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 15:15:28,741 [Domain.CLog4net] Select * from about 执行结束:312ms
+INFO  2015-04-25 15:15:28,741 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 15:15:28,852 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-04-25 15:15:28,872 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 15:15:28,872 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 15:15:28,972 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 15:15:28,982 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 15:15:29,085 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 15:15:29,085 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 15:15:29,186 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 15:15:30,317 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429946244}
+
+INFO  2015-04-25 15:15:30,419 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:15:30,429 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 15:15:30,749 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:15:33,730 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:15:34,764 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:15:37,753 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:15:40,350 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:15:48,386 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:15:48,668 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:15:51,657 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:20:32,704 [Domain.CLog4net] System starting！
+INFO  2015-04-25 15:20:34,190 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 15:20:34,218 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 15:20:34,781 [Domain.CLog4net] Select * from about 执行结束:375ms
+INFO  2015-04-25 15:20:34,786 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 15:20:34,905 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-04-25 15:20:34,933 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 15:20:34,933 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 15:20:35,038 [Domain.CLog4net] Select * from elock 执行结束:16ms
+INFO  2015-04-25 15:20:35,040 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 15:20:35,144 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 15:20:35,144 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 15:20:35,245 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 15:20:36,419 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429946551}
+
+INFO  2015-04-25 15:20:36,542 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:20:36,543 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 15:20:36,879 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:20:38,065 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:20:41,981 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:20:43,395 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:20:47,397 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:20:50,622 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:20:53,630 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:20:56,629 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:20:59,651 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:21:02,658 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:21:05,667 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:21:18,283 [Domain.CLog4net] System starting！
+INFO  2015-04-25 15:21:19,846 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 15:21:19,866 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 15:21:20,396 [Domain.CLog4net] Select * from about 执行结束:374ms
+INFO  2015-04-25 15:21:20,406 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 15:21:20,516 [Domain.CLog4net] Select * from box 执行结束:16ms
+ERROR 2015-04-25 15:21:20,526 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 15:21:20,526 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 15:21:20,626 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 15:21:20,636 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 15:21:20,736 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 15:21:20,736 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 15:21:20,836 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 15:21:22,116 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429946596}
+
+INFO  2015-04-25 15:21:22,236 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:21:22,236 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 15:21:22,556 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:21:23,817 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:21:24,769 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:21:26,371 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:21:27,888 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:21:28,265 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:21:32,108 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:21:32,382 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:27:54,977 [Domain.CLog4net] System starting！
+INFO  2015-04-25 15:27:56,318 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-25 15:27:56,334 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-25 15:27:56,849 [Domain.CLog4net] Select * from about 执行结束:327ms
+INFO  2015-04-25 15:27:56,849 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-25 15:27:56,973 [Domain.CLog4net] Select * from box 执行结束:16ms
+ERROR 2015-04-25 15:27:56,989 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-25 15:27:56,989 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-25 15:27:57,098 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-04-25 15:27:57,098 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-25 15:27:57,207 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-25 15:27:57,207 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-25 15:27:57,317 [Domain.CLog4net] RemoteOpenLogic is loaded
+INFO  2015-04-25 15:27:58,424 [Domain.CLog4net] 服务器连接：{success:true,servertime:1429946993}
+
+INFO  2015-04-25 15:27:58,580 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:27:58,580 [Domain.CLog4net] 启动完成
+INFO  2015-04-25 15:27:58,892 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周六 04月25日 (实时：26℃),今天天气多云转晴,东南风3-4级,26 ~ 12℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-04-25 15:28:00,390 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:28:01,312 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:28:02,473 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:28:03,916 [Domain.CLog4net] 点击帮助，进入帮助界面
+INFO  2015-04-25 15:28:05,626 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-25 15:28:09,004 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-25 15:28:09,297 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-25 15:28:11,829 [Domain.CLog4net] 点击快递员取回，进入输入账号界面
+INFO  2015-04-25 15:28:13,686 [Domain.CLog4net] 点击寄件，进入输入账号界面

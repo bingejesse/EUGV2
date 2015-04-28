@@ -352,3 +352,17 @@ D:\C#\projects\智能储物柜\20150402EUG--SVN\code\Domain\obj\x86\Debug\Domain
 D:\C#\projects\智能储物柜\20150402EUG--SVN\code\Domain\obj\x86\Debug\Domain.pdb
 F:\temp\eug20150402\code\Domain\bin\Debug\log4net.dll
 D:\C#\projects\智能储物柜\20150402EUG--SVN\code\Domain\bin\Debug\log4net.dll
+D:\C#\projects\EUGV2\code\Domain\bin\Debug\Customer.hbm.xml
+D:\C#\projects\EUGV2\code\Domain\bin\Debug\Domain.exe.config
+D:\C#\projects\EUGV2\code\Domain\bin\Debug\Domain.exe
+D:\C#\projects\EUGV2\code\Domain\bin\Debug\Domain.pdb
+D:\C#\projects\EUGV2\code\Domain\bin\Debug\Iesi.Collections.dll
+D:\C#\projects\EUGV2\code\Domain\bin\Debug\log4net.dll
+D:\C#\projects\EUGV2\code\Domain\bin\Debug\MySql.Data.dll
+D:\C#\projects\EUGV2\code\Domain\bin\Debug\NHibernate.dll
+D:\C#\projects\EUGV2\code\Domain\obj\x86\Debug\SC.Database.csprojResolveAssemblyReference.cache
+D:\C#\projects\EUGV2\code\Domain\obj\x86\Debug\Domain.Form1.resources
+D:\C#\projects\EUGV2\code\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+D:\C#\projects\EUGV2\code\Domain\obj\x86\Debug\SC.Database.csproj.GenerateResource.Cache
+D:\C#\projects\EUGV2\code\Domain\obj\x86\Debug\Domain.exe
+D:\C#\projects\EUGV2\code\Domain\obj\x86\Debug\Domain.pdb

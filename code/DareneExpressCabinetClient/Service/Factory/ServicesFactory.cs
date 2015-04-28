@@ -45,7 +45,8 @@ namespace DareneExpressCabinetClient.Service.Factory
 
         public VoiceService GetVoicService()
         {
-            VoiceService voiceService = new VoiceServiceImpl();
+            //VoiceService voiceService = new VoiceServiceImpl();
+            VoiceService voiceService = new VoiceServiceImplByDotNetSpeech();
             return voiceService;
         }
 

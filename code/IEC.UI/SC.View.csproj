@@ -120,7 +120,6 @@
     <Compile Include="FrmMessagebox.Designer.cs">
       <DependentUpon>FrmMessagebox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Test.cs" />
     <Compile Include="关于\FrmPassword.cs">
       <SubType>Form</SubType>
     </Compile>
