@@ -22,10 +22,16 @@ namespace DareneExpressCabinetClient.Service.Factory
             return instance;
         }
 
+        BoxControlService boxControlService;
+        CameraService cameraService;
+        VoiceService voiceService;
+        DatabaseService databaseService;
+        ServerService serverService;
+
         public BoxControlService GetBoxControlService()
         {
-            //BoxControlService boxControlService = new BoxControlServiceImplByHttp();//等待实现
-            BoxControlService boxControlService = new BoxControlServiceImplByCan();//等待实现
+            //boxControlService = new BoxControlServiceImplByHttp();//等待实现
+            boxControlService = new BoxControlServiceImplByCan();//等待实现
             return boxControlService;
         }
 
@@ -38,27 +44,27 @@ namespace DareneExpressCabinetClient.Service.Factory
 
         public CameraService GetCameraService()
         {
-            //CameraService cameraService = new CameraServiceImpl();//等待实现
-            CameraService cameraService = new CameraServiceImplByAforge();
+            //cameraService = new CameraServiceImpl();//等待实现
+            cameraService = new CameraServiceImplByAforge();
             return cameraService;
         }
 
         public VoiceService GetVoicService()
         {
-            //VoiceService voiceService = new VoiceServiceImpl();
-            VoiceService voiceService = new VoiceServiceImplByDotNetSpeech();
+            voiceService = new VoiceServiceImpl();
+            //voiceService = new VoiceServiceImplByDotNetSpeech();
             return voiceService;
         }
 
         public DatabaseService GetDatabaseService()
         {
-            DatabaseService databaseService = new DatabaseServiceImpl();
+            databaseService = new DatabaseServiceImpl();
             return databaseService;
         }
 
         public ServerService GetServerService()
         {
-            ServerService serverService = new ServerServiceImpl();
+            serverService = new ServerServiceImpl();
             return serverService;
         }
     }

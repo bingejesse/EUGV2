@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.Control", "DareneExpress
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.Database", "Domain\SC.Database.csproj", "{89E1869E-3227-42C7-9BD7-CBBF38611DCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.View2", "SC.View2\SC.View2.csproj", "{0F19FB68-36E4-4A3C-B057-B43A12ECA57F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -28,6 +30,10 @@ Global
 		{89E1869E-3227-42C7-9BD7-CBBF38611DCA}.Debug|x86.Build.0 = Debug|x86
 		{89E1869E-3227-42C7-9BD7-CBBF38611DCA}.Release|x86.ActiveCfg = Release|x86
 		{89E1869E-3227-42C7-9BD7-CBBF38611DCA}.Release|x86.Build.0 = Release|x86
+		{0F19FB68-36E4-4A3C-B057-B43A12ECA57F}.Debug|x86.ActiveCfg = Debug|x86
+		{0F19FB68-36E4-4A3C-B057-B43A12ECA57F}.Debug|x86.Build.0 = Debug|x86
+		{0F19FB68-36E4-4A3C-B057-B43A12ECA57F}.Release|x86.ActiveCfg = Release|x86
+		{0F19FB68-36E4-4A3C-B057-B43A12ECA57F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

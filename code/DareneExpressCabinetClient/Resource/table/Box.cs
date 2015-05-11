@@ -80,6 +80,15 @@ namespace DareneExpressCabinetClient
             set { coordinateInfo = value; }
         }
 
+        /// <summary>
+        /// 获取箱门信息
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return coordinateInfo.X.ToString() + coordinateInfo.Y.ToString();
+        }
+
         private string remarkInfo;
         /// <summary>
         /// 备注信息

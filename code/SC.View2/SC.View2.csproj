@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F19FB68-36E4-4A3C-B057-B43A12ECA57F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC.View2</RootNamespace>
+    <AssemblyName>SC.View2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=11.8.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.8.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.8.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=11.8.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.4.0.0, Culture=neutral, PublicKeyToken=e8a75d24b142be49, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoading.Designer.cs">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAdministrator\AdminProxyEntryBoxCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAdministrator\AdminProxyEntryBoxCode.Designer.cs">
+      <DependentUpon>AdminProxyEntryBoxCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAdministrator\AdminProxyFinishWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAdministrator\AdminProxyFinishWork.Designer.cs">
+      <DependentUpon>AdminProxyFinishWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerControlPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerControlPanel.Designer.cs">
+      <DependentUpon>CustomerControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerPGSearched.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerPGSearched.Designer.cs">
+      <DependentUpon>CustomerPGSearched.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerSEntryPGInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerSEntryPGInfo.Designer.cs">
+      <DependentUpon>CustomerSEntryPGInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerTBFinishWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerTBFinishWork.Designer.cs">
+      <DependentUpon>CustomerTBFinishWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerTBVerify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCustomer\CustomerTBVerify.Designer.cs">
+      <DependentUpon>CustomerTBVerify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keyboard\KeyboardInstance.cs" />
+    <Compile Include="UCAdministrator\AdminVerify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAdministrator\AdminVerify.Designer.cs">
+      <DependentUpon>AdminVerify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\Register\PostmanRegister.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\Register\PostmanRegister.Designer.cs">
+      <DependentUpon>PostmanRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\Search\PostmanSPGDelivered.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\Search\PostmanSPGDelivered.Designer.cs">
+      <DependentUpon>PostmanSPGDelivered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\TakeBack\PostmanTBEntryPGInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\TakeBack\PostmanTBEntryPGInfo.Designer.cs">
+      <DependentUpon>PostmanTBEntryPGInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\TakeBack\PostmanTBFinishWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\TakeBack\PostmanTBFinishWork.Designer.cs">
+      <DependentUpon>PostmanTBFinishWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Roster.cs" />
+    <Compile Include="UCPostman\Deliver\PostmanCancelTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanCancelTask.Designer.cs">
+      <DependentUpon>PostmanCancelTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanChooseBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanChooseBox.Designer.cs">
+      <DependentUpon>PostmanChooseBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\PostmanControlPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\PostmanControlPanel.Designer.cs">
+      <DependentUpon>PostmanControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanFinishWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanFinishWork.Designer.cs">
+      <DependentUpon>PostmanFinishWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanPGVerify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanPGVerify.Designer.cs">
+      <DependentUpon>PostmanPGVerify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCBasic\UCSceneWithInfoBasic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCBasic\UCSceneWithInfoBasic.Designer.cs">
+      <DependentUpon>UCSceneWithInfoBasic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCBasic\UCSceneWithKeyboadBasic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCBasic\UCSceneWithKeyboadBasic.Designer.cs">
+      <DependentUpon>UCSceneWithKeyboadBasic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCBasic\UCSceneBasic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCBasic\UCSceneBasic.Designer.cs">
+      <DependentUpon>UCSceneBasic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keyboard\vKeyboardRenderer.cs" />
+    <Compile Include="UCPostman\PostmanVerify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\PostmanVerify.Designer.cs">
+      <DependentUpon>PostmanVerify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanDeliverPG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanDeliverPG.Designer.cs">
+      <DependentUpon>PostmanDeliverPG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanEntryPGInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPostman\Deliver\PostmanEntryPGInfo.Designer.cs">
+      <DependentUpon>PostmanEntryPGInfo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmLoading.resx">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdministrator\AdminProxyEntryBoxCode.resx">
+      <DependentUpon>AdminProxyEntryBoxCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdministrator\AdminProxyFinishWork.resx">
+      <DependentUpon>AdminProxyFinishWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCustomer\CustomerControlPanel.resx">
+      <DependentUpon>CustomerControlPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCustomer\CustomerPGSearched.resx">
+      <DependentUpon>CustomerPGSearched.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCustomer\CustomerSEntryPGInfo.resx">
+      <DependentUpon>CustomerSEntryPGInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCustomer\CustomerTBFinishWork.resx">
+      <DependentUpon>CustomerTBFinishWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCustomer\CustomerTBVerify.resx">
+      <DependentUpon>CustomerTBVerify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdministrator\AdminVerify.resx">
+      <DependentUpon>AdminVerify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\Register\PostmanRegister.resx">
+      <DependentUpon>PostmanRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\Search\PostmanSPGDelivered.resx">
+      <DependentUpon>PostmanSPGDelivered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\TakeBack\PostmanTBEntryPGInfo.resx">
+      <DependentUpon>PostmanTBEntryPGInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\TakeBack\PostmanTBFinishWork.resx">
+      <DependentUpon>PostmanTBFinishWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\Deliver\PostmanCancelTask.resx">
+      <DependentUpon>PostmanCancelTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\Deliver\PostmanChooseBox.resx">
+      <DependentUpon>PostmanChooseBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\PostmanControlPanel.resx">
+      <DependentUpon>PostmanControlPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\Deliver\PostmanFinishWork.resx">
+      <DependentUpon>PostmanFinishWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\Deliver\PostmanPGVerify.resx">
+      <DependentUpon>PostmanPGVerify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\PostmanVerify.resx">
+      <DependentUpon>PostmanVerify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCBasic\UCSceneWithInfoBasic.resx">
+      <DependentUpon>UCSceneWithInfoBasic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCBasic\UCSceneWithKeyboadBasic.resx">
+      <DependentUpon>UCSceneWithKeyboadBasic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UCBasic\UCSceneBasic.resx">
+      <DependentUpon>UCSceneBasic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\Deliver\PostmanDeliverPG.resx">
+      <DependentUpon>PostmanDeliverPG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPostman\Deliver\PostmanEntryPGInfo.resx">
+      <DependentUpon>PostmanEntryPGInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <Content Include="configInfo\config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DareneExpressCabinetClient\SC.Control.csproj">
+      <Project>{61568729-1B65-4F63-93F6-1D2A61A5EC03}</Project>
+      <Name>SC.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\SC.Database.csproj">
+      <Project>{89E1869E-3227-42C7-9BD7-CBBF38611DCA}</Project>
+      <Name>SC.Database</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="configInfo\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="configInfo\qrcode.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="configInfo\配置说明.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dll\DevComponents.DotNetBar.Keyboard.dll" />
+    <Content Include="Dll\DevComponents.DotNetBar.SuperGrid.dll" />
+    <Content Include="Dll\DevComponents.DotNetBar2.dll" />
+    <Content Include="Dll\DevComponents.Instrumentation.dll" />
+    <Content Include="Dll\Gma.QrCodeNet.Encoding.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

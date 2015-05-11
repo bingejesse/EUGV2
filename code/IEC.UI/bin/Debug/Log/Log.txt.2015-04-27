@@ -1,0 +1,28 @@
+INFO  2015-04-27 21:57:06,205 [Domain.CLog4net] System starting！
+INFO  2015-04-27 21:57:07,656 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-04-27 21:57:07,687 [Domain.CLog4net] 服务工厂启动
+INFO  2015-04-27 21:57:08,295 [Domain.CLog4net] Select * from about 执行结束:406ms
+INFO  2015-04-27 21:57:08,295 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-04-27 21:57:08,420 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-04-27 21:57:08,451 [Domain.CLog4net] 数据链路打开失败
+INFO  2015-04-27 21:57:08,451 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-04-27 21:57:08,576 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-04-27 21:57:08,576 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-04-27 21:57:08,685 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-04-27 21:57:08,685 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-04-27 21:57:08,795 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-04-27 21:57:12,695 [Domain.CLog4net] System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DareneExpressCabinetClient.Tools.HttpWebResponseUtility.CreatePostHttpResponse(String url, IDictionary`2 parameters, Nullable`1 timeout, String userAgent, Encoding requestEncoding, CookieCollection cookies) 位置 D:\C#\projects\EUGV2\code\DareneExpressCabinetClient\Tools\HttpWebResponseUtility.cs:行号 154
+ERROR 2015-04-27 21:57:12,710 [Domain.CLog4net] ServiceShakeHandSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DareneExpressCabinetClient.Service.Imple.ServerServiceImpl.ServiceShakeHand(About about, IDictionary`2 dic) 位置 D:\C#\projects\EUGV2\code\DareneExpressCabinetClient\Service\Imple\ServerServiceImpl.cs:行号 557
+INFO  2015-04-27 21:57:13,693 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 04月27日 (实时：20℃),今天天气多云,东南风3-4级,17℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-04-27 21:57:13,693 [Domain.CLog4net] 启动完成
+INFO  2015-04-27 21:57:13,771 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 04月27日 (实时：20℃),今天天气多云,东南风3-4级,17℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-04-27 21:57:17,156 [Domain.CLog4net] 点击我要取件
+INFO  2015-04-27 21:57:18,633 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-04-27 21:57:20,067 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-04-27 21:57:25,871 [Domain.CLog4net] 点击帮助，进入帮助界面

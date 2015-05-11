@@ -20,7 +20,7 @@ namespace DareneExpressCabinetClient.Controller
         private RemoteOpenLogic remoteOpenLogic;
         private Timer SystemTimer;//系统主逻辑时钟启动
 
-        private const int delay = 100;
+        private const int delay = 50;
         public void Load(BackgroundWorker bw)
         {
             #region 获取初始化基本信息
