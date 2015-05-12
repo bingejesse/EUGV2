@@ -36,7 +36,7 @@
             // 
             // buttonHome
             // 
-            this.buttonHome.Location = new System.Drawing.Point(316, 403);
+            this.buttonHome.Location = new System.Drawing.Point(333, 385);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(161, 67);
             this.buttonHome.TabIndex = 18;
@@ -46,7 +46,7 @@
             // 
             // buttonNext
             // 
-            this.buttonNext.Location = new System.Drawing.Point(153, 403);
+            this.buttonNext.Location = new System.Drawing.Point(156, 385);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(135, 67);
             this.buttonNext.TabIndex = 17;
@@ -57,7 +57,7 @@
             // textBoxPGInfo
             // 
             this.textBoxPGInfo.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxPGInfo.Location = new System.Drawing.Point(231, 277);
+            this.textBoxPGInfo.Location = new System.Drawing.Point(248, 277);
             this.textBoxPGInfo.MaxLength = 15;
             this.textBoxPGInfo.Name = "textBoxPGInfo";
             this.textBoxPGInfo.Size = new System.Drawing.Size(246, 41);

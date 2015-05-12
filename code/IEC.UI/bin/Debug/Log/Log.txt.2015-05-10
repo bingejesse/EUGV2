@@ -1,0 +1,4 @@
+INFO  2015-05-10 20:35:23,611 [Domain.CLog4net] System starting！
+INFO  2015-05-10 20:35:24,419 [Domain.CLog4net] 读取配置文件和Logo图片
+INFO  2015-05-10 20:35:24,441 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-10 20:35:26,940 [Domain.CLog4net] Select * from about 执行结束:468ms

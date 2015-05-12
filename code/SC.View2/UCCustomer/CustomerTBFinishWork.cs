@@ -6,6 +6,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Domain;
+using DareneExpressCabinetClient;
 
 namespace SC.View2
 {
@@ -24,10 +26,18 @@ namespace SC.View2
             base.key = this.Name;
         }
 
+        private Box box;
+
         public override void Start(params object[] args)
         {
+            CLog4net.LogInfo("点击取件，进入完成取件界面");
+            box = frmMain.boxsManager.Find((int)args[0]);
+            string message = string.Format("请注意{0}号箱门已弹出，请取走快件并关闭箱门",box.ToString());
+
+            frmMain.voiceService.BroadcastOnce(message);
+
             base.Start();
-            base.labelMessage.Text = "提示信息：请注意xx号箱门已弹出，请取走快件并关闭箱门";
+            base.labelMessage.Text = "提示信息："+message;
         }
 
         private void buttonNext_Click(object sender, EventArgs e)
@@ -38,6 +48,12 @@ namespace SC.View2
         private void buttonHome_Click(object sender, EventArgs e)
         {
             this.frmMain.SceneTransit(Roster.Home);
+        }
+
+        private void buttonOpenAgain_Click(object sender, EventArgs e)
+        {
+            CLog4net.LogInfo("点击重新开箱");
+            box.Open();
         }
     }
 }

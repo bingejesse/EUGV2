@@ -65,6 +65,7 @@
             this.buttonOpenAgain.TabIndex = 10;
             this.buttonOpenAgain.Text = "重新开箱";
             this.buttonOpenAgain.UseVisualStyleBackColor = true;
+            this.buttonOpenAgain.Click += new System.EventHandler(this.buttonOpenAgain_Click);
             // 
             // CustomerTBFinishWork
             // 

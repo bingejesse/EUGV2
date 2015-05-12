@@ -41,5 +41,7 @@ namespace SC.View2
         {
             this.frmMain.SceneTransit(Roster.Home);
         }
+
+        
     }
 }
