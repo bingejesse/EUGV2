@@ -36,10 +36,6 @@
             this.buttonHome = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // virtualNumKeyboard
-            // 
-            this.virtualNumKeyboard.IsTopBarVisible = false;
-            // 
             // labelCode
             // 
             this.labelCode.AutoSize = true;
@@ -67,7 +63,7 @@
             this.textBoxCode.MaxLength = 15;
             this.textBoxCode.Name = "textBoxCode";
             this.textBoxCode.Size = new System.Drawing.Size(246, 41);
-            this.textBoxCode.TabIndex = 5;
+            this.textBoxCode.TabIndex = 0;
             this.textBoxCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxPassword
@@ -78,7 +74,7 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(246, 41);
-            this.textBoxPassword.TabIndex = 6;
+            this.textBoxPassword.TabIndex = 1;
             this.textBoxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // buttonNext
@@ -86,7 +82,7 @@
             this.buttonNext.Location = new System.Drawing.Point(100, 416);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(135, 67);
-            this.buttonNext.TabIndex = 7;
+            this.buttonNext.TabIndex = 2;
             this.buttonNext.Text = "下一步";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -96,7 +92,7 @@
             this.buttonHome.Location = new System.Drawing.Point(263, 416);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(161, 67);
-            this.buttonHome.TabIndex = 8;
+            this.buttonHome.TabIndex = 3;
             this.buttonHome.Text = "返回主页";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);

@@ -40,7 +40,7 @@
             this.buttonHome.Location = new System.Drawing.Point(319, 470);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(144, 67);
-            this.buttonHome.TabIndex = 14;
+            this.buttonHome.TabIndex = 2;
             this.buttonHome.Text = "返回主页";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -50,7 +50,7 @@
             this.buttonNext.Location = new System.Drawing.Point(319, 362);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(144, 67);
-            this.buttonNext.TabIndex = 13;
+            this.buttonNext.TabIndex = 1;
             this.buttonNext.Text = "下一步";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -62,7 +62,7 @@
             this.textBoxPassword.MaxLength = 15;
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(246, 41);
-            this.textBoxPassword.TabIndex = 11;
+            this.textBoxPassword.TabIndex = 0;
             this.textBoxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelPass

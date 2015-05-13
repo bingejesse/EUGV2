@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace SC.View2
 {
-    public partial class UCSceneWithInfoBasic : UCSceneBasic
+    public partial class UCSceneWithInfoBasic : UCSceneBasicWithTitle
     {
         public UCSceneWithInfoBasic()
         {

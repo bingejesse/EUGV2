@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace SC.View2
 {
-    public partial class PostmanRegister :UCSceneBasic
+    public partial class PostmanRegister :UCSceneBasicWithTitle
     {
         public PostmanRegister()
         {

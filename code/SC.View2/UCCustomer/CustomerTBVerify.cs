@@ -59,7 +59,7 @@ namespace SC.View2
         {
             if (PasswordVerify())
             {
-                this.frmMain.SceneTransit(Roster.C_T_FinishWork, box.Code);
+                this.frmMain.SceneTransit(Roster.C_T_FinishWork, box);
             }
         }
 
@@ -332,7 +332,8 @@ namespace SC.View2
             {
                 if (InvokeRequired)
                 {
-                    Invoke(new SceneTransitDelegate(frmMain.SceneTransit), Roster.C_T_FinishWork, box.Code);
+                    object[] args = new object[1] {box };
+                    Invoke(new SceneTransitDelegate(frmMain.SceneTransit), Roster.C_T_FinishWork, args);
                 }
 
             }

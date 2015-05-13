@@ -13,7 +13,7 @@ using DareneExpressCabinetClient.Service;
 
 namespace SC.View2
 {
-    public partial class PostmanPGVerify : UCSceneBasic
+    public partial class PostmanPGVerify : UCSceneBasicWithTitle
     {
         public PostmanPGVerify()
         {

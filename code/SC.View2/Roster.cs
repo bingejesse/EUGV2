@@ -46,6 +46,7 @@ namespace SC.View2
         public const string A_Verify = "AdminVerify";
         public const string A_P_EntryBoxCode = "AdminProxyEntryBoxCode";
         public const string A_P_FinishWork = "AdminProxyFinishWork";
+        public const string A_ControlPanel = "AdministratorControlPanel";
         #endregion
 
 

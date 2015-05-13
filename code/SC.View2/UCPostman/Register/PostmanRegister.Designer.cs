@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panelWB = new System.Windows.Forms.Panel();
+            this.wb = new System.Windows.Forms.WebBrowser();
             this.buttonHome = new System.Windows.Forms.Button();
             this.buttonRefresh = new System.Windows.Forms.Button();
-            this.wb = new System.Windows.Forms.WebBrowser();
             this.panelWB.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,25 +43,6 @@
             this.panelWB.Size = new System.Drawing.Size(949, 422);
             this.panelWB.TabIndex = 1;
             // 
-            // buttonHome
-            // 
-            this.buttonHome.Location = new System.Drawing.Point(588, 570);
-            this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(161, 67);
-            this.buttonHome.TabIndex = 12;
-            this.buttonHome.Text = "返回主页";
-            this.buttonHome.UseVisualStyleBackColor = true;
-            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
-            // 
-            // buttonRefresh
-            // 
-            this.buttonRefresh.Location = new System.Drawing.Point(271, 570);
-            this.buttonRefresh.Name = "buttonRefresh";
-            this.buttonRefresh.Size = new System.Drawing.Size(161, 67);
-            this.buttonRefresh.TabIndex = 11;
-            this.buttonRefresh.Text = "刷新";
-            this.buttonRefresh.UseVisualStyleBackColor = true;
-            // 
             // wb
             // 
             this.wb.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -71,6 +52,25 @@
             this.wb.Size = new System.Drawing.Size(949, 422);
             this.wb.TabIndex = 0;
             this.wb.Url = new System.Uri("http://www.baidu.com", System.UriKind.Absolute);
+            // 
+            // buttonHome
+            // 
+            this.buttonHome.Location = new System.Drawing.Point(588, 570);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(161, 67);
+            this.buttonHome.TabIndex = 1;
+            this.buttonHome.Text = "返回主页";
+            this.buttonHome.UseVisualStyleBackColor = true;
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
+            // 
+            // buttonRefresh
+            // 
+            this.buttonRefresh.Location = new System.Drawing.Point(271, 570);
+            this.buttonRefresh.Name = "buttonRefresh";
+            this.buttonRefresh.Size = new System.Drawing.Size(161, 67);
+            this.buttonRefresh.TabIndex = 0;
+            this.buttonRefresh.Text = "刷新";
+            this.buttonRefresh.UseVisualStyleBackColor = true;
             // 
             // PostmanRegister
             // 

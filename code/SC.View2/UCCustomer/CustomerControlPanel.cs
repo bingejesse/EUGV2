@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace SC.View2
 {
-    public partial class CustomerControlPanel : UCSceneBasic
+    public partial class CustomerControlPanel : UCSceneBasicWithTitle
     {
         public CustomerControlPanel()
         {

@@ -73,6 +73,12 @@
     <Compile Include="FrmLoading.Designer.cs">
       <DependentUpon>FrmLoading.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCAdministrator\AdministratorControlPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAdministrator\AdministratorControlPanel.Designer.cs">
+      <DependentUpon>AdministratorControlPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCAdministrator\AdminProxyEntryBoxCode.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -84,6 +90,30 @@
     </Compile>
     <Compile Include="UCAdministrator\AdminProxyFinishWork.Designer.cs">
       <DependentUpon>AdminProxyFinishWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAdministrator\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCAdministrator\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAdministrator\frmFunction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCAdministrator\frmFunction.Designer.cs">
+      <DependentUpon>frmFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAdministrator\frmManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCAdministrator\frmManager.Designer.cs">
+      <DependentUpon>frmManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAdministrator\FrmPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCAdministrator\FrmPassword.Designer.cs">
+      <DependentUpon>FrmPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="UCCustomer\CustomerControlPanel.cs">
       <SubType>UserControl</SubType>
@@ -203,11 +233,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UCBasic\UCSceneBasic.cs">
+    <Compile Include="UCBasic\UCSceneBasicWithTitle.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCBasic\UCSceneBasic.Designer.cs">
-      <DependentUpon>UCSceneBasic.cs</DependentUpon>
+    <Compile Include="UCBasic\UCSceneBasicWithTitle.Designer.cs">
+      <DependentUpon>UCSceneBasicWithTitle.cs</DependentUpon>
     </Compile>
     <Compile Include="Keyboard\vKeyboardRenderer.cs" />
     <Compile Include="UCPostman\PostmanVerify.cs">
@@ -228,14 +258,38 @@
     <Compile Include="UCPostman\Deliver\PostmanEntryPGInfo.Designer.cs">
       <DependentUpon>PostmanEntryPGInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCBasic\UCSceneBasic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCBasic\UCSceneBasic.Designer.cs">
+      <DependentUpon>UCSceneBasic.cs</DependentUpon>
+    </Compile>
+    <Content Include="update.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <EmbeddedResource Include="FrmLoading.resx">
       <DependentUpon>FrmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdministrator\AdministratorControlPanel.resx">
+      <DependentUpon>AdministratorControlPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCAdministrator\AdminProxyEntryBoxCode.resx">
       <DependentUpon>AdminProxyEntryBoxCode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCAdministrator\AdminProxyFinishWork.resx">
       <DependentUpon>AdminProxyFinishWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdministrator\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdministrator\frmFunction.resx">
+      <DependentUpon>frmFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdministrator\frmManager.resx">
+      <DependentUpon>frmManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdministrator\FrmPassword.resx">
+      <DependentUpon>FrmPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCCustomer\CustomerControlPanel.resx">
       <DependentUpon>CustomerControlPanel.cs</DependentUpon>
@@ -307,14 +361,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UCBasic\UCSceneBasic.resx">
-      <DependentUpon>UCSceneBasic.cs</DependentUpon>
+    <EmbeddedResource Include="UCBasic\UCSceneBasicWithTitle.resx">
+      <DependentUpon>UCSceneBasicWithTitle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPostman\Deliver\PostmanDeliverPG.resx">
       <DependentUpon>PostmanDeliverPG.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPostman\Deliver\PostmanEntryPGInfo.resx">
       <DependentUpon>PostmanEntryPGInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCBasic\UCSceneBasic.resx">
+      <DependentUpon>UCSceneBasic.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <Content Include="configInfo\config.ini">

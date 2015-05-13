@@ -44,7 +44,7 @@
             this.buttonLBox.Location = new System.Drawing.Point(63, 203);
             this.buttonLBox.Name = "buttonLBox";
             this.buttonLBox.Size = new System.Drawing.Size(236, 172);
-            this.buttonLBox.TabIndex = 3;
+            this.buttonLBox.TabIndex = 0;
             this.buttonLBox.Text = "大箱子\r\n可用数量10";
             this.buttonLBox.UseVisualStyleBackColor = true;
             this.buttonLBox.Click += new System.EventHandler(this.buttonLBox_Click);
@@ -54,7 +54,7 @@
             this.buttonMBox.Location = new System.Drawing.Point(392, 203);
             this.buttonMBox.Name = "buttonMBox";
             this.buttonMBox.Size = new System.Drawing.Size(236, 172);
-            this.buttonMBox.TabIndex = 4;
+            this.buttonMBox.TabIndex = 1;
             this.buttonMBox.Text = "中箱子\r\n可用数量10";
             this.buttonMBox.UseVisualStyleBackColor = true;
             this.buttonMBox.Click += new System.EventHandler(this.buttonMBox_Click);
@@ -64,7 +64,7 @@
             this.buttonSBox.Location = new System.Drawing.Point(721, 203);
             this.buttonSBox.Name = "buttonSBox";
             this.buttonSBox.Size = new System.Drawing.Size(236, 172);
-            this.buttonSBox.TabIndex = 5;
+            this.buttonSBox.TabIndex = 2;
             this.buttonSBox.Text = "小箱子\r\n可用数量10";
             this.buttonSBox.UseVisualStyleBackColor = true;
             this.buttonSBox.Click += new System.EventHandler(this.buttonSBox_Click);
@@ -74,7 +74,7 @@
             this.buttonHome.Location = new System.Drawing.Point(784, 504);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(161, 67);
-            this.buttonHome.TabIndex = 10;
+            this.buttonHome.TabIndex = 4;
             this.buttonHome.Text = "返回主页";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -84,7 +84,7 @@
             this.buttonNext.Location = new System.Drawing.Point(545, 504);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(135, 67);
-            this.buttonNext.TabIndex = 9;
+            this.buttonNext.TabIndex = 3;
             this.buttonNext.Text = "下一步";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);

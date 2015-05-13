@@ -37,7 +37,7 @@
             this.buttonSearch.Location = new System.Drawing.Point(554, 318);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(222, 83);
-            this.buttonSearch.TabIndex = 3;
+            this.buttonSearch.TabIndex = 1;
             this.buttonSearch.Text = "查询快递";
             this.buttonSearch.UseVisualStyleBackColor = true;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
@@ -47,7 +47,7 @@
             this.buttonTakePG.Location = new System.Drawing.Point(245, 318);
             this.buttonTakePG.Name = "buttonTakePG";
             this.buttonTakePG.Size = new System.Drawing.Size(222, 83);
-            this.buttonTakePG.TabIndex = 2;
+            this.buttonTakePG.TabIndex = 0;
             this.buttonTakePG.Text = "取快递";
             this.buttonTakePG.UseVisualStyleBackColor = true;
             this.buttonTakePG.Click += new System.EventHandler(this.buttonTakePG_Click);

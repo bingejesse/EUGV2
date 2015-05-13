@@ -50,7 +50,7 @@
             this.buttonHome.Location = new System.Drawing.Point(654, 497);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(161, 67);
-            this.buttonHome.TabIndex = 6;
+            this.buttonHome.TabIndex = 2;
             this.buttonHome.Text = "取消存件";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -60,7 +60,7 @@
             this.buttonNext.Location = new System.Drawing.Point(427, 497);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(161, 67);
-            this.buttonNext.TabIndex = 5;
+            this.buttonNext.TabIndex = 1;
             this.buttonNext.Text = "确定";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -70,7 +70,7 @@
             this.buttonPrevious.Location = new System.Drawing.Point(206, 497);
             this.buttonPrevious.Name = "buttonPrevious";
             this.buttonPrevious.Size = new System.Drawing.Size(161, 67);
-            this.buttonPrevious.TabIndex = 7;
+            this.buttonPrevious.TabIndex = 0;
             this.buttonPrevious.Text = "上一步";
             this.buttonPrevious.UseVisualStyleBackColor = true;
             this.buttonPrevious.Click += new System.EventHandler(this.buttonPrevious_Click);

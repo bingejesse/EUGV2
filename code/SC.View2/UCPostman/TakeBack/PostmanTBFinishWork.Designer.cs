@@ -37,7 +37,7 @@
             this.buttonHome.Location = new System.Drawing.Point(552, 239);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(309, 242);
-            this.buttonHome.TabIndex = 9;
+            this.buttonHome.TabIndex = 1;
             this.buttonHome.Text = "返回首页";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -51,7 +51,7 @@
             this.buttonNext.Location = new System.Drawing.Point(160, 239);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(309, 242);
-            this.buttonNext.TabIndex = 8;
+            this.buttonNext.TabIndex = 0;
             this.buttonNext.Text = "继续取回快递";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);

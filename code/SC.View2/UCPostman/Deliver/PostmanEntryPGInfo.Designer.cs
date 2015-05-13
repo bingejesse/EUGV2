@@ -108,7 +108,7 @@
             this.textBoxTelNum.MaxLength = 15;
             this.textBoxTelNum.Name = "textBoxTelNum";
             this.textBoxTelNum.Size = new System.Drawing.Size(246, 41);
-            this.textBoxTelNum.TabIndex = 16;
+            this.textBoxTelNum.TabIndex = 1;
             this.textBoxTelNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxTelNumConfim
@@ -118,7 +118,7 @@
             this.textBoxTelNumConfim.MaxLength = 15;
             this.textBoxTelNumConfim.Name = "textBoxTelNumConfim";
             this.textBoxTelNumConfim.Size = new System.Drawing.Size(246, 41);
-            this.textBoxTelNumConfim.TabIndex = 17;
+            this.textBoxTelNumConfim.TabIndex = 2;
             this.textBoxTelNumConfim.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // PostmanEntryPGInfo

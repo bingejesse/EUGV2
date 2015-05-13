@@ -38,7 +38,7 @@
             this.buttonHome.Location = new System.Drawing.Point(552, 211);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(309, 158);
-            this.buttonHome.TabIndex = 9;
+            this.buttonHome.TabIndex = 1;
             this.buttonHome.Text = "返回首页";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -52,7 +52,7 @@
             this.buttonNext.Location = new System.Drawing.Point(160, 211);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(309, 158);
-            this.buttonNext.TabIndex = 8;
+            this.buttonNext.TabIndex = 0;
             this.buttonNext.Text = "继续存件";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -62,7 +62,7 @@
             this.buttonOpenAgain.Location = new System.Drawing.Point(552, 429);
             this.buttonOpenAgain.Name = "buttonOpenAgain";
             this.buttonOpenAgain.Size = new System.Drawing.Size(309, 158);
-            this.buttonOpenAgain.TabIndex = 10;
+            this.buttonOpenAgain.TabIndex = 2;
             this.buttonOpenAgain.Text = "重新开箱";
             this.buttonOpenAgain.UseVisualStyleBackColor = true;
             this.buttonOpenAgain.Click += new System.EventHandler(this.buttonOpenAgain_Click);

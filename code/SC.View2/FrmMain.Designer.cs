@@ -31,44 +31,79 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.panelButtom = new System.Windows.Forms.Panel();
+            this.panelBR = new System.Windows.Forms.Panel();
+            this.labelTel = new System.Windows.Forms.Label();
             this.panelQR = new System.Windows.Forms.Panel();
+            this.labelScenesMessage = new System.Windows.Forms.Label();
             this.labelCountdown = new System.Windows.Forms.Label();
             this.labelMessage = new System.Windows.Forms.Label();
             this.panelCenter = new System.Windows.Forms.Panel();
             this.timerSceneInfo = new System.Windows.Forms.Timer(this.components);
-            this.labelScenesMessage = new System.Windows.Forms.Label();
+            this.timerMain = new System.Windows.Forms.Timer(this.components);
+            this.panelBLeft = new System.Windows.Forms.Panel();
             this.panelButtom.SuspendLayout();
+            this.panelBR.SuspendLayout();
+            this.panelBLeft.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelButtom
             // 
             this.panelButtom.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panelButtom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelButtom.Controls.Add(this.labelScenesMessage);
-            this.panelButtom.Controls.Add(this.panelQR);
-            this.panelButtom.Controls.Add(this.labelCountdown);
-            this.panelButtom.Controls.Add(this.labelMessage);
+            this.panelButtom.Controls.Add(this.panelBLeft);
+            this.panelButtom.Controls.Add(this.panelBR);
             this.panelButtom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelButtom.Location = new System.Drawing.Point(0, 668);
             this.panelButtom.Name = "panelButtom";
             this.panelButtom.Size = new System.Drawing.Size(1024, 100);
             this.panelButtom.TabIndex = 0;
             // 
+            // panelBR
+            // 
+            this.panelBR.Controls.Add(this.labelTel);
+            this.panelBR.Controls.Add(this.panelQR);
+            this.panelBR.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelBR.Location = new System.Drawing.Point(792, 0);
+            this.panelBR.Name = "panelBR";
+            this.panelBR.Size = new System.Drawing.Size(230, 98);
+            this.panelBR.TabIndex = 4;
+            // 
+            // labelTel
+            // 
+            this.labelTel.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelTel.Location = new System.Drawing.Point(3, 16);
+            this.labelTel.Name = "labelTel";
+            this.labelTel.Size = new System.Drawing.Size(138, 32);
+            this.labelTel.TabIndex = 3;
+            this.labelTel.Text = "13705830170";
+            this.labelTel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // panelQR
             // 
             this.panelQR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelQR.BackgroundImage")));
             this.panelQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelQR.Location = new System.Drawing.Point(939, 9);
+            this.panelQR.Location = new System.Drawing.Point(147, 9);
             this.panelQR.Name = "panelQR";
             this.panelQR.Size = new System.Drawing.Size(80, 80);
             this.panelQR.TabIndex = 2;
             this.panelQR.Click += new System.EventHandler(this.panelQR_Click);
             // 
+            // labelScenesMessage
+            // 
+            this.labelScenesMessage.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelScenesMessage.ForeColor = System.Drawing.Color.Red;
+            this.labelScenesMessage.Location = new System.Drawing.Point(34, 30);
+            this.labelScenesMessage.Name = "labelScenesMessage";
+            this.labelScenesMessage.Size = new System.Drawing.Size(435, 38);
+            this.labelScenesMessage.TabIndex = 3;
+            this.labelScenesMessage.Text = "<<系统提示信息>>";
+            this.labelScenesMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // labelCountdown
             // 
             this.labelCountdown.BackColor = System.Drawing.Color.LightGray;
             this.labelCountdown.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelCountdown.Location = new System.Drawing.Point(486, 24);
+            this.labelCountdown.Location = new System.Drawing.Point(498, 24);
             this.labelCountdown.Name = "labelCountdown";
             this.labelCountdown.Size = new System.Drawing.Size(50, 50);
             this.labelCountdown.TabIndex = 1;
@@ -78,12 +113,13 @@
             // 
             // labelMessage
             // 
-            this.labelMessage.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelMessage.Location = new System.Drawing.Point(3, 37);
+            this.labelMessage.AutoSize = true;
+            this.labelMessage.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelMessage.Location = new System.Drawing.Point(15, 39);
             this.labelMessage.Name = "labelMessage";
-            this.labelMessage.Size = new System.Drawing.Size(1018, 38);
+            this.labelMessage.Size = new System.Drawing.Size(649, 20);
             this.labelMessage.TabIndex = 0;
-            this.labelMessage.Text = "天气预报。。。。";
+            this.labelMessage.Text = "天气预报。。。。天气预报。。。。天气预报。。。。天气预报。。。。";
             this.labelMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panelCenter
@@ -99,16 +135,20 @@
             this.timerSceneInfo.Interval = 500;
             this.timerSceneInfo.Tick += new System.EventHandler(this.timerSceneInfo_Tick);
             // 
-            // labelScenesMessage
+            // timerMain
             // 
-            this.labelScenesMessage.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelScenesMessage.ForeColor = System.Drawing.Color.Red;
-            this.labelScenesMessage.Location = new System.Drawing.Point(22, 30);
-            this.labelScenesMessage.Name = "labelScenesMessage";
-            this.labelScenesMessage.Size = new System.Drawing.Size(435, 38);
-            this.labelScenesMessage.TabIndex = 3;
-            this.labelScenesMessage.Text = "<<系统提示信息>>";
-            this.labelScenesMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.timerMain.Tick += new System.EventHandler(this.timerMain_Tick);
+            // 
+            // panelBLeft
+            // 
+            this.panelBLeft.Controls.Add(this.labelScenesMessage);
+            this.panelBLeft.Controls.Add(this.labelCountdown);
+            this.panelBLeft.Controls.Add(this.labelMessage);
+            this.panelBLeft.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelBLeft.Name = "panelBLeft";
+            this.panelBLeft.Size = new System.Drawing.Size(792, 98);
+            this.panelBLeft.TabIndex = 0;
             // 
             // FrmMain
             // 
@@ -123,6 +163,9 @@
             this.Text = "主页";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.panelButtom.ResumeLayout(false);
+            this.panelBR.ResumeLayout(false);
+            this.panelBLeft.ResumeLayout(false);
+            this.panelBLeft.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -136,6 +179,10 @@
         private System.Windows.Forms.Timer timerSceneInfo;
         private System.Windows.Forms.Panel panelQR;
         private System.Windows.Forms.Label labelScenesMessage;
+        private System.Windows.Forms.Timer timerMain;
+        private System.Windows.Forms.Panel panelBR;
+        private System.Windows.Forms.Label labelTel;
+        private System.Windows.Forms.Panel panelBLeft;
     }
 }
 

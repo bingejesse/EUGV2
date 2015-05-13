@@ -37,13 +37,14 @@
             this.buttonNext = new System.Windows.Forms.Button();
             this.buttonHome = new System.Windows.Forms.Button();
             this.virtualNumKeyboard = new DevComponents.DotNetBar.Keyboard.KeyboardControl();
+            this.labelVersion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelUser
             // 
             this.labelUser.AutoSize = true;
             this.labelUser.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelUser.Location = new System.Drawing.Point(145, 209);
+            this.labelUser.Location = new System.Drawing.Point(143, 190);
             this.labelUser.Name = "labelUser";
             this.labelUser.Size = new System.Drawing.Size(73, 29);
             this.labelUser.TabIndex = 3;
@@ -53,7 +54,7 @@
             // 
             this.labelPass.AutoSize = true;
             this.labelPass.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelPass.Location = new System.Drawing.Point(560, 209);
+            this.labelPass.Location = new System.Drawing.Point(558, 190);
             this.labelPass.Name = "labelPass";
             this.labelPass.Size = new System.Drawing.Size(73, 29);
             this.labelPass.TabIndex = 4;
@@ -62,40 +63,40 @@
             // textBoxUser
             // 
             this.textBoxUser.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxUser.Location = new System.Drawing.Point(227, 202);
+            this.textBoxUser.Location = new System.Drawing.Point(225, 183);
             this.textBoxUser.MaxLength = 15;
             this.textBoxUser.Name = "textBoxUser";
             this.textBoxUser.Size = new System.Drawing.Size(246, 41);
-            this.textBoxUser.TabIndex = 5;
+            this.textBoxUser.TabIndex = 0;
             this.textBoxUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxPassword.Location = new System.Drawing.Point(643, 206);
+            this.textBoxPassword.Location = new System.Drawing.Point(641, 187);
             this.textBoxPassword.MaxLength = 15;
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(246, 41);
-            this.textBoxPassword.TabIndex = 6;
+            this.textBoxPassword.TabIndex = 1;
             this.textBoxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // buttonNext
             // 
-            this.buttonNext.Location = new System.Drawing.Point(273, 555);
+            this.buttonNext.Location = new System.Drawing.Point(292, 509);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(169, 67);
-            this.buttonNext.TabIndex = 7;
+            this.buttonNext.TabIndex = 2;
             this.buttonNext.Text = "下一步";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // buttonHome
             // 
-            this.buttonHome.Location = new System.Drawing.Point(578, 555);
+            this.buttonHome.Location = new System.Drawing.Point(560, 509);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(169, 67);
-            this.buttonHome.TabIndex = 8;
+            this.buttonHome.TabIndex = 3;
             this.buttonHome.Text = "返回主页";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -115,7 +116,7 @@
             virtualKeyboardColorTable2.TopBarTextColor = System.Drawing.Color.White;
             this.virtualNumKeyboard.ColorTable = virtualKeyboardColorTable2;
             this.virtualNumKeyboard.IsTopBarVisible = false;
-            this.virtualNumKeyboard.Location = new System.Drawing.Point(134, 284);
+            this.virtualNumKeyboard.Location = new System.Drawing.Point(134, 250);
             this.virtualNumKeyboard.Name = "virtualNumKeyboard";
             flatStyleRenderer2.ColorTable = virtualKeyboardColorTable2;
             flatStyleRenderer2.ForceAntiAlias = false;
@@ -124,10 +125,22 @@
             this.virtualNumKeyboard.TabIndex = 13;
             this.virtualNumKeyboard.Text = "keyboardControl1";
             // 
+            // labelVersion
+            // 
+            this.labelVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelVersion.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelVersion.Location = new System.Drawing.Point(547, 635);
+            this.labelVersion.Name = "labelVersion";
+            this.labelVersion.Size = new System.Drawing.Size(470, 29);
+            this.labelVersion.TabIndex = 14;
+            this.labelVersion.Text = "客户端版本号：1.1.100";
+            this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // AdminVerify
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.virtualNumKeyboard);
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.buttonNext);
@@ -144,6 +157,7 @@
             this.Controls.SetChildIndex(this.buttonNext, 0);
             this.Controls.SetChildIndex(this.buttonHome, 0);
             this.Controls.SetChildIndex(this.virtualNumKeyboard, 0);
+            this.Controls.SetChildIndex(this.labelVersion, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,5 +172,6 @@
         private System.Windows.Forms.Button buttonNext;
         private System.Windows.Forms.Button buttonHome;
         private DevComponents.DotNetBar.Keyboard.KeyboardControl virtualNumKeyboard;
+        private System.Windows.Forms.Label labelVersion;
     }
 }

@@ -39,7 +39,7 @@
             this.buttonHome.Location = new System.Drawing.Point(333, 385);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(161, 67);
-            this.buttonHome.TabIndex = 18;
+            this.buttonHome.TabIndex = 2;
             this.buttonHome.Text = "返回主页";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -49,7 +49,7 @@
             this.buttonNext.Location = new System.Drawing.Point(156, 385);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(135, 67);
-            this.buttonNext.TabIndex = 17;
+            this.buttonNext.TabIndex = 1;
             this.buttonNext.Text = "下一步";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -61,7 +61,7 @@
             this.textBoxPGInfo.MaxLength = 15;
             this.textBoxPGInfo.Name = "textBoxPGInfo";
             this.textBoxPGInfo.Size = new System.Drawing.Size(246, 41);
-            this.textBoxPGInfo.TabIndex = 16;
+            this.textBoxPGInfo.TabIndex = 0;
             this.textBoxPGInfo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelPGInfo

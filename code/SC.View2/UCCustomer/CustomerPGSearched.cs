@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace SC.View2
 {
-    public partial class CustomerPGSearched : UCSceneBasic
+    public partial class CustomerPGSearched : UCSceneBasicWithTitle
     {
         public CustomerPGSearched()
         {

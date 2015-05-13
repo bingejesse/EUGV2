@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable virtualKeyboardColorTable2 = new DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable();
-            DevComponents.DotNetBar.Keyboard.FlatStyleRenderer flatStyleRenderer2 = new DevComponents.DotNetBar.Keyboard.FlatStyleRenderer();
+            DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable virtualKeyboardColorTable1 = new DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable();
+            DevComponents.DotNetBar.Keyboard.FlatStyleRenderer flatStyleRenderer1 = new DevComponents.DotNetBar.Keyboard.FlatStyleRenderer();
             this.virtualNumKeyboard = new DevComponents.DotNetBar.Keyboard.KeyboardControl();
             this.buttonHome = new System.Windows.Forms.Button();
             this.buttonNext = new System.Windows.Forms.Button();
@@ -40,23 +40,23 @@
             // virtualNumKeyboard
             // 
             this.virtualNumKeyboard.Anchor = System.Windows.Forms.AnchorStyles.None;
-            virtualKeyboardColorTable2.BackgroundColor = System.Drawing.Color.Black;
-            virtualKeyboardColorTable2.DarkKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
-            virtualKeyboardColorTable2.DownKeysColor = System.Drawing.Color.White;
-            virtualKeyboardColorTable2.DownTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            virtualKeyboardColorTable2.KeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(47)))), ((int)(((byte)(55)))));
-            virtualKeyboardColorTable2.LightKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            virtualKeyboardColorTable2.PressedKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(161)))), ((int)(((byte)(81)))));
-            virtualKeyboardColorTable2.TextColor = System.Drawing.Color.White;
-            virtualKeyboardColorTable2.ToggleTextColor = System.Drawing.Color.Green;
-            virtualKeyboardColorTable2.TopBarTextColor = System.Drawing.Color.White;
-            this.virtualNumKeyboard.ColorTable = virtualKeyboardColorTable2;
+            virtualKeyboardColorTable1.BackgroundColor = System.Drawing.Color.Black;
+            virtualKeyboardColorTable1.DarkKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
+            virtualKeyboardColorTable1.DownKeysColor = System.Drawing.Color.White;
+            virtualKeyboardColorTable1.DownTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            virtualKeyboardColorTable1.KeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(47)))), ((int)(((byte)(55)))));
+            virtualKeyboardColorTable1.LightKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            virtualKeyboardColorTable1.PressedKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(161)))), ((int)(((byte)(81)))));
+            virtualKeyboardColorTable1.TextColor = System.Drawing.Color.White;
+            virtualKeyboardColorTable1.ToggleTextColor = System.Drawing.Color.Green;
+            virtualKeyboardColorTable1.TopBarTextColor = System.Drawing.Color.White;
+            this.virtualNumKeyboard.ColorTable = virtualKeyboardColorTable1;
             this.virtualNumKeyboard.IsTopBarVisible = false;
             this.virtualNumKeyboard.Location = new System.Drawing.Point(133, 269);
             this.virtualNumKeyboard.Name = "virtualNumKeyboard";
-            flatStyleRenderer2.ColorTable = virtualKeyboardColorTable2;
-            flatStyleRenderer2.ForceAntiAlias = false;
-            this.virtualNumKeyboard.Renderer = flatStyleRenderer2;
+            flatStyleRenderer1.ColorTable = virtualKeyboardColorTable1;
+            flatStyleRenderer1.ForceAntiAlias = false;
+            this.virtualNumKeyboard.Renderer = flatStyleRenderer1;
             this.virtualNumKeyboard.Size = new System.Drawing.Size(753, 230);
             this.virtualNumKeyboard.TabIndex = 20;
             this.virtualNumKeyboard.Text = "keyboardControl1";
@@ -66,7 +66,7 @@
             this.buttonHome.Location = new System.Drawing.Point(577, 540);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(169, 67);
-            this.buttonHome.TabIndex = 19;
+            this.buttonHome.TabIndex = 2;
             this.buttonHome.Text = "返回主页";
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -76,7 +76,7 @@
             this.buttonNext.Location = new System.Drawing.Point(272, 540);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(169, 67);
-            this.buttonNext.TabIndex = 18;
+            this.buttonNext.TabIndex = 1;
             this.buttonNext.Text = "下一步";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -88,7 +88,7 @@
             this.textBoxCode.MaxLength = 15;
             this.textBoxCode.Name = "textBoxCode";
             this.textBoxCode.Size = new System.Drawing.Size(246, 41);
-            this.textBoxCode.TabIndex = 16;
+            this.textBoxCode.TabIndex = 0;
             this.textBoxCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelCode

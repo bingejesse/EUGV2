@@ -31,7 +31,8 @@ namespace SC.View2
         public override void Start(params object[] args)
         {
             CLog4net.LogInfo("点击取件，进入完成取件界面");
-            box = frmMain.boxsManager.Find((int)args[0]);
+            //box = frmMain.boxsManager.Find(Convert.ToInt32(args[0]));
+            box = (Box)args[0];
             string message = string.Format("请注意{0}号箱门已弹出，请取走快件并关闭箱门",box.ToString());
 
             frmMain.voiceService.BroadcastOnce(message);

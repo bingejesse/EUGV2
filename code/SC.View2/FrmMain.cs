@@ -74,9 +74,11 @@ namespace SC.View2
             this.AddUCScene(Roster.A_Verify, new AdminVerify(this, 60));
             this.AddUCScene(Roster.A_P_EntryBoxCode, new AdminProxyEntryBoxCode(this, 60));
             this.AddUCScene(Roster.A_P_FinishWork, new AdminProxyFinishWork(this, 60));
+            this.AddUCScene(Roster.A_ControlPanel, new AdministratorControlPanel(this,360));
 
             this.SceneTransit(Roster.Home);
             this.timerSceneInfo.Enabled = true;
+            this.timerMain.Enabled = true;
 
             CLog4net.LogInfo("启动完成");
         }
@@ -130,8 +132,39 @@ namespace SC.View2
                 this.scenesKey = key;
                 this.scenesLib[key].Start(args);
                 this.ShowSystemPromptMessage("");
+
+                this.SceneEvent();
             }
         }
+
+        /// <summary>
+        /// 切换界面是控件事件
+        /// </summary>
+        private void SceneEvent()
+        {
+            if (this.scenesKey != Roster.Home)
+            {
+                labelCountdown.Visible = true;
+                labelScenesMessage.Visible = true;
+                labelMessage.Visible = false;
+
+                this.cameraService.Close();
+            }
+            else
+            {
+                labelMessage.Visible = true;
+                labelCountdown.Visible = false;
+                labelScenesMessage.Visible = false;
+            }
+
+            if (this.scenesKey == Roster.P_ControlPanel 
+                || this.scenesKey == Roster.C_ControlPanel 
+                || this.scenesKey == Roster.A_Verify)
+            {
+                this.cameraService.Open();
+            }
+        }
+
         #endregion
 
         private void FrmMain_Load(object sender, EventArgs e)
@@ -158,18 +191,9 @@ namespace SC.View2
 
         private void timerSceneInfo_Tick(object sender, EventArgs e)
         {
-            if (this.scenesKey != "Home")
+            if (this.scenesKey != Roster.Home)
             {
-                labelCountdown.Visible = true;
-                labelScenesMessage.Visible = true;
-                labelMessage.Visible = false;
                 labelCountdown.Text = this.scenesLib[scenesKey].RemainTime.ToString();
-            }
-            else
-            {
-                labelMessage.Visible = true;
-                labelCountdown.Visible = false;
-                labelScenesMessage.Visible = false;
             }
         }
 
@@ -185,6 +209,44 @@ namespace SC.View2
         {
             this.labelScenesMessage.Visible = true;
             this.labelScenesMessage.Text = message;
+        }
+
+        private void timerMain_Tick(object sender, EventArgs e)
+        {
+            InfromationShow();
+        }
+
+        private void InfromationShow()
+        {
+            ServerCallback3 sc = this.infoCenterLister.State;
+
+            string info = "欢迎使用德瑞纳智能快递柜，祝您今天生活愉快！";
+            if (sc == null)
+            {
+                this.labelMessage.Text = info;
+                labelMessage.Left = 106;
+            }
+            else
+            {
+                if (sc.Success)
+                {
+                    this.labelMessage.Text = sc.Message;
+
+                    if (labelMessage.Left > -this.labelMessage.Width)
+                    {
+                        labelMessage.Left = labelMessage.Left - 3;
+                    }
+                    else
+                    {
+                        labelMessage.Left = this.Width;
+                    }
+                }
+                else
+                {
+                    this.labelMessage.Text = info;
+                    labelMessage.Left = 106;
+                }
+            }
         }
     }
 }

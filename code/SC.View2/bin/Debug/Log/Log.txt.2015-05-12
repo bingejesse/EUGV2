@@ -1,0 +1,1297 @@
+INFO  2015-05-12 18:36:30,089 [Domain.CLog4net] System starting！
+INFO  2015-05-12 18:36:30,465 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 18:36:31,220 [Domain.CLog4net] Select * from about 执行结束:515ms
+INFO  2015-05-12 18:36:31,223 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 18:36:31,308 [Domain.CLog4net] Select * from box 执行结束:31ms
+ERROR 2015-05-12 18:36:31,448 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 18:36:31,449 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 18:36:31,509 [Domain.CLog4net] Select * from elock 执行结束:16ms
+INFO  2015-05-12 18:36:31,511 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 18:36:31,579 [Domain.CLog4net] Select * from package where taken='1' 执行结束:16ms
+INFO  2015-05-12 18:36:31,610 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 18:36:31,661 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 18:36:32,050 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 18:36:33,154 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431426981}
+
+INFO  2015-05-12 18:36:33,162 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：25℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 18:36:33,498 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：25℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 18:36:33,829 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 18:36:36,834 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 20:45:33,486 [Domain.CLog4net] System starting！
+INFO  2015-05-12 20:45:33,742 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 20:45:34,674 [Domain.CLog4net] Select * from about 执行结束:826ms
+INFO  2015-05-12 20:45:34,680 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 20:45:34,823 [Domain.CLog4net] Select * from box 执行结束:94ms
+ERROR 2015-05-12 20:45:34,873 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 20:45:34,873 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 20:45:34,948 [Domain.CLog4net] Select * from elock 执行结束:16ms
+INFO  2015-05-12 20:45:34,950 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 20:45:35,018 [Domain.CLog4net] Select * from package where taken='1' 执行结束:16ms
+INFO  2015-05-12 20:45:35,048 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 20:45:35,099 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 20:45:35,456 [Domain.CLog4net] 未检测到摄像头
+ERROR 2015-05-12 20:45:39,084 [Domain.CLog4net] System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DareneExpressCabinetClient.Tools.HttpWebResponseUtility.CreatePostHttpResponse(String url, IDictionary`2 parameters, Nullable`1 timeout, String userAgent, Encoding requestEncoding, CookieCollection cookies) 位置 D:\projects\c#\code\DareneExpressCabinetClient\Tools\HttpWebResponseUtility.cs:行号 154
+ERROR 2015-05-12 20:45:39,090 [Domain.CLog4net] ServiceShakeHandSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DareneExpressCabinetClient.Service.Imple.ServerServiceImpl.ServiceShakeHand(About about, IDictionary`2 dic) 位置 D:\projects\c#\code\DareneExpressCabinetClient\Service\Imple\ServerServiceImpl.cs:行号 557
+INFO  2015-05-12 20:45:40,005 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：20℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 20:45:40,144 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：20℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 20:45:40,388 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 20:45:55,916 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 20:46:02,812 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 20:46:02,823 [Domain.CLog4net] 点击快递员取回，进入输入单号界面
+INFO  2015-05-12 20:46:08,766 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431434756}
+
+INFO  2015-05-12 20:46:09,024 [Domain.CLog4net] 服务器连接：{success:false,boxCode:'', message: '找不到包裹'}
+
+INFO  2015-05-12 20:46:09,026 [Domain.CLog4net] 找不到包裹
+INFO  2015-05-12 20:46:15,483 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431434763}
+
+INFO  2015-05-12 20:46:15,819 [Domain.CLog4net] 服务器连接：{success:true,boxCode:'27',message:''}
+
+INFO  2015-05-12 20:46:15,820 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 20:46:15,942 [Domain.CLog4net] delete from package where packageCode='2222' 执行结束:109ms
+INFO  2015-05-12 20:46:16,092 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('2222','13705830170','13705830170','27','2015/5/12 20:46:15','1','0','') 执行结束:156ms
+INFO  2015-05-12 20:46:16,092 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 20:46:16,209 [Domain.CLog4net] update box set idle='1',locationX='3',locationY='9',remark='',size='2',state='1' where code=27 执行结束:109ms
+INFO  2015-05-12 20:46:16,210 [Domain.CLog4net] 清空箱子：27 True
+INFO  2015-05-12 20:46:16,210 [Domain.CLog4net] 没有这个包裹，请联系管理员:2222
+INFO  2015-05-12 20:46:16,217 [Domain.CLog4net] 点击快递员取回，进入完成取回界面
+INFO  2015-05-12 20:46:50,526 [Domain.CLog4net] System starting！
+INFO  2015-05-12 20:46:50,633 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 20:46:50,956 [Domain.CLog4net] Select * from about 执行结束:202ms
+INFO  2015-05-12 20:46:50,959 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 20:46:51,019 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 20:46:51,074 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 20:46:51,074 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 20:46:51,129 [Domain.CLog4net] Select * from elock 执行结束:16ms
+INFO  2015-05-12 20:46:51,130 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 20:46:51,183 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 20:46:51,203 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 20:46:51,253 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 20:46:51,398 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 20:46:52,164 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431434799}
+
+INFO  2015-05-12 20:46:52,380 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：20℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 20:46:52,701 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：20℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 20:46:52,786 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 20:46:55,959 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 20:47:06,456 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 20:47:06,467 [Domain.CLog4net] 点击快递员取回，进入输入单号界面
+INFO  2015-05-12 20:47:12,268 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431434820}
+
+INFO  2015-05-12 20:47:12,672 [Domain.CLog4net] 服务器连接：{success:true,boxCode:'17',message:''}
+
+INFO  2015-05-12 20:47:12,673 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 20:47:12,879 [Domain.CLog4net] delete from package where packageCode='3333' 执行结束:203ms
+INFO  2015-05-12 20:47:13,072 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('3333','13705830170','13705830170','17','2015/5/12 20:47:12','1','0','') 执行结束:187ms
+INFO  2015-05-12 20:47:13,073 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 20:47:13,202 [Domain.CLog4net] update box set idle='1',locationX='2',locationY='8',remark='',size='1',state='1' where code=17 执行结束:125ms
+INFO  2015-05-12 20:47:13,202 [Domain.CLog4net] 清空箱子：17 True
+INFO  2015-05-12 20:47:13,202 [Domain.CLog4net] 没有这个包裹，请联系管理员:3333
+INFO  2015-05-12 20:47:13,206 [Domain.CLog4net] 点击快递员取回，进入完成取回界面
+INFO  2015-05-12 20:47:20,227 [Domain.CLog4net] 点击快递员取回，进入输入单号界面
+INFO  2015-05-12 20:47:25,195 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431434833}
+
+INFO  2015-05-12 20:47:25,463 [Domain.CLog4net] 服务器连接：{success:false,boxCode:'', message: '找不到包裹'}
+
+INFO  2015-05-12 20:47:25,464 [Domain.CLog4net] 找不到包裹
+INFO  2015-05-12 20:47:32,290 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 20:47:34,979 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 20:47:37,102 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 20:47:46,463 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 20:47:48,881 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 21:18:31,024 [Domain.CLog4net] System starting！
+INFO  2015-05-12 21:18:31,127 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 21:18:31,441 [Domain.CLog4net] Select * from about 执行结束:203ms
+INFO  2015-05-12 21:18:31,444 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 21:18:31,506 [Domain.CLog4net] Select * from box 执行结束:16ms
+ERROR 2015-05-12 21:18:31,560 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 21:18:31,560 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 21:18:31,613 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 21:18:31,614 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 21:18:31,669 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 21:18:31,697 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 21:18:31,748 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 21:18:31,935 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 21:18:32,717 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431436700}
+
+INFO  2015-05-12 21:18:32,911 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：19℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 21:18:33,245 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：19℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 21:18:33,479 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 21:54:52,038 [Domain.CLog4net] System starting！
+INFO  2015-05-12 21:54:52,211 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 21:54:52,551 [Domain.CLog4net] Select * from about 执行结束:234ms
+INFO  2015-05-12 21:54:52,553 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 21:54:52,609 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 21:54:52,644 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 21:54:52,644 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 21:54:52,697 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 21:54:52,698 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 21:54:52,751 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 21:54:52,763 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 21:54:52,814 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 21:54:52,987 [Domain.CLog4net] 未检测到摄像头
+ERROR 2015-05-12 21:54:56,576 [Domain.CLog4net] System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DareneExpressCabinetClient.Tools.HttpWebResponseUtility.CreatePostHttpResponse(String url, IDictionary`2 parameters, Nullable`1 timeout, String userAgent, Encoding requestEncoding, CookieCollection cookies) 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\HttpWebResponseUtility.cs:行号 154
+ERROR 2015-05-12 21:54:56,582 [Domain.CLog4net] ServiceShakeHandSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DareneExpressCabinetClient.Service.Imple.ServerServiceImpl.ServiceShakeHand(About about, IDictionary`2 dic) 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Service\Imple\ServerServiceImpl.cs:行号 557
+INFO  2015-05-12 21:54:57,466 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：19℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 21:54:57,660 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：19℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 21:54:58,004 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 21:55:00,020 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 21:55:07,096 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 21:55:07,101 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 21:55:07,103 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:07,104 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:07,105 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:07,105 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:07,106 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:08,406 [Domain.CLog4net] SELECT * FROM box where size=1 and idle=1 and state!=2 order by rand() limit 1 执行结束:15ms
+INFO  2015-05-12 21:55:08,406 [Domain.CLog4net] 选取箱子：28
+INFO  2015-05-12 21:55:09,189 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 21:55:13,594 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 21:55:13,598 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:16ms
+INFO  2015-05-12 21:55:13,598 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:13,599 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:13,600 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:13,600 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:15,178 [Domain.CLog4net] 获取箱子失败:L
+INFO  2015-05-12 21:55:17,424 [Domain.CLog4net] SELECT * FROM box where size=0 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 21:55:17,424 [Domain.CLog4net] 选取箱子：24
+INFO  2015-05-12 21:55:18,207 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 21:55:22,981 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 21:55:31,188 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 21:55:35,824 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431438923}
+
+INFO  2015-05-12 21:55:36,177 [Domain.CLog4net] 服务器连接：{success:false,message: '相同单号的快递之前已被存入，不允许重复存件'}
+
+INFO  2015-05-12 21:55:36,177 [Domain.CLog4net] 相同单号的快递之前已被存入，不允许重复存件
+INFO  2015-05-12 21:55:43,665 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 21:55:51,602 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 21:55:53,121 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431438940}
+
+INFO  2015-05-12 21:55:53,447 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 21:55:53,448 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 21:55:53,510 [Domain.CLog4net] update box set idle='0',locationX='3',locationY='6',remark='',size='0',state='0' where code=24 执行结束:62ms
+INFO  2015-05-12 21:55:53,510 [Domain.CLog4net] 使用箱子：24 True
+INFO  2015-05-12 21:55:53,570 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1234','13705830170','13705830170','24','1','2015/5/12 21:55:53','0001/1/1 0:00:00','0','') 执行结束:63ms
+INFO  2015-05-12 21:55:53,785 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1234','13705830170','13705830170','24','2015/5/12 21:55:53','0','') 执行结束:218ms
+INFO  2015-05-12 21:55:53,785 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 21:55:53,785 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 21:55:53,804 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 21:55:57,937 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 21:55:57,938 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:57,939 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:57,940 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:57,941 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:57,942 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 21:55:59,267 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 21:55:59,268 [Domain.CLog4net] 选取箱子：27
+INFO  2015-05-12 21:56:01,245 [Domain.CLog4net] SELECT * FROM box where size=1 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 21:56:01,245 [Domain.CLog4net] 选取箱子：10
+INFO  2015-05-12 21:56:01,786 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:16ms
+INFO  2015-05-12 21:56:01,787 [Domain.CLog4net] 选取箱子：9
+INFO  2015-05-12 21:56:02,421 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 21:56:03,456 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 21:56:11,458 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 21:56:13,466 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431438960}
+
+INFO  2015-05-12 21:56:13,748 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 21:56:13,748 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 21:56:13,785 [Domain.CLog4net] update box set idle='0',locationX='1',locationY='9',remark='',size='2',state='1' where code=9 执行结束:47ms
+INFO  2015-05-12 21:56:13,785 [Domain.CLog4net] 使用箱子：9 True
+INFO  2015-05-12 21:56:13,843 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('12345','13705830170','13705830170','9','1','2015/5/12 21:56:13','0001/1/1 0:00:00','0','') 执行结束:47ms
+INFO  2015-05-12 21:56:13,927 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('12345','13705830170','13705830170','9','2015/5/12 21:56:13','0','') 执行结束:94ms
+INFO  2015-05-12 21:56:13,927 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 21:56:13,927 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 21:56:13,929 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 21:56:18,081 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:26:23,895 [Domain.CLog4net] System starting！
+INFO  2015-05-12 22:26:24,017 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 22:26:24,338 [Domain.CLog4net] Select * from about 执行结束:219ms
+INFO  2015-05-12 22:26:24,340 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 22:26:24,404 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 22:26:24,469 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 22:26:24,469 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 22:26:24,523 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 22:26:24,523 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 22:26:24,575 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 22:26:24,588 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 22:26:24,643 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 22:26:24,808 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 22:26:25,577 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431440772}
+
+INFO  2015-05-12 22:26:25,784 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：18℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:26:26,103 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：18℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:26:26,275 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 22:26:29,485 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:26:29,852 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:26:32,793 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:26:35,817 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:26:38,821 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:26:41,833 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:26:42,576 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431440789}
+
+INFO  2015-05-12 22:26:42,854 [Domain.CLog4net] 服务器连接：{success:true,boxCode:'24',message:''}
+
+INFO  2015-05-12 22:26:42,855 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:26:42,917 [Domain.CLog4net] update box set idle='1',locationX='3',locationY='6',remark='',size='0',state='1' where code=24 执行结束:63ms
+INFO  2015-05-12 22:26:42,917 [Domain.CLog4net] 清空箱子：24 True
+INFO  2015-05-12 22:26:42,917 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:26:42,981 [Domain.CLog4net] delete from package where packageCode='1234' 执行结束:62ms
+INFO  2015-05-12 22:26:43,012 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1234','13705830170','13705830170','24','2015/5/12 22:26:42','0','0','') 执行结束:31ms
+INFO  2015-05-12 22:26:43,012 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 22:26:46,219 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:26:48,822 [Domain.CLog4net] 点击取件，进入完成取件界面
+INFO  2015-05-12 22:26:48,843 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:03,685 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:27:03,950 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:06,950 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:09,969 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:12,981 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:15,989 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:18,988 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:21,997 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:25,013 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:28,035 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:31,043 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:34,052 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:37,063 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:40,074 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:43,072 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:46,105 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:27:49,116 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'9',code:'7c4c09b83f4749cdbd7fabdfe5448954', message: '查询到开箱指令'}
+
+INFO  2015-05-12 22:27:49,117 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:27:49,408 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 22:27:49,408 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:27:49,441 [Domain.CLog4net] update box set idle='1',locationX='1',locationY='9',remark='',size='2',state='1' where code=9 执行结束:31ms
+INFO  2015-05-12 22:27:49,441 [Domain.CLog4net] 清空箱子：9 True
+INFO  2015-05-12 22:27:49,492 [Domain.CLog4net] delete from package where packageCode='12345' 执行结束:63ms
+INFO  2015-05-12 22:27:49,549 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('12345','13705830170','13705830170','9','2015/5/12 22:27:49','0','0','') 执行结束:47ms
+INFO  2015-05-12 22:27:49,549 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 22:28:10,820 [Domain.CLog4net] System starting！
+INFO  2015-05-12 22:28:10,933 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 22:28:11,285 [Domain.CLog4net] Select * from about 执行结束:249ms
+INFO  2015-05-12 22:28:11,287 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 22:28:11,343 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 22:28:11,382 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 22:28:11,382 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 22:28:11,436 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 22:28:11,436 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 22:28:11,490 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 22:28:11,503 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 22:28:11,553 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 22:28:11,811 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 22:28:12,589 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431440879}
+
+INFO  2015-05-12 22:28:12,740 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:28:13,078 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:28:13,255 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 22:28:14,727 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:28:15,079 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:28:18,065 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:28:21,070 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:28:24,099 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:28:27,089 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:28:30,134 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'2',code:'1cbf9ac5787f459092034fa00ac596fb', message: '查询到开箱指令'}
+
+INFO  2015-05-12 22:28:37,713 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:28:40,955 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 22:28:41,897 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:28:47,395 [Domain.CLog4net] update box set idle='1',locationX='1',locationY='2',remark='',size='1',state='1' where code=2 执行结束:47ms
+INFO  2015-05-12 22:28:47,395 [Domain.CLog4net] 清空箱子：2 True
+INFO  2015-05-12 22:29:01,548 [Domain.CLog4net] 未找到您的包裹:2
+INFO  2015-05-12 22:31:22,714 [Domain.CLog4net] System starting！
+INFO  2015-05-12 22:31:22,843 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 22:31:23,187 [Domain.CLog4net] Select * from about 执行结束:250ms
+INFO  2015-05-12 22:31:23,189 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 22:31:23,244 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-05-12 22:31:23,280 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 22:31:23,280 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 22:31:23,333 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 22:31:23,334 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 22:31:23,388 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 22:31:23,402 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 22:31:23,452 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 22:31:23,652 [Domain.CLog4net] 未检测到摄像头
+ERROR 2015-05-12 22:31:26,989 [Domain.CLog4net] System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DareneExpressCabinetClient.Tools.HttpWebResponseUtility.CreatePostHttpResponse(String url, IDictionary`2 parameters, Nullable`1 timeout, String userAgent, Encoding requestEncoding, CookieCollection cookies) 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\HttpWebResponseUtility.cs:行号 154
+ERROR 2015-05-12 22:31:26,995 [Domain.CLog4net] ServiceShakeHandSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DareneExpressCabinetClient.Service.Imple.ServerServiceImpl.ServiceShakeHand(About about, IDictionary`2 dic) 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Service\Imple\ServerServiceImpl.cs:行号 557
+INFO  2015-05-12 22:31:27,875 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:31:28,031 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:31:32,667 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 22:31:34,571 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:31:34,930 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:31:37,898 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:31:40,909 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:31:43,927 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:31:46,927 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:31:49,935 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:31:57,236 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:31:57,573 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:32:05,246 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:32:09,721 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:32:11,218 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:32:16,196 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:32:18,698 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 22:32:29,412 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 22:32:29,426 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 22:32:29,442 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:32:29,444 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:32:29,445 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:32:29,446 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:32:29,447 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:32:30,237 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 22:32:30,238 [Domain.CLog4net] 选取箱子：27
+INFO  2015-05-12 22:32:30,810 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 22:32:32,040 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 22:32:36,786 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 22:32:38,230 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431441145}
+
+INFO  2015-05-12 22:32:38,540 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 22:32:38,540 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:32:38,602 [Domain.CLog4net] update box set idle='0',locationX='3',locationY='9',remark='',size='2',state='1' where code=27 执行结束:63ms
+INFO  2015-05-12 22:32:38,602 [Domain.CLog4net] 使用箱子：27 True
+INFO  2015-05-12 22:32:38,669 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1234','13705830170','13705830170','27','1','2015/5/12 22:32:38','0001/1/1 0:00:00','0','') 执行结束:62ms
+INFO  2015-05-12 22:32:38,714 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1234','13705830170','13705830170','27','2015/5/12 22:32:38','0','') 执行结束:31ms
+INFO  2015-05-12 22:32:38,714 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 22:32:38,714 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 22:32:38,718 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 22:32:43,271 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:32:43,774 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:32:46,542 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:32:49,556 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:32:52,572 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'27',code:'fe29e717afd84929b3c8b217ee114d6c', message: '查询到开箱指令'}
+
+INFO  2015-05-12 22:32:58,706 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:33:01,132 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 22:33:01,234 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:33:01,752 [Domain.CLog4net] update box set idle='1',locationX='3',locationY='9',remark='',size='2',state='1' where code=27 执行结束:46ms
+INFO  2015-05-12 22:33:01,752 [Domain.CLog4net] 清空箱子：27 True
+INFO  2015-05-12 22:33:02,963 [Domain.CLog4net] delete from package where packageCode='1234' 执行结束:31ms
+INFO  2015-05-12 22:33:03,021 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1234','13705830170','13705830170','27','2015/5/12 22:33:02','0','0','') 执行结束:63ms
+INFO  2015-05-12 22:33:03,021 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 22:33:55,790 [Domain.CLog4net] System starting！
+INFO  2015-05-12 22:33:55,923 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 22:33:56,289 [Domain.CLog4net] Select * from about 执行结束:249ms
+INFO  2015-05-12 22:33:56,291 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 22:33:56,346 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 22:33:56,386 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 22:33:56,386 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 22:33:56,443 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 22:33:56,445 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 22:33:56,498 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 22:33:56,512 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 22:33:56,562 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 22:33:56,742 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 22:33:57,511 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431441224}
+
+INFO  2015-05-12 22:33:57,776 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:33:58,118 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:33:58,338 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 22:34:06,433 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 22:34:10,507 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 22:34:10,513 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 22:34:10,516 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:34:10,517 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:34:10,518 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:34:10,519 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:34:10,519 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:34:11,366 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:16ms
+INFO  2015-05-12 22:34:11,366 [Domain.CLog4net] 选取箱子：9
+INFO  2015-05-12 22:34:12,253 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 22:34:12,950 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 22:34:18,282 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 22:34:19,480 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431441246}
+
+INFO  2015-05-12 22:34:19,787 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 22:34:19,788 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:34:19,825 [Domain.CLog4net] update box set idle='0',locationX='1',locationY='9',remark='',size='2',state='1' where code=9 执行结束:31ms
+INFO  2015-05-12 22:34:19,826 [Domain.CLog4net] 使用箱子：9 True
+INFO  2015-05-12 22:34:19,879 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1234','13705830170','13705830170','9','1','2015/5/12 22:34:19','0001/1/1 0:00:00','0','') 执行结束:47ms
+INFO  2015-05-12 22:34:19,925 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1234','13705830170','13705830170','9','2015/5/12 22:34:19','0','') 执行结束:47ms
+INFO  2015-05-12 22:34:19,926 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 22:34:19,926 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 22:34:19,929 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 22:34:23,014 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:34:23,347 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:34:26,320 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:34:29,340 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'9',code:'9dd76b30793e47988681f435ae2e7cc7', message: '查询到开箱指令'}
+
+INFO  2015-05-12 22:34:32,079 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:34:32,365 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 22:34:32,365 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:34:32,395 [Domain.CLog4net] update box set idle='1',locationX='1',locationY='9',remark='',size='2',state='1' where code=9 执行结束:32ms
+INFO  2015-05-12 22:34:32,396 [Domain.CLog4net] 清空箱子：9 True
+INFO  2015-05-12 22:34:32,426 [Domain.CLog4net] delete from package where packageCode='1234' 执行结束:31ms
+INFO  2015-05-12 22:34:32,484 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1234','13705830170','13705830170','9','2015/5/12 22:34:32','0','0','') 执行结束:47ms
+INFO  2015-05-12 22:34:32,484 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 22:40:24,192 [Domain.CLog4net] System starting！
+INFO  2015-05-12 22:40:24,356 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 22:40:24,891 [Domain.CLog4net] Select * from about 执行结束:406ms
+INFO  2015-05-12 22:40:24,893 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 22:40:24,951 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 22:40:25,013 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 22:40:25,013 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 22:40:25,067 [Domain.CLog4net] Select * from elock 执行结束:16ms
+INFO  2015-05-12 22:40:25,068 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 22:40:25,120 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 22:40:25,135 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 22:40:25,186 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 22:40:25,394 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 22:40:26,389 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431441613}
+
+INFO  2015-05-12 22:40:26,419 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:40:26,751 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:40:27,071 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 22:40:28,648 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 22:40:41,538 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 22:40:41,546 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 22:40:41,550 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:40:41,551 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:40:41,553 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:40:41,554 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:40:41,555 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:15ms
+INFO  2015-05-12 22:40:42,418 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 22:40:42,419 [Domain.CLog4net] 选取箱子：36
+INFO  2015-05-12 22:40:43,144 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 22:40:43,921 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 22:40:50,290 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 22:40:51,381 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431441638}
+
+INFO  2015-05-12 22:40:51,680 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 22:40:51,681 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:40:51,732 [Domain.CLog4net] update box set idle='0',locationX='4',locationY='9',remark='',size='2',state='0' where code=36 执行结束:47ms
+INFO  2015-05-12 22:40:51,732 [Domain.CLog4net] 使用箱子：36 True
+INFO  2015-05-12 22:40:51,781 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('12345','13705830170','13705830170','36','1','2015/5/12 22:40:51','0001/1/1 0:00:00','0','') 执行结束:46ms
+INFO  2015-05-12 22:40:51,809 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('12345','13705830170','13705830170','36','2015/5/12 22:40:51','0','') 执行结束:32ms
+INFO  2015-05-12 22:40:51,809 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 22:40:51,809 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 22:40:51,815 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 22:40:55,529 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:40:55,856 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:40:58,851 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:41:01,872 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'36',code:'15c08657fb2c4107959409e007f629b8', message: '查询到开箱指令'}
+
+INFO  2015-05-12 22:41:03,939 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:41:04,225 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 22:41:04,225 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:41:04,263 [Domain.CLog4net] update box set idle='1',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:32ms
+INFO  2015-05-12 22:41:04,263 [Domain.CLog4net] 清空箱子：36 True
+INFO  2015-05-12 22:41:04,331 [Domain.CLog4net] delete from package where packageCode='12345' 执行结束:78ms
+INFO  2015-05-12 22:41:04,472 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('12345','13705830170','13705830170','36','2015/5/12 22:41:04','0','0','') 执行结束:140ms
+INFO  2015-05-12 22:41:04,472 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 22:43:25,483 [Domain.CLog4net] System starting！
+INFO  2015-05-12 22:43:25,609 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 22:43:26,015 [Domain.CLog4net] Select * from about 执行结束:312ms
+INFO  2015-05-12 22:43:26,018 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 22:43:26,075 [Domain.CLog4net] Select * from box 执行结束:16ms
+ERROR 2015-05-12 22:43:26,119 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 22:43:26,119 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 22:43:26,172 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 22:43:26,173 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 22:43:26,227 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 22:43:26,240 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 22:43:26,291 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 22:43:26,491 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 22:43:27,266 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431441794}
+
+INFO  2015-05-12 22:43:27,455 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:43:27,916 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:43:28,023 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 22:43:30,705 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 22:43:38,756 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 22:43:38,762 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 22:43:38,767 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:43:38,768 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:43:38,768 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:43:38,769 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:43:38,770 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:43:39,655 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 22:43:39,655 [Domain.CLog4net] 选取箱子：27
+INFO  2015-05-12 22:43:41,959 [Domain.CLog4net] SELECT * FROM box where size=1 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 22:43:41,959 [Domain.CLog4net] 选取箱子：29
+INFO  2015-05-12 22:43:42,433 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 22:43:43,507 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 22:43:48,399 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 22:43:49,505 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431441816}
+
+INFO  2015-05-12 22:43:49,796 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 22:43:49,796 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:43:49,837 [Domain.CLog4net] update box set idle='0',locationX='4',locationY='2',remark='',size='1',state='0' where code=29 执行结束:47ms
+INFO  2015-05-12 22:43:49,837 [Domain.CLog4net] 使用箱子：29 True
+INFO  2015-05-12 22:43:49,889 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('12345','13705830170','13705830170','29','1','2015/5/12 22:43:49','0001/1/1 0:00:00','0','') 执行结束:47ms
+INFO  2015-05-12 22:43:49,941 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('12345','13705830170','13705830170','29','2015/5/12 22:43:49','0','') 执行结束:47ms
+INFO  2015-05-12 22:43:49,941 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 22:43:49,941 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 22:43:49,950 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 22:43:52,708 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:43:53,035 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:43:56,037 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:43:59,058 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:44:02,063 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'29',code:'49890a4869714699b22f4fcb957ecaef', message: '查询到开箱指令'}
+
+INFO  2015-05-12 22:44:02,065 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:44:02,344 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 22:44:02,344 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:44:02,374 [Domain.CLog4net] update box set idle='1',locationX='4',locationY='2',remark='',size='1',state='1' where code=29 执行结束:16ms
+INFO  2015-05-12 22:44:02,374 [Domain.CLog4net] 清空箱子：29 True
+INFO  2015-05-12 22:44:02,454 [Domain.CLog4net] delete from package where packageCode='12345' 执行结束:78ms
+INFO  2015-05-12 22:44:02,520 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('12345','13705830170','13705830170','29','2015/5/12 22:44:02','0','0','') 执行结束:63ms
+INFO  2015-05-12 22:44:02,520 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 22:54:51,199 [Domain.CLog4net] System starting！
+INFO  2015-05-12 22:54:51,303 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 22:54:51,644 [Domain.CLog4net] Select * from about 执行结束:218ms
+INFO  2015-05-12 22:54:51,646 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 22:54:51,708 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 22:54:51,761 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 22:54:51,761 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 22:54:51,818 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 22:54:51,819 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 22:54:51,875 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 22:54:51,904 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 22:54:51,955 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 22:54:52,139 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 22:54:52,963 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431442479}
+
+INFO  2015-05-12 22:54:53,105 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:54:53,436 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:54:53,562 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 22:54:55,534 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 22:55:04,098 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 22:55:04,109 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 22:55:04,115 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:16ms
+INFO  2015-05-12 22:55:04,116 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:55:04,117 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:55:04,119 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:55:04,120 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:55:05,064 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 22:55:05,064 [Domain.CLog4net] 选取箱子：36
+INFO  2015-05-12 22:55:05,705 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 22:55:06,531 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 22:55:10,616 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 22:55:11,580 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431442498}
+
+INFO  2015-05-12 22:55:11,881 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 22:55:11,882 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:55:11,942 [Domain.CLog4net] update box set idle='0',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:47ms
+INFO  2015-05-12 22:55:11,942 [Domain.CLog4net] 使用箱子：36 True
+INFO  2015-05-12 22:55:11,984 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('12345','13705830170','13705830170','36','1','2015/5/12 22:55:11','0001/1/1 0:00:00','0','') 执行结束:47ms
+INFO  2015-05-12 22:55:12,008 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('12345','13705830170','13705830170','36','2015/5/12 22:55:11','0','') 执行结束:15ms
+INFO  2015-05-12 22:55:12,008 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 22:55:12,008 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 22:55:12,018 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 22:55:23,129 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:55:23,446 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:55:26,431 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:55:29,451 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'36',code:'7b1ac40a467740d2b4c3d24e871293c3', message: '查询到开箱指令'}
+
+INFO  2015-05-12 22:55:29,452 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:55:29,737 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 22:55:29,737 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:55:29,792 [Domain.CLog4net] update box set idle='1',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:47ms
+INFO  2015-05-12 22:55:29,792 [Domain.CLog4net] 清空箱子：36 True
+INFO  2015-05-12 22:55:29,883 [Domain.CLog4net] delete from package where packageCode='12345' 执行结束:78ms
+INFO  2015-05-12 22:55:29,941 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('12345','13705830170','13705830170','36','2015/5/12 22:55:29','0','0','') 执行结束:62ms
+INFO  2015-05-12 22:55:29,941 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 22:58:42,896 [Domain.CLog4net] System starting！
+INFO  2015-05-12 22:58:43,002 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 22:58:43,344 [Domain.CLog4net] Select * from about 执行结束:234ms
+INFO  2015-05-12 22:58:43,347 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 22:58:43,402 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 22:58:43,434 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 22:58:43,434 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 22:58:43,492 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 22:58:43,494 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 22:58:43,547 [Domain.CLog4net] Select * from package where taken='1' 执行结束:16ms
+INFO  2015-05-12 22:58:43,560 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 22:58:43,611 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 22:58:43,786 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 22:58:44,554 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431442711}
+
+INFO  2015-05-12 22:58:44,783 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:58:45,121 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 22:58:45,303 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 22:58:47,483 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 22:58:57,748 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 22:58:57,758 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 22:58:57,764 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:58:57,765 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:58:57,766 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:58:57,766 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:58:57,767 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 22:58:58,558 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 22:58:58,558 [Domain.CLog4net] 选取箱子：9
+INFO  2015-05-12 22:58:59,393 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 22:59:00,779 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 22:59:04,666 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 22:59:05,986 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431442733}
+
+INFO  2015-05-12 22:59:06,288 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 22:59:06,288 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:59:06,344 [Domain.CLog4net] update box set idle='0',locationX='1',locationY='9',remark='',size='2',state='1' where code=9 执行结束:63ms
+INFO  2015-05-12 22:59:06,344 [Domain.CLog4net] 使用箱子：9 True
+INFO  2015-05-12 22:59:06,381 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1234','13705830170','13705830170','9','1','2015/5/12 22:59:05','0001/1/1 0:00:00','0','') 执行结束:31ms
+INFO  2015-05-12 22:59:06,411 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1234','13705830170','13705830170','9','2015/5/12 22:59:05','0','') 执行结束:31ms
+INFO  2015-05-12 22:59:06,411 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 22:59:06,411 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 22:59:06,417 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 22:59:09,758 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 22:59:10,086 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:59:13,070 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:59:16,090 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:59:19,104 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:59:22,118 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:59:25,124 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 22:59:28,133 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'9',code:'8e360ef8cb944345afb212abae0b739e', message: '查询到开箱指令'}
+
+INFO  2015-05-12 22:59:28,135 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 22:59:28,424 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 22:59:28,424 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 22:59:28,456 [Domain.CLog4net] update box set idle='1',locationX='1',locationY='9',remark='',size='2',state='1' where code=9 执行结束:31ms
+INFO  2015-05-12 22:59:28,456 [Domain.CLog4net] 清空箱子：9 True
+INFO  2015-05-12 22:59:28,495 [Domain.CLog4net] delete from package where packageCode='1234' 执行结束:31ms
+INFO  2015-05-12 22:59:28,553 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1234','13705830170','13705830170','9','2015/5/12 22:59:28','0','0','') 执行结束:62ms
+INFO  2015-05-12 22:59:28,553 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 23:00:55,276 [Domain.CLog4net] System starting！
+INFO  2015-05-12 23:00:55,431 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 23:00:55,753 [Domain.CLog4net] Select * from about 执行结束:218ms
+INFO  2015-05-12 23:00:55,755 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 23:00:55,817 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 23:00:55,913 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 23:00:55,913 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 23:00:55,968 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 23:00:55,970 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 23:00:56,024 [Domain.CLog4net] Select * from package where taken='1' 执行结束:15ms
+INFO  2015-05-12 23:00:56,051 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 23:00:56,102 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 23:00:56,277 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 23:00:57,039 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431442843}
+
+INFO  2015-05-12 23:00:57,248 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:00:57,569 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：17℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:00:57,705 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 23:00:59,713 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 23:01:02,984 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 23:01:02,995 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:01:03,005 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:03,006 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:03,008 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:03,009 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:03,010 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:03,679 [Domain.CLog4net] SELECT * FROM box where size=1 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 23:01:03,679 [Domain.CLog4net] 选取箱子：34
+INFO  2015-05-12 23:01:04,430 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 23:01:05,241 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 23:01:09,110 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 23:01:10,129 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431442857}
+
+INFO  2015-05-12 23:01:10,423 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 23:01:10,424 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:01:10,468 [Domain.CLog4net] update box set idle='0',locationX='4',locationY='7',remark='',size='1',state='0' where code=34 执行结束:47ms
+INFO  2015-05-12 23:01:10,468 [Domain.CLog4net] 使用箱子：34 True
+INFO  2015-05-12 23:01:10,521 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1234','13705830170','13705830170','34','1','2015/5/12 23:01:10','0001/1/1 0:00:00','0','') 执行结束:47ms
+INFO  2015-05-12 23:01:10,551 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1234','13705830170','13705830170','34','2015/5/12 23:01:10','0','') 执行结束:31ms
+INFO  2015-05-12 23:01:10,551 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 23:01:10,551 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 23:01:10,555 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 23:01:11,218 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:01:11,242 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:11,243 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:11,243 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:11,244 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:11,244 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:01:13,989 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 23:01:14,304 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:01:17,298 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:01:20,318 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:01:23,328 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:01:26,349 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:01:29,344 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'34',code:'d58de017af7c446398b4cf31ed491507', message: '查询到开箱指令'}
+
+INFO  2015-05-12 23:01:29,346 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:01:29,617 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 23:01:29,617 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 23:01:29,663 [Domain.CLog4net] update box set idle='1',locationX='4',locationY='7',remark='',size='1',state='1' where code=34 执行结束:47ms
+INFO  2015-05-12 23:01:29,664 [Domain.CLog4net] 清空箱子：34 True
+INFO  2015-05-12 23:01:29,713 [Domain.CLog4net] delete from package where packageCode='1234' 执行结束:47ms
+INFO  2015-05-12 23:01:29,772 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1234','13705830170','13705830170','34','2015/5/12 23:01:29','0','0','') 执行结束:62ms
+INFO  2015-05-12 23:01:29,772 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 23:09:18,583 [Domain.CLog4net] System starting！
+INFO  2015-05-12 23:09:18,688 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 23:09:19,010 [Domain.CLog4net] Select * from about 执行结束:203ms
+INFO  2015-05-12 23:09:19,013 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 23:09:19,073 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 23:09:19,118 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 23:09:19,118 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 23:09:19,174 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-05-12 23:09:19,176 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 23:09:19,231 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 23:09:19,260 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 23:09:19,311 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 23:09:19,503 [Domain.CLog4net] 未检测到摄像头
+ERROR 2015-05-12 23:09:22,747 [Domain.CLog4net] System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DareneExpressCabinetClient.Tools.HttpWebResponseUtility.CreatePostHttpResponse(String url, IDictionary`2 parameters, Nullable`1 timeout, String userAgent, Encoding requestEncoding, CookieCollection cookies) 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\HttpWebResponseUtility.cs:行号 154
+ERROR 2015-05-12 23:09:22,753 [Domain.CLog4net] ServiceShakeHandSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DareneExpressCabinetClient.Service.Imple.ServerServiceImpl.ServiceShakeHand(About about, IDictionary`2 dic) 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Service\Imple\ServerServiceImpl.cs:行号 557
+INFO  2015-05-12 23:09:23,603 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:09:23,811 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:09:24,046 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 23:09:53,906 [Domain.CLog4net] System starting！
+INFO  2015-05-12 23:09:54,005 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 23:09:54,324 [Domain.CLog4net] Select * from about 执行结束:203ms
+INFO  2015-05-12 23:09:54,326 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 23:09:54,389 [Domain.CLog4net] Select * from box 执行结束:16ms
+ERROR 2015-05-12 23:09:54,436 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 23:09:54,437 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 23:09:54,494 [Domain.CLog4net] Select * from elock 执行结束:16ms
+INFO  2015-05-12 23:09:54,496 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 23:09:54,552 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 23:09:54,581 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 23:09:54,631 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 23:09:54,899 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 23:09:55,646 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431443382}
+
+INFO  2015-05-12 23:09:55,839 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:09:56,163 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:09:56,264 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 23:09:58,506 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 23:09:58,835 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:10:02,216 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 23:10:15,363 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 23:10:18,821 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 23:10:20,985 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 23:10:20,997 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:10:21,033 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:10:21,034 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:10:21,035 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:10:21,036 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:10:21,038 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:10:21,951 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 23:10:21,952 [Domain.CLog4net] 选取箱子：9
+INFO  2015-05-12 23:10:22,484 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 23:10:23,546 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 23:10:28,632 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 23:10:29,824 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431443416}
+
+INFO  2015-05-12 23:10:30,124 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 23:10:30,125 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:10:30,187 [Domain.CLog4net] update box set idle='0',locationX='1',locationY='9',remark='',size='2',state='1' where code=9 执行结束:63ms
+INFO  2015-05-12 23:10:30,187 [Domain.CLog4net] 使用箱子：9 True
+INFO  2015-05-12 23:10:30,215 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1111','13705830170','13705830170','9','1','2015/5/12 23:10:29','0001/1/1 0:00:00','0','') 执行结束:31ms
+INFO  2015-05-12 23:10:30,246 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1111','13705830170','13705830170','9','2015/5/12 23:10:29','0','') 执行结束:31ms
+INFO  2015-05-12 23:10:30,246 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 23:10:30,246 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 23:10:30,255 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 23:10:33,677 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 23:10:33,946 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:10:36,952 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:10:39,959 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:10:42,968 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:10:45,962 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'9',code:'1a454e01385e4411958c1f5bfd73e212', message: '查询到开箱指令'}
+
+INFO  2015-05-12 23:10:45,964 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:10:46,238 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 23:10:46,238 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 23:10:46,265 [Domain.CLog4net] update box set idle='1',locationX='1',locationY='9',remark='',size='2',state='1' where code=9 执行结束:16ms
+INFO  2015-05-12 23:10:46,265 [Domain.CLog4net] 清空箱子：9 True
+INFO  2015-05-12 23:10:46,379 [Domain.CLog4net] delete from package where packageCode='1111' 执行结束:125ms
+INFO  2015-05-12 23:10:46,474 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1111','13705830170','13705830170','9','2015/5/12 23:10:46','0','0','') 执行结束:93ms
+INFO  2015-05-12 23:10:46,474 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 23:15:19,294 [Domain.CLog4net] System starting！
+INFO  2015-05-12 23:15:19,397 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 23:15:19,752 [Domain.CLog4net] Select * from about 执行结束:218ms
+INFO  2015-05-12 23:15:19,755 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 23:15:19,810 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 23:15:19,844 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 23:15:19,844 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 23:15:19,898 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 23:15:19,898 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 23:15:19,952 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 23:15:19,952 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 23:15:20,002 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 23:15:20,231 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 23:15:21,007 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431443707}
+
+INFO  2015-05-12 23:15:21,205 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:15:21,547 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:15:21,641 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 23:15:23,953 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 23:15:39,551 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 23:15:39,562 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:15:39,568 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:16ms
+INFO  2015-05-12 23:15:39,569 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:15:39,574 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:15:39,575 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:15:39,576 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:15:40,341 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 23:15:40,341 [Domain.CLog4net] 选取箱子：36
+INFO  2015-05-12 23:15:41,125 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 23:15:41,763 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 23:15:46,365 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 23:15:47,435 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431443734}
+
+INFO  2015-05-12 23:15:47,738 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 23:15:47,739 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:15:47,820 [Domain.CLog4net] update box set idle='0',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:78ms
+INFO  2015-05-12 23:15:47,820 [Domain.CLog4net] 使用箱子：36 True
+INFO  2015-05-12 23:15:47,869 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1111','13705830170','13705830170','36','1','2015/5/12 23:15:47','0001/1/1 0:00:00','0','') 执行结束:47ms
+INFO  2015-05-12 23:15:47,948 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1111','13705830170','13705830170','36','2015/5/12 23:15:47','0','') 执行结束:78ms
+INFO  2015-05-12 23:15:47,948 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 23:15:47,948 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 23:15:47,955 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 23:15:48,731 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:15:48,754 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:15:48,754 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:15:48,755 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:15ms
+INFO  2015-05-12 23:15:48,756 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:15:48,757 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:15:52,088 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 23:15:52,415 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:15:55,392 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:15:58,400 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'36',code:'928d30f35c59491c81346820bda79c8d', message: '查询到开箱指令'}
+
+INFO  2015-05-12 23:15:58,401 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:15:58,687 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 23:15:58,687 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 23:15:58,718 [Domain.CLog4net] update box set idle='1',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:31ms
+INFO  2015-05-12 23:15:58,718 [Domain.CLog4net] 清空箱子：36 True
+INFO  2015-05-12 23:15:58,813 [Domain.CLog4net] delete from package where packageCode='1111' 执行结束:78ms
+INFO  2015-05-12 23:15:58,871 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1111','13705830170','13705830170','36','2015/5/12 23:15:58','0','0','') 执行结束:62ms
+INFO  2015-05-12 23:15:58,871 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 23:19:50,360 [Domain.CLog4net] System starting！
+INFO  2015-05-12 23:19:50,469 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 23:19:50,763 [Domain.CLog4net] Select * from about 执行结束:203ms
+INFO  2015-05-12 23:19:50,765 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 23:19:50,827 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-05-12 23:19:50,873 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 23:19:50,873 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 23:19:50,926 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 23:19:50,927 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 23:19:50,983 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 23:19:50,983 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 23:19:51,034 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 23:19:51,259 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 23:19:52,026 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431443978}
+
+INFO  2015-05-12 23:19:52,216 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:19:52,533 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:19:52,662 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 23:19:55,736 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 23:20:01,681 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 23:20:01,691 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:20:01,696 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:01,697 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:01,698 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:01,699 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:01,700 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:02,538 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 23:20:02,538 [Domain.CLog4net] 选取箱子：36
+INFO  2015-05-12 23:20:03,053 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 23:20:03,717 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 23:20:14,261 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 23:20:15,219 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431444002}
+
+INFO  2015-05-12 23:20:15,507 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 23:20:15,508 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:20:15,549 [Domain.CLog4net] update box set idle='0',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:46ms
+INFO  2015-05-12 23:20:15,549 [Domain.CLog4net] 使用箱子：36 True
+INFO  2015-05-12 23:20:15,607 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1111','13705830170','13705830170','36','1','2015/5/12 23:20:15','0001/1/1 0:00:00','0','') 执行结束:47ms
+INFO  2015-05-12 23:20:15,650 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1111','13705830170','13705830170','36','2015/5/12 23:20:15','0','') 执行结束:47ms
+INFO  2015-05-12 23:20:15,650 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 23:20:15,650 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 23:20:15,655 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 23:20:16,267 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:20:16,286 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:16,287 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:16,288 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:16,288 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:16,289 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:20:19,068 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 23:20:19,392 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:20:22,401 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:20:25,406 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:20:28,416 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'36',code:'1917978ccf204aa0882f62bf51659847', message: '查询到开箱指令'}
+
+INFO  2015-05-12 23:20:28,417 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:20:28,706 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 23:20:28,706 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 23:20:28,752 [Domain.CLog4net] update box set idle='1',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:47ms
+INFO  2015-05-12 23:20:28,752 [Domain.CLog4net] 清空箱子：36 True
+INFO  2015-05-12 23:20:28,782 [Domain.CLog4net] delete from package where packageCode='1111' 执行结束:31ms
+INFO  2015-05-12 23:20:28,841 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1111','13705830170','13705830170','36','2015/5/12 23:20:28','0','0','') 执行结束:63ms
+INFO  2015-05-12 23:20:28,841 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 23:21:51,719 [Domain.CLog4net] System starting！
+INFO  2015-05-12 23:21:51,880 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 23:21:52,187 [Domain.CLog4net] Select * from about 执行结束:202ms
+INFO  2015-05-12 23:21:52,189 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 23:21:52,244 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-12 23:21:52,276 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 23:21:52,276 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 23:21:52,334 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-05-12 23:21:52,336 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 23:21:52,392 [Domain.CLog4net] Select * from package where taken='1' 执行结束:16ms
+INFO  2015-05-12 23:21:52,392 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 23:21:52,443 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 23:21:52,628 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 23:21:53,368 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431444100}
+
+INFO  2015-05-12 23:21:53,594 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:21:53,924 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:21:54,046 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 23:21:56,003 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 23:22:05,827 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 23:22:08,589 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 23:22:11,076 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 23:22:11,087 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:22:11,090 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:22:11,091 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:22:11,091 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:22:11,092 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:22:11,093 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:22:12,982 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 23:22:12,983 [Domain.CLog4net] 选取箱子：36
+INFO  2015-05-12 23:22:13,511 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 23:22:14,934 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 23:22:18,954 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 23:22:20,019 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431444126}
+
+INFO  2015-05-12 23:22:20,308 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 23:22:20,309 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:22:20,342 [Domain.CLog4net] update box set idle='0',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:32ms
+INFO  2015-05-12 23:22:20,343 [Domain.CLog4net] 使用箱子：36 True
+INFO  2015-05-12 23:22:20,389 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1111','13705830170','13705830170','36','1','2015/5/12 23:22:20','0001/1/1 0:00:00','0','') 执行结束:31ms
+INFO  2015-05-12 23:22:20,417 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1111','13705830170','13705830170','36','2015/5/12 23:22:20','0','') 执行结束:32ms
+INFO  2015-05-12 23:22:20,418 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 23:22:20,418 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 23:22:20,425 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 23:22:29,446 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 23:22:29,766 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:22:32,767 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:22:35,766 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:22:38,774 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:22:41,793 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'36',code:'cfb6696d51a044f5841a31037d145a8c', message: '查询到开箱指令'}
+
+INFO  2015-05-12 23:22:41,795 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:22:42,080 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 23:22:42,081 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 23:22:42,109 [Domain.CLog4net] update box set idle='1',locationX='4',locationY='9',remark='',size='2',state='1' where code=36 执行结束:16ms
+INFO  2015-05-12 23:22:42,109 [Domain.CLog4net] 清空箱子：36 True
+INFO  2015-05-12 23:22:42,139 [Domain.CLog4net] delete from package where packageCode='1111' 执行结束:16ms
+INFO  2015-05-12 23:22:42,197 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1111','13705830170','13705830170','36','2015/5/12 23:22:42','0','0','') 执行结束:46ms
+INFO  2015-05-12 23:22:42,197 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 23:24:37,669 [Domain.CLog4net] System starting！
+INFO  2015-05-12 23:24:37,789 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-12 23:24:38,100 [Domain.CLog4net] Select * from about 执行结束:203ms
+INFO  2015-05-12 23:24:38,102 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-12 23:24:38,165 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-05-12 23:24:38,220 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-12 23:24:38,220 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-12 23:24:38,277 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-12 23:24:38,278 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-12 23:24:38,333 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-12 23:24:38,333 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-12 23:24:38,384 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-12 23:24:38,674 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 23:24:39,409 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431444266}
+
+INFO  2015-05-12 23:24:39,635 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:24:39,968 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周二 05月12日 (实时：16℃),今天天气晴,西南风3-4级,14℃。天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。'}
+
+INFO  2015-05-12 23:24:40,097 [Domain.CLog4net] 启动完成
+INFO  2015-05-12 23:24:43,293 [Domain.CLog4net] 点击寄件，进入输入账号界面
+INFO  2015-05-12 23:24:50,756 [Domain.CLog4net] 服务器连接：{success:true,message:'',companyName:'德瑞纳'}
+
+INFO  2015-05-12 23:24:50,768 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:24:50,778 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:24:50,779 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:24:50,779 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:24:50,781 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:16ms
+INFO  2015-05-12 23:24:50,781 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:24:52,030 [Domain.CLog4net] SELECT * FROM box where size=2 and idle=1 and state!=2 order by rand() limit 1 执行结束:0ms
+INFO  2015-05-12 23:24:52,030 [Domain.CLog4net] 选取箱子：27
+INFO  2015-05-12 23:24:52,998 [Domain.CLog4net] 进入确认智能柜界面
+INFO  2015-05-12 23:24:53,770 [Domain.CLog4net] 点击寄件，进入输快递单号和手机号界面
+INFO  2015-05-12 23:25:01,011 [Domain.CLog4net] 点击寄件，进入确认快递信息界面
+INFO  2015-05-12 23:25:02,012 [Domain.CLog4net] 服务器连接：{success:true,servertime:1431444288}
+
+INFO  2015-05-12 23:25:02,291 [Domain.CLog4net] 服务器连接：{success:true,message:''}
+
+INFO  2015-05-12 23:25:02,292 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:25:02,324 [Domain.CLog4net] update box set idle='0',locationX='3',locationY='9',remark='',size='2',state='1' where code=27 执行结束:31ms
+INFO  2015-05-12 23:25:02,324 [Domain.CLog4net] 使用箱子：27 True
+INFO  2015-05-12 23:25:02,382 [Domain.CLog4net] insert into package (packageCode,courierCode,receiverTelNum,boxCode,taken,createdTime,deletedTime,receiverIdentity,remark) values('1111','13705830170','13705830170','27','1','2015/5/12 23:25:02','0001/1/1 0:00:00','0','') 执行结束:47ms
+INFO  2015-05-12 23:25:02,412 [Domain.CLog4net] insert into deliverLog (packageCode,courierCode,receiverTelNum,boxCode,createdTime,serverSaved,remark) values('1111','13705830170','13705830170','27','2015/5/12 23:25:02','0','') 执行结束:31ms
+INFO  2015-05-12 23:25:02,412 [Domain.CLog4net] 包裹创建数据库更新:savePackage True updatePackage False updateBox False saveDeliverLog True
+INFO  2015-05-12 23:25:02,412 [Domain.CLog4net] 创建包裹成功
+INFO  2015-05-12 23:25:02,417 [Domain.CLog4net] 点击寄件，进入完成工作界面
+INFO  2015-05-12 23:25:03,108 [Domain.CLog4net] 进入选择智能柜界面
+INFO  2015-05-12 23:25:03,127 [Domain.CLog4net] SELECT count(*) FROM box where size=0 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:25:03,128 [Domain.CLog4net] SELECT count(*) FROM box where size=1 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:25:03,128 [Domain.CLog4net] SELECT count(*) FROM box where size=2 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:25:03,129 [Domain.CLog4net] SELECT count(*) FROM box where size=3 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:25:03,129 [Domain.CLog4net] SELECT count(*) FROM box where size=4 and idle=1 and state!=2 执行结束:0ms
+INFO  2015-05-12 23:25:12,240 [Domain.CLog4net] 点击取件，进入输入验证码界面
+INFO  2015-05-12 23:25:12,550 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:15,554 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:18,570 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:21,573 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:24,587 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:27,592 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:30,614 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:33,610 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:36,641 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:39,649 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:42,662 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:45,665 [Domain.CLog4net] 服务器连接：{hasOpenOrder:false,boxnumber:'',code:'', message: '没有开箱指令'}
+
+INFO  2015-05-12 23:25:48,678 [Domain.CLog4net] 服务器连接：{hasOpenOrder:true,boxnumber:'27',code:'d6b72b5116cc402ba605e078fa69f549', message: '查询到开箱指令'}
+
+INFO  2015-05-12 23:25:48,681 [Domain.CLog4net] 拍照是否成功：False
+INFO  2015-05-12 23:25:48,967 [Domain.CLog4net] 服务器连接：{received:true}
+
+INFO  2015-05-12 23:25:48,967 [Domain.CLog4net] 取件成功
+INFO  2015-05-12 23:25:49,004 [Domain.CLog4net] update box set idle='1',locationX='3',locationY='9',remark='',size='2',state='1' where code=27 执行结束:32ms
+INFO  2015-05-12 23:25:49,004 [Domain.CLog4net] 清空箱子：27 True
+INFO  2015-05-12 23:25:49,032 [Domain.CLog4net] delete from package where packageCode='1111' 执行结束:31ms
+INFO  2015-05-12 23:25:49,091 [Domain.CLog4net] insert into pickuplog (packageCode,courierCode,receiverTelNum,boxCode,deletedTime,receiverIdentity,serverSaved,remark) values('1111','13705830170','13705830170','27','2015/5/12 23:25:49','0','0','') 执行结束:47ms
+INFO  2015-05-12 23:25:49,091 [Domain.CLog4net] 包裹取出数据库更新：updateBox False deletePackage True savePickUpLog True
+INFO  2015-05-12 23:26:02,526 [Domain.CLog4net] System starting！
+ERROR 2015-05-12 23:26:02,563 [Domain.CLog4net] LoadingSystem:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SC.View2.FrmLoading.LoadingSystem() 位置 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\FrmLoading.cs:行号 40
+ERROR 2015-05-12 23:26:02,577 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-12 23:26:02,905 [Domain.CLog4net] 启动完成

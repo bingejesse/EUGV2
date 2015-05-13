@@ -42,7 +42,7 @@
             this.buttonNext.Location = new System.Drawing.Point(63, 203);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(236, 242);
-            this.buttonNext.TabIndex = 3;
+            this.buttonNext.TabIndex = 0;
             this.buttonNext.Text = "已存入快递\r\n，继续输入快递单号和收件人手机号码";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -52,7 +52,7 @@
             this.buttonPrevious.Location = new System.Drawing.Point(392, 203);
             this.buttonPrevious.Name = "buttonPrevious";
             this.buttonPrevious.Size = new System.Drawing.Size(236, 242);
-            this.buttonPrevious.TabIndex = 4;
+            this.buttonPrevious.TabIndex = 1;
             this.buttonPrevious.Text = "重新选择合适的箱子";
             this.buttonPrevious.UseVisualStyleBackColor = true;
             this.buttonPrevious.Click += new System.EventHandler(this.buttonPrevious_Click);
@@ -62,7 +62,7 @@
             this.buttonCancel.Location = new System.Drawing.Point(721, 203);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(236, 242);
-            this.buttonCancel.TabIndex = 5;
+            this.buttonCancel.TabIndex = 2;
             this.buttonCancel.Text = "取消存件";
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
