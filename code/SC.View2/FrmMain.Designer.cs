@@ -31,19 +31,19 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.panelButtom = new System.Windows.Forms.Panel();
-            this.panelBR = new System.Windows.Forms.Panel();
-            this.labelTel = new System.Windows.Forms.Label();
-            this.panelQR = new System.Windows.Forms.Panel();
+            this.panelBLeft = new System.Windows.Forms.Panel();
             this.labelScenesMessage = new System.Windows.Forms.Label();
             this.labelCountdown = new System.Windows.Forms.Label();
             this.labelMessage = new System.Windows.Forms.Label();
+            this.panelBR = new System.Windows.Forms.Panel();
+            this.labelTel = new System.Windows.Forms.Label();
+            this.panelQR = new System.Windows.Forms.Panel();
             this.panelCenter = new System.Windows.Forms.Panel();
             this.timerSceneInfo = new System.Windows.Forms.Timer(this.components);
             this.timerMain = new System.Windows.Forms.Timer(this.components);
-            this.panelBLeft = new System.Windows.Forms.Panel();
             this.panelButtom.SuspendLayout();
-            this.panelBR.SuspendLayout();
             this.panelBLeft.SuspendLayout();
+            this.panelBR.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelButtom
@@ -58,35 +58,16 @@
             this.panelButtom.Size = new System.Drawing.Size(1024, 100);
             this.panelButtom.TabIndex = 0;
             // 
-            // panelBR
+            // panelBLeft
             // 
-            this.panelBR.Controls.Add(this.labelTel);
-            this.panelBR.Controls.Add(this.panelQR);
-            this.panelBR.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelBR.Location = new System.Drawing.Point(792, 0);
-            this.panelBR.Name = "panelBR";
-            this.panelBR.Size = new System.Drawing.Size(230, 98);
-            this.panelBR.TabIndex = 4;
-            // 
-            // labelTel
-            // 
-            this.labelTel.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelTel.Location = new System.Drawing.Point(3, 16);
-            this.labelTel.Name = "labelTel";
-            this.labelTel.Size = new System.Drawing.Size(138, 32);
-            this.labelTel.TabIndex = 3;
-            this.labelTel.Text = "13705830170";
-            this.labelTel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // panelQR
-            // 
-            this.panelQR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelQR.BackgroundImage")));
-            this.panelQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelQR.Location = new System.Drawing.Point(147, 9);
-            this.panelQR.Name = "panelQR";
-            this.panelQR.Size = new System.Drawing.Size(80, 80);
-            this.panelQR.TabIndex = 2;
-            this.panelQR.Click += new System.EventHandler(this.panelQR_Click);
+            this.panelBLeft.Controls.Add(this.labelScenesMessage);
+            this.panelBLeft.Controls.Add(this.labelCountdown);
+            this.panelBLeft.Controls.Add(this.labelMessage);
+            this.panelBLeft.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelBLeft.Name = "panelBLeft";
+            this.panelBLeft.Size = new System.Drawing.Size(792, 98);
+            this.panelBLeft.TabIndex = 0;
             // 
             // labelScenesMessage
             // 
@@ -122,8 +103,39 @@
             this.labelMessage.Text = "天气预报。。。。天气预报。。。。天气预报。。。。天气预报。。。。";
             this.labelMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panelBR
+            // 
+            this.panelBR.Controls.Add(this.labelTel);
+            this.panelBR.Controls.Add(this.panelQR);
+            this.panelBR.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelBR.Location = new System.Drawing.Point(792, 0);
+            this.panelBR.Name = "panelBR";
+            this.panelBR.Size = new System.Drawing.Size(230, 98);
+            this.panelBR.TabIndex = 4;
+            // 
+            // labelTel
+            // 
+            this.labelTel.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelTel.Location = new System.Drawing.Point(3, 16);
+            this.labelTel.Name = "labelTel";
+            this.labelTel.Size = new System.Drawing.Size(138, 32);
+            this.labelTel.TabIndex = 3;
+            this.labelTel.Text = "13705830170";
+            this.labelTel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panelQR
+            // 
+            this.panelQR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelQR.BackgroundImage")));
+            this.panelQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelQR.Location = new System.Drawing.Point(147, 9);
+            this.panelQR.Name = "panelQR";
+            this.panelQR.Size = new System.Drawing.Size(80, 80);
+            this.panelQR.TabIndex = 2;
+            this.panelQR.Click += new System.EventHandler(this.panelQR_Click);
+            // 
             // panelCenter
             // 
+            this.panelCenter.BackColor = System.Drawing.Color.Transparent;
             this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenter.Location = new System.Drawing.Point(0, 0);
             this.panelCenter.Name = "panelCenter";
@@ -139,17 +151,6 @@
             // 
             this.timerMain.Tick += new System.EventHandler(this.timerMain_Tick);
             // 
-            // panelBLeft
-            // 
-            this.panelBLeft.Controls.Add(this.labelScenesMessage);
-            this.panelBLeft.Controls.Add(this.labelCountdown);
-            this.panelBLeft.Controls.Add(this.labelMessage);
-            this.panelBLeft.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBLeft.Location = new System.Drawing.Point(0, 0);
-            this.panelBLeft.Name = "panelBLeft";
-            this.panelBLeft.Size = new System.Drawing.Size(792, 98);
-            this.panelBLeft.TabIndex = 0;
-            // 
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -163,9 +164,9 @@
             this.Text = "主页";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.panelButtom.ResumeLayout(false);
-            this.panelBR.ResumeLayout(false);
             this.panelBLeft.ResumeLayout(false);
             this.panelBLeft.PerformLayout();
+            this.panelBR.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

@@ -88,10 +88,13 @@ namespace SC.View2
         private static void Draw3DBorder(Graphics g, Rectangle bounds, Brush light, Brush dark)
         {
             int borderSize = 1;
-            g.FillRectangle(light, new Rectangle(bounds.Left, bounds.Top, bounds.Width, borderSize));
-            g.FillRectangle(light, new Rectangle(bounds.Left, bounds.Top, borderSize, bounds.Height));
-            g.FillRectangle(dark, new Rectangle(bounds.Left, bounds.Bottom - borderSize, bounds.Width, borderSize));
-            g.FillRectangle(dark, new Rectangle(bounds.Right - borderSize, bounds.Top, borderSize, bounds.Height));
+            Pen lpen = new Pen(light, borderSize);
+            Pen dpen = new Pen(dark, borderSize * 2);
+            g.DrawRectangle(lpen, bounds);
+            g.DrawLine(lpen, bounds.Left, bounds.Top, bounds.Right, bounds.Top);
+            g.DrawLine(lpen, bounds.Left, bounds.Top, bounds.Left, bounds.Bottom);
+            g.DrawLine(dpen, bounds.Right, bounds.Bottom, bounds.Left, bounds.Bottom);
+            g.DrawLine(dpen, bounds.Right, bounds.Bottom, bounds.Right, bounds.Top);
         }
 
     }

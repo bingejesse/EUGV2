@@ -188,6 +188,7 @@
     <Content Include="Storage\dll\DotNetSpeech.dll" />
     <Content Include="Storage\dll\Newtonsoft.Json.dll" />
     <Content Include="Storage\dll\System.Speech.dll" />
+    <Content Include="UIResource\1024X768\背景.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

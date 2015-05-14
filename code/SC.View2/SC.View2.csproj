@@ -397,7 +397,9 @@
       <Name>SC.Database</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="configInfo\logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

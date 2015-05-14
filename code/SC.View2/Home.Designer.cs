@@ -50,12 +50,18 @@
             // 
             // buttonCustomer
             // 
+            this.buttonCustomer.BackColor = System.Drawing.Color.Transparent;
+            this.buttonCustomer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonCustomer.FlatAppearance.BorderSize = 0;
+            this.buttonCustomer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonCustomer.ForeColor = System.Drawing.SystemColors.ControlText;
             this.buttonCustomer.Location = new System.Drawing.Point(226, 513);
             this.buttonCustomer.Name = "buttonCustomer";
             this.buttonCustomer.Size = new System.Drawing.Size(214, 105);
             this.buttonCustomer.TabIndex = 0;
             this.buttonCustomer.Text = "我是业主";
-            this.buttonCustomer.UseVisualStyleBackColor = true;
+            this.buttonCustomer.UseVisualStyleBackColor = false;
             this.buttonCustomer.Click += new System.EventHandler(this.buttonCustomer_Click);
             // 
             // panelPicture
