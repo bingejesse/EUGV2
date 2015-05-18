@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using DareneExpressCabinetClient.Resource;
 using Domain;
+using System.Diagnostics;
 
 namespace SC.View2
 {
@@ -126,10 +127,9 @@ namespace SC.View2
         }
 
         #region 更新
-        private bool isUpdateing = false;
         public void CheckUpdate()
         {
-            if (this.isUpdateing == true)
+            if (backgroundWorkerUpdate.IsBusy)
             {
                 return;
             }
@@ -141,7 +141,6 @@ namespace SC.View2
                 {
                     if (MessageBox.Show("检查到新版本，是否下载更新包？", "Update", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
-                        this.isUpdateing = true;
                         this.circularProgressUpdate.Visible = true;
                         this.circularProgressUpdate.IsRunning = true;
 
@@ -171,15 +170,58 @@ namespace SC.View2
         {
             this.circularProgressUpdate.Visible = false;
             this.circularProgressUpdate.IsRunning = false;
-            this.isUpdateing = false;
             MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //if (MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+            //{
+            //    RunUpdate();
+            //}
         }
+
+        private void RunUpdate()
+        {
+            try
+            {
+                string filename = Application.ExecutablePath + @"\Debug_SC.View2.msi";
+
+
+                foreach (Process p in Process.GetProcesses())
+                {
+                    if (p.ProcessName.ToLower().StartsWith("uccompanion"))
+                    {
+                        if (MessageBox.Show("UCCompanion正在运行，是否关闭当前程序安装更新？", "安装UCCompanion", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                        {
+                            p.Kill();
+                            Process.Start(filename);
+                        }
+                        else
+                        {
+                            MessageBox.Show("UCCompanion下载完成，将在下次启动时提醒更新！");
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                this.frmMain.Close();
+            }
+        }
+
         #endregion
 
         private void password_Click(object sender, EventArgs e)
         {
             CLog4net.LogInfo("点击修改密码");
             new FrmPassword().ShowDialog();
+        }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            this.frmMain.SceneTransit(Roster.Home);
         }
     }
 }

@@ -41,6 +41,7 @@
             this.panelCenter = new System.Windows.Forms.Panel();
             this.timerSceneInfo = new System.Windows.Forms.Timer(this.components);
             this.timerMain = new System.Windows.Forms.Timer(this.components);
+            this.labelUrl = new System.Windows.Forms.Label();
             this.panelButtom.SuspendLayout();
             this.panelBLeft.SuspendLayout();
             this.panelBR.SuspendLayout();
@@ -66,7 +67,7 @@
             this.panelBLeft.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBLeft.Location = new System.Drawing.Point(0, 0);
             this.panelBLeft.Name = "panelBLeft";
-            this.panelBLeft.Size = new System.Drawing.Size(792, 98);
+            this.panelBLeft.Size = new System.Drawing.Size(622, 98);
             this.panelBLeft.TabIndex = 0;
             // 
             // labelScenesMessage
@@ -105,20 +106,21 @@
             // 
             // panelBR
             // 
+            this.panelBR.Controls.Add(this.labelUrl);
             this.panelBR.Controls.Add(this.labelTel);
             this.panelBR.Controls.Add(this.panelQR);
             this.panelBR.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelBR.Location = new System.Drawing.Point(792, 0);
+            this.panelBR.Location = new System.Drawing.Point(622, 0);
             this.panelBR.Name = "panelBR";
-            this.panelBR.Size = new System.Drawing.Size(230, 98);
+            this.panelBR.Size = new System.Drawing.Size(400, 98);
             this.panelBR.TabIndex = 4;
             // 
             // labelTel
             // 
             this.labelTel.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelTel.Location = new System.Drawing.Point(3, 16);
+            this.labelTel.Location = new System.Drawing.Point(17, 3);
             this.labelTel.Name = "labelTel";
-            this.labelTel.Size = new System.Drawing.Size(138, 32);
+            this.labelTel.Size = new System.Drawing.Size(291, 26);
             this.labelTel.TabIndex = 3;
             this.labelTel.Text = "13705830170";
             this.labelTel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -127,7 +129,7 @@
             // 
             this.panelQR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelQR.BackgroundImage")));
             this.panelQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelQR.Location = new System.Drawing.Point(147, 9);
+            this.panelQR.Location = new System.Drawing.Point(314, 9);
             this.panelQR.Name = "panelQR";
             this.panelQR.Size = new System.Drawing.Size(80, 80);
             this.panelQR.TabIndex = 2;
@@ -150,6 +152,18 @@
             // timerMain
             // 
             this.timerMain.Tick += new System.EventHandler(this.timerMain_Tick);
+            // 
+            // labelUrl
+            // 
+            this.labelUrl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelUrl.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelUrl.Location = new System.Drawing.Point(17, 31);
+            this.labelUrl.Name = "labelUrl";
+            this.labelUrl.Size = new System.Drawing.Size(291, 26);
+            this.labelUrl.TabIndex = 4;
+            this.labelUrl.Text = "www.darene.cn";
+            this.labelUrl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // FrmMain
             // 
@@ -184,6 +198,7 @@
         private System.Windows.Forms.Panel panelBR;
         private System.Windows.Forms.Label labelTel;
         private System.Windows.Forms.Panel panelBLeft;
+        private System.Windows.Forms.Label labelUrl;
     }
 }
 

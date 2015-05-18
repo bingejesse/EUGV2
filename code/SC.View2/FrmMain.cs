@@ -147,14 +147,14 @@ namespace SC.View2
                 labelCountdown.Visible = true;
                 labelScenesMessage.Visible = true;
                 labelMessage.Visible = false;
-
-                this.cameraService.Close();
             }
             else
             {
                 labelMessage.Visible = true;
                 labelCountdown.Visible = false;
                 labelScenesMessage.Visible = false;
+
+                this.cameraService.Close();
             }
 
             if (this.scenesKey == Roster.P_ControlPanel 
@@ -174,6 +174,10 @@ namespace SC.View2
             SetStyle(ControlStyles.AllPaintingInWmPaint, true);
             SetStyle(ControlStyles.DoubleBuffer, true);
             SetStyle(ControlStyles.UserPaint, true);
+
+            IniConfigManager ini = new IniConfigManager();
+            this.labelTel.Text = ini.GetAboutTel();
+            this.labelUrl.Text = ini.GetAboutUrl();
         }
 
         private void RunOnce()

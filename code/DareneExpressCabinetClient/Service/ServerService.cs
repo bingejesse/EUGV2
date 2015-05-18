@@ -100,6 +100,17 @@ namespace DareneExpressCabinetClient.Service
         /// <param name="about"></param>
         /// <returns></returns>
         ServerCallback3 ManagerDeletePackage(string boxCode, About about);
+
+        /// <summary>
+        /// 同步指令
+        /// </summary>
+        /// <param name="pack"></param>
+        /// <param name="about"></param>
+        /// <returns></returns>
+        //ServerCallback3 SyncPackState(Package pack, About about);
+
+
+
     }
 
     public class ServerCallback

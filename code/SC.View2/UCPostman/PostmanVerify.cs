@@ -45,6 +45,7 @@ namespace SC.View2
 
         private void buttonNext_Click(object sender, EventArgs e)
         {
+
             if (Verify())
             {
                 if (actionKey == "deliver")
