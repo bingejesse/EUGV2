@@ -53,6 +53,10 @@
       <HintPath>Storage\dll\DotNetSpeech.dll</HintPath>
       <Aliases>global</Aliases>
     </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Storage\dll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Storage\dll\Newtonsoft.Json.dll</HintPath>
@@ -142,6 +146,7 @@
     <Compile Include="Tools\VGuangQR.cs" />
     <Compile Include="Tools\WebServiceCall.cs" />
     <Compile Include="Tools\XmlHelper.cs" />
+    <Compile Include="Tools\ZipFileController.cs" />
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +194,7 @@
     <Content Include="Storage\dll\AForge.Video.DirectShow.dll" />
     <Content Include="Storage\dll\AForge.Video.dll" />
     <Content Include="Storage\dll\DotNetSpeech.dll" />
+    <Content Include="Storage\dll\ICSharpCode.SharpZipLib.dll" />
     <Content Include="Storage\dll\Newtonsoft.Json.dll" />
     <Content Include="Storage\dll\System.Speech.dll" />
     <Content Include="UIResource\1024X768\背景.png" />

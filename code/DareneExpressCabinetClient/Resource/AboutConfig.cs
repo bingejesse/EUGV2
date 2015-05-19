@@ -26,7 +26,7 @@ namespace DareneExpressCabinetClient.Resource
                 CLog4net.LogError("AboutConfig null");
             }
             this.WriteConfig();
-
+            this.WriteInstallationDirectory();
             CLog4net.LogInfo("AboutConfig is loaded");
         }
 
@@ -78,6 +78,39 @@ namespace DareneExpressCabinetClient.Resource
                     FileStream fs = new FileStream(configFile, FileMode.Open, FileAccess.Write);
                     StreamWriter sw = new StreamWriter(fs);
                     sw.WriteLine(this.about.CabinetCode);//开始写入值
+                    sw.Close();
+                    fs.Close();
+                }
+            }
+            catch (Exception e)
+            {
+                CLog4net.LogError("WriteConfig:" + e);
+            }
+        }
+
+
+        /// <summary>
+        /// 记录安装目录
+        /// </summary>
+        private void WriteInstallationDirectory()
+        {
+            try
+            {
+                string file = "d:/eug.txt";
+                if (!File.Exists(file))
+                {
+                    FileStream fs = new FileStream(file, FileMode.Create, FileAccess.Write);//创建写入文件 
+                    StreamWriter sw = new StreamWriter(fs);
+                    sw.WriteLine(GetPath.GetCurrentDirectory());//开始写入值
+                    sw.Close();
+                    fs.Close();
+                }
+                else
+                {
+                    File.WriteAllText(file, string.Empty);
+                    FileStream fs = new FileStream(file, FileMode.Open, FileAccess.Write);
+                    StreamWriter sw = new StreamWriter(fs);
+                    sw.WriteLine(GetPath.GetCurrentDirectory());//开始写入值
                     sw.Close();
                     fs.Close();
                 }

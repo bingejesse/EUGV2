@@ -610,3 +610,4 @@ D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\obj\x86\Debug\Generat
 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.exe
 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\obj\x86\Debug\DareneExpressCabinetClient.pdb
+D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\bin\Debug\ICSharpCode.SharpZipLib.dll
