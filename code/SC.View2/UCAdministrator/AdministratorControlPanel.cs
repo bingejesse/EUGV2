@@ -170,36 +170,23 @@ namespace SC.View2
         {
             this.circularProgressUpdate.Visible = false;
             this.circularProgressUpdate.IsRunning = false;
-            MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //if (MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
-            //{
-            //    RunUpdate();
-            //}
+            //MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+            {
+                RunUpdate();
+            }
         }
 
         private void RunUpdate()
         {
             try
             {
-                string filename = Application.ExecutablePath + @"\Debug_SC.View2.msi";
+                IniConfigManager ini = new IniConfigManager();
+                string updatePath = ini.GetUpdateAppPath();
+                string parm = updatePath +"/"+AboutConfig.appName+".txt"+ ";SC.View2";
+                string updateApp = ini.GetUpdateAppName();
 
-
-                foreach (Process p in Process.GetProcesses())
-                {
-                    if (p.ProcessName.ToLower().StartsWith("uccompanion"))
-                    {
-                        if (MessageBox.Show("UCCompanion正在运行，是否关闭当前程序安装更新？", "安装UCCompanion", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                        {
-                            p.Kill();
-                            Process.Start(filename);
-                        }
-                        else
-                        {
-                            MessageBox.Show("UCCompanion下载完成，将在下次启动时提醒更新！");
-                        }
-                    }
-                }
-
+                StartApp(updatePath, "SC.Update", parm);
             }
             catch (Exception ex)
             {
@@ -207,7 +194,34 @@ namespace SC.View2
             }
             finally
             {
-                this.frmMain.Close();
+                //this.frmMain.Close();
+            }
+        }
+
+        private void StartApp(string appPath,string appName,string parm)
+        {
+            try
+            {
+                Console.WriteLine("cmd start");
+                Process cmd = new Process();
+                cmd.StartInfo.FileName = "cmd";
+                cmd.StartInfo.Arguments = parm;
+                cmd.StartInfo.UseShellExecute = false;
+                cmd.StartInfo.RedirectStandardInput = true;
+                cmd.StartInfo.RedirectStandardOutput = true;
+                cmd.StartInfo.CreateNoWindow = true;
+                cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+
+                cmd.Start();
+                cmd.StandardInput.WriteLine("cd " + appPath);
+                cmd.StandardInput.WriteLine(appName);
+
+                cmd.Close();
+                Console.WriteLine("cmd close");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
             }
         }
 

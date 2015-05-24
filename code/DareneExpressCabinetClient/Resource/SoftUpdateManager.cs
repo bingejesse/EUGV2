@@ -108,6 +108,7 @@ namespace DareneExpressCabinetClient.Resource
                     return;
 
                 WebClient wc = new WebClient();
+
                 string filename = "";
                 string exten = download.Substring(download.LastIndexOf("."));
                 if (loadFile.IndexOf(@"\") == -1)
@@ -115,10 +116,12 @@ namespace DareneExpressCabinetClient.Resource
                 else
                     filename = Path.GetDirectoryName(loadFile) + "_" + Path.GetFileNameWithoutExtension(loadFile) + exten;
 
+                //IniConfigManager ini = new IniConfigManager();
+                //filename = ini.GetUpdateAppPath() + "/" + Path.GetFileNameWithoutExtension(loadFile) + exten;
+
                 wc.DownloadFile(download, filename);
                 wc.Dispose();
                 isFinish();
-
             }
             catch(Exception ex)
             {

@@ -243,5 +243,37 @@ namespace DareneExpressCabinetClient.Resource
             return result;
         }
         #endregion
+
+        #region UpdateApp
+        public string GetUpdateAppPath()
+        {
+            string result = "";
+            try
+            {
+                result = this.iniFileController.IniReadValue("UpdateApp", "Path");
+            }
+            catch (Exception e)
+            {
+                CLog4net.LogError(e);
+            }
+
+            return result;
+        }
+
+        public string GetUpdateAppName()
+        {
+            string result = "";
+            try
+            {
+                result = this.iniFileController.IniReadValue("UpdateApp", "Name");
+            }
+            catch (Exception e)
+            {
+                CLog4net.LogError(e);
+            }
+
+            return result;
+        }
+        #endregion
     }
 }

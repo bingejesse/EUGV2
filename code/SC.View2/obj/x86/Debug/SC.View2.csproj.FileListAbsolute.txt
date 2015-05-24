@@ -215,4 +215,3 @@ D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\Domain.pdb
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\obj\x86\Debug\SC.View2.exe
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\obj\x86\Debug\SC.View2.pdb
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\obj\x86\Debug\SC.View2.FrmProgressbar.resources
-D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\ICSharpCode.SharpZipLib.dll

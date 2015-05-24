@@ -88,6 +88,7 @@ namespace DareneExpressCabinetClient.Resource
             }
         }
 
+        public const string appName = "SCSystem";
 
         /// <summary>
         /// 记录安装目录
@@ -96,12 +97,21 @@ namespace DareneExpressCabinetClient.Resource
         {
             try
             {
-                string file = "d:/eug.txt";
+                IniConfigManager ini = new IniConfigManager();
+                string path = ini.GetUpdateAppPath();
+                string file = path + "/" + appName + ".txt";
+
+                if (!Directory.Exists(path))
+                {
+                    // Create the directory it does not exist.
+                    Directory.CreateDirectory(path);
+                }
+
                 if (!File.Exists(file))
                 {
                     FileStream fs = new FileStream(file, FileMode.Create, FileAccess.Write);//创建写入文件 
                     StreamWriter sw = new StreamWriter(fs);
-                    sw.WriteLine(GetPath.GetCurrentDirectory());//开始写入值
+                    sw.Write(GetPath.GetCurrentDirectory());//开始写入值
                     sw.Close();
                     fs.Close();
                 }
@@ -110,7 +120,7 @@ namespace DareneExpressCabinetClient.Resource
                     File.WriteAllText(file, string.Empty);
                     FileStream fs = new FileStream(file, FileMode.Open, FileAccess.Write);
                     StreamWriter sw = new StreamWriter(fs);
-                    sw.WriteLine(GetPath.GetCurrentDirectory());//开始写入值
+                    sw.Write(GetPath.GetCurrentDirectory());//开始写入值
                     sw.Close();
                     fs.Close();
                 }
