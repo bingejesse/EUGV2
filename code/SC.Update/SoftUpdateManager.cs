@@ -5,10 +5,8 @@ using System.Reflection;
 using System.IO;
 using System.Net;
 using System.Xml;
-using DareneExpressCabinetClient.Tools;
-using Domain;
 
-namespace DareneExpressCabinetClient.Resource
+namespace SC.Update
 {
     /// <summary>
     /// 更新完成触发的事件
@@ -24,26 +22,24 @@ namespace DareneExpressCabinetClient.Resource
         private string updateUrl;
 
         #region 构造函数
-        public SoftUpdateManager()
-        {
-            IniConfigManager ini = new IniConfigManager();
-            updateUrl=ini.GetServerUpdateURL();
-        }
 
         /// <summary>
         /// 程序更新
         /// </summary>
         /// <param name="file">要更新的文件</param>
-        public SoftUpdateManager(string file, string softName):this()
+        public SoftUpdateManager(string file, string softName,string url,string version)
         {
+            this.updateUrl = url;
             this.LoadFile = file;
             this.SoftName = softName;
+            this.oldVersion = version;
         }
         #endregion
 
         #region 属性
         private string loadFile;
         private string newVerson;
+        private string oldVersion;
         private string softName;
         private bool isUpdate;
 
@@ -117,7 +113,7 @@ namespace DareneExpressCabinetClient.Resource
                 }
                 else
                 {
-                    filename = Path.GetDirectoryName(loadFile) + "_" + Path.GetFileNameWithoutExtension(loadFile) + exten;
+                    filename = Path.GetDirectoryName(loadFile) + "\\" + softName + exten;
                 }
 
                 //IniConfigManager ini = new IniConfigManager();
@@ -129,8 +125,7 @@ namespace DareneExpressCabinetClient.Resource
             }
             catch(Exception ex)
             {
-                System.Windows.Forms.MessageBox.Show("下载更新出现错误，请确认网络连接无误后重试！");
-                CLog4net.LogError("下载更新出现错误" + ex);
+                System.Console.WriteLine("下载更新出现错误，请确认网络连接无误后重试！");
             }
         }
 
@@ -161,7 +156,7 @@ namespace DareneExpressCabinetClient.Resource
                 }
 
                 Version ver = new Version(newVerson);
-                Version verson = Assembly.LoadFrom(loadFile).GetName().Version;
+                Version verson = new Version(oldVersion);
                 int tm = verson.CompareTo(ver);
 
                 if (tm >= 0)
@@ -171,8 +166,7 @@ namespace DareneExpressCabinetClient.Resource
             }
             catch (Exception ex)
             {
-                System.Windows.Forms.MessageBox.Show("检测更新出现错误，请确认网络连接无误后重试！");
-                CLog4net.LogError("检测更新出现错误" + ex);
+                System.Console.WriteLine("检测更新出现错误，请确认网络连接无误后重试！");
             }
         }
 

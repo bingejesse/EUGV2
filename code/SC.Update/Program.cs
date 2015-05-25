@@ -9,47 +9,39 @@ namespace SC.Update
 {
     class Program
     {
-        private static string appName = "SC.View2";
-        private static string eugText = "D:/SCUpdate/SCSystem.txt";
+        private static string appName = "SCSystem";
+        private static string appExe = "SC.View2";
 
         static void Main(string[] args)
         {
             try
             {
-                string parm = Convert.ToString(args[0]);
-                Console.WriteLine("1 " + parm);
-                eugText = parm.Split(';')[0];
-                appName = parm.Split(';')[1];
-                Console.WriteLine("2");
+                IniConfigManager ini = new IniConfigManager();
+                string appPath = ini.GetSCSystemPath();
+                string appVersion = ini.GetSCSystemVersion();
+                string serverUpdateURL = ini.GetServerUpdateURL();
+                SoftUpdateManager sofrUpdateManager = new SoftUpdateManager(appPath, appName, serverUpdateURL, appVersion);
+                if (sofrUpdateManager.IsUpdate == false)
+                {
+                    Console.WriteLine("App is the last version");
+                    return;
+                }
+
                 bool success = false;
-                SystemController sc = new SystemController();
+                Console.WriteLine("App is't the last version");
+                Console.WriteLine("zip file is downloading......");
+                sofrUpdateManager.Update();
+                Console.WriteLine("download success");
+                string updatePackage = Path.GetDirectoryName(appPath) + "\\" + appName + ".zip";
+                if (System.IO.File.Exists(updatePackage))
+                {
+                    success = ZipFileController.UNZipFile(updatePackage, Path.GetDirectoryName(appPath));
+                    Console.WriteLine("uncompress zip file : "+ success);
+                }
 
-                string filePath = sc.ReadEUGText(eugText);
-                //string updatePackage = filePath + "_" + appName + ".zip";
-                //Console.WriteLine("3 " + filePath + " " + updatePackage);
-                //if (filePath != "")
-                //{
-                //    if (CloseApp())
-                //    {
-                //        string targetPath = filePath;
-                //        Directory.SetCurrentDirectory(Directory.GetParent(targetPath).FullName);
-                //        targetPath = Directory.GetCurrentDirectory();
+                StartApp(appPath);
 
-                //        if (System.IO.File.Exists(updatePackage))
-                //        {
-                //            success = ZipFileController.UNZipFile(updatePackage, targetPath);
-                //        }
-                //    }
-                //}
-
-                //if (success)
-                //{
-                //    StartApp(filePath);
-                //}
-
-                StartApp(filePath);
-
-                Console.WriteLine("update is success:" + success);
+                Console.WriteLine("update is finished");
                 Console.Read();
             }
             catch (Exception e)
@@ -75,7 +67,6 @@ namespace SC.Update
                     return result;
                 }
             }
-            Console.WriteLine("4 " + appName);
             return false;
         }
 
@@ -97,7 +88,7 @@ namespace SC.Update
 
                 cmd.Start();
                 cmd.StandardInput.WriteLine("cd " + appPath);
-                cmd.StandardInput.WriteLine(appName + ".exe");
+                cmd.StandardInput.WriteLine(appExe + ".exe");
 
                 cmd.Close();
                 Console.WriteLine("cmd close");

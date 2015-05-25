@@ -170,11 +170,11 @@ namespace SC.View2
         {
             this.circularProgressUpdate.Visible = false;
             this.circularProgressUpdate.IsRunning = false;
-            //MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            if (MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
-            {
-                RunUpdate();
-            }
+            MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //if (MessageBox.Show("更新包已下载到程序安装目录，请退出系统并手动运行更新包！", "Update", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+            //{
+            //    RunUpdate();
+            //}
         }
 
         private void RunUpdate()
@@ -194,7 +194,7 @@ namespace SC.View2
             }
             finally
             {
-                //this.frmMain.Close();
+                this.frmMain.Close();
             }
         }
 

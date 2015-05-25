@@ -26,7 +26,7 @@ namespace DareneExpressCabinetClient.Resource
                 CLog4net.LogError("AboutConfig null");
             }
             this.WriteConfig();
-            this.WriteInstallationDirectory();
+            this.WriteAppInfo();
             CLog4net.LogInfo("AboutConfig is loaded");
         }
 
@@ -91,15 +91,17 @@ namespace DareneExpressCabinetClient.Resource
         public const string appName = "SCSystem";
 
         /// <summary>
-        /// 记录安装目录
+        /// 记录程序信息
         /// </summary>
-        private void WriteInstallationDirectory()
+        private void WriteAppInfo()
         {
             try
             {
                 IniConfigManager ini = new IniConfigManager();
                 string path = ini.GetUpdateAppPath();
-                string file = path + "/" + appName + ".txt";
+                string version = ini.GetAboutVersion();
+                string serverUpdateURL=ini.GetServerUpdateURL();
+                string file = path + "/" + appName + ".ini";
 
                 if (!Directory.Exists(path))
                 {
@@ -107,23 +109,10 @@ namespace DareneExpressCabinetClient.Resource
                     Directory.CreateDirectory(path);
                 }
 
-                if (!File.Exists(file))
-                {
-                    FileStream fs = new FileStream(file, FileMode.Create, FileAccess.Write);//创建写入文件 
-                    StreamWriter sw = new StreamWriter(fs);
-                    sw.Write(GetPath.GetCurrentDirectory());//开始写入值
-                    sw.Close();
-                    fs.Close();
-                }
-                else
-                {
-                    File.WriteAllText(file, string.Empty);
-                    FileStream fs = new FileStream(file, FileMode.Open, FileAccess.Write);
-                    StreamWriter sw = new StreamWriter(fs);
-                    sw.Write(GetPath.GetCurrentDirectory());//开始写入值
-                    sw.Close();
-                    fs.Close();
-                }
+                IniFileController iniFile = new IniFileController(file);
+                iniFile.IniWriteValue(appName, "Path", GetPath.GetCurrentDirectory());
+                iniFile.IniWriteValue(appName, "Version", version);
+                iniFile.IniWriteValue(appName, "UpdateURL", serverUpdateURL);
             }
             catch (Exception e)
             {
