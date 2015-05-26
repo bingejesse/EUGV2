@@ -28,81 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dataGridViewPG = new System.Windows.Forms.DataGridView();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pgcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonHome = new System.Windows.Forms.Button();
             this.buttonRefresh = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPG)).BeginInit();
+            this.panelWB = new System.Windows.Forms.Panel();
+            this.wb = new System.Windows.Forms.WebBrowser();
+            this.buttonNextPage = new System.Windows.Forms.Button();
+            this.buttonPreviousPage = new System.Windows.Forms.Button();
+            this.panelWB.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // dataGridViewPG
-            // 
-            this.dataGridViewPG.AllowUserToAddRows = false;
-            this.dataGridViewPG.AllowUserToDeleteRows = false;
-            this.dataGridViewPG.AllowUserToResizeColumns = false;
-            this.dataGridViewPG.AllowUserToResizeRows = false;
-            this.dataGridViewPG.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridViewPG.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            this.dataGridViewPG.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewPG.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridViewPG.ColumnHeadersHeight = 30;
-            this.dataGridViewPG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridViewPG.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Id,
-            this.pgcode,
-            this.dTime});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(128)))), ((int)(((byte)(120)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewPG.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridViewPG.GridColor = System.Drawing.Color.Silver;
-            this.dataGridViewPG.Location = new System.Drawing.Point(55, 132);
-            this.dataGridViewPG.MultiSelect = false;
-            this.dataGridViewPG.Name = "dataGridViewPG";
-            this.dataGridViewPG.ReadOnly = true;
-            this.dataGridViewPG.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dataGridViewPG.RowHeadersVisible = false;
-            this.dataGridViewPG.RowTemplate.Height = 23;
-            this.dataGridViewPG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewPG.Size = new System.Drawing.Size(910, 370);
-            this.dataGridViewPG.TabIndex = 1;
-            // 
-            // Id
-            // 
-            this.Id.HeaderText = "序列号";
-            this.Id.Name = "Id";
-            this.Id.ReadOnly = true;
-            // 
-            // pgcode
-            // 
-            this.pgcode.HeaderText = "快递单号";
-            this.pgcode.Name = "pgcode";
-            this.pgcode.ReadOnly = true;
-            // 
-            // dTime
-            // 
-            this.dTime.HeaderText = "存件时间";
-            this.dTime.Name = "dTime";
-            this.dTime.ReadOnly = true;
             // 
             // buttonHome
             // 
-            this.buttonHome.Location = new System.Drawing.Point(588, 544);
+            this.buttonHome.Location = new System.Drawing.Point(346, 572);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(161, 67);
             this.buttonHome.TabIndex = 1;
@@ -112,36 +49,81 @@
             // 
             // buttonRefresh
             // 
-            this.buttonRefresh.Location = new System.Drawing.Point(271, 544);
+            this.buttonRefresh.Location = new System.Drawing.Point(179, 572);
             this.buttonRefresh.Name = "buttonRefresh";
             this.buttonRefresh.Size = new System.Drawing.Size(161, 67);
             this.buttonRefresh.TabIndex = 0;
             this.buttonRefresh.Text = "刷新";
             this.buttonRefresh.UseVisualStyleBackColor = true;
+            this.buttonRefresh.Click += new System.EventHandler(this.buttonRefresh_Click);
+            // 
+            // panelWB
+            // 
+            this.panelWB.Controls.Add(this.wb);
+            this.panelWB.Location = new System.Drawing.Point(36, 121);
+            this.panelWB.Name = "panelWB";
+            this.panelWB.Size = new System.Drawing.Size(949, 422);
+            this.panelWB.TabIndex = 2;
+            // 
+            // wb
+            // 
+            this.wb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wb.Location = new System.Drawing.Point(0, 0);
+            this.wb.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wb.Name = "wb";
+            this.wb.Size = new System.Drawing.Size(949, 422);
+            this.wb.TabIndex = 0;
+            this.wb.TabStop = false;
+            this.wb.Url = new System.Uri("", System.UriKind.Relative);
+            this.wb.WebBrowserShortcutsEnabled = false;
+            // 
+            // buttonNextPage
+            // 
+            this.buttonNextPage.Location = new System.Drawing.Point(513, 572);
+            this.buttonNextPage.Name = "buttonNextPage";
+            this.buttonNextPage.Size = new System.Drawing.Size(161, 67);
+            this.buttonNextPage.TabIndex = 2;
+            this.buttonNextPage.Text = "下一页";
+            this.buttonNextPage.UseVisualStyleBackColor = true;
+            this.buttonNextPage.Click += new System.EventHandler(this.buttonNextPage_Click);
+            // 
+            // buttonPreviousPage
+            // 
+            this.buttonPreviousPage.Location = new System.Drawing.Point(680, 572);
+            this.buttonPreviousPage.Name = "buttonPreviousPage";
+            this.buttonPreviousPage.Size = new System.Drawing.Size(161, 67);
+            this.buttonPreviousPage.TabIndex = 3;
+            this.buttonPreviousPage.Text = "上一页";
+            this.buttonPreviousPage.UseVisualStyleBackColor = true;
+            this.buttonPreviousPage.Click += new System.EventHandler(this.buttonPreviousPage_Click);
             // 
             // PostmanSPGDelivered
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonPreviousPage);
+            this.Controls.Add(this.buttonNextPage);
+            this.Controls.Add(this.panelWB);
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.buttonRefresh);
-            this.Controls.Add(this.dataGridViewPG);
             this.Name = "PostmanSPGDelivered";
-            this.Controls.SetChildIndex(this.dataGridViewPG, 0);
             this.Controls.SetChildIndex(this.buttonRefresh, 0);
             this.Controls.SetChildIndex(this.buttonHome, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPG)).EndInit();
+            this.Controls.SetChildIndex(this.panelWB, 0);
+            this.Controls.SetChildIndex(this.buttonNextPage, 0);
+            this.Controls.SetChildIndex(this.buttonPreviousPage, 0);
+            this.panelWB.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridViewPG;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pgcode;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dTime;
         private System.Windows.Forms.Button buttonHome;
         private System.Windows.Forms.Button buttonRefresh;
+        private System.Windows.Forms.Panel panelWB;
+        private System.Windows.Forms.WebBrowser wb;
+        private System.Windows.Forms.Button buttonNextPage;
+        private System.Windows.Forms.Button buttonPreviousPage;
     }
 }

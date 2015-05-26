@@ -679,5 +679,76 @@ namespace DareneExpressCabinetClient.Service.Imple
             }
             return sc;
         }
+
+        public string GetCourierSearchPGUrl(About about,Courier courier,int pageNum)
+        {
+            string result="";
+            string loginUrl = about.ServerUrl;
+            IDictionary<string, string> parameters = new Dictionary<string, string>();
+            string datetime = UnixTime.ConvertDateTimeToUnixTime(DateTime.Now).ToString();
+            string token = CMD5.UserMd5(about.CabinetCode) + CMD5.UserMd5(datetime);
+            parameters.Add("token", CMD5.UserMd5(token));
+            parameters.Add("cabinetCode", about.CabinetCode);
+            parameters.Add("courierCode", courier.Code);
+            parameters.Add("datetime", datetime);
+            parameters.Add("reqPageNum", pageNum.ToString());
+            parameters.Add("c", "Courier");
+            parameters.Add("a", "packstatus");
+
+            StringBuilder buffer = new StringBuilder();
+            int i = 0;
+            foreach (string key in parameters.Keys)
+            {
+                if (i > 0)
+                {
+                    buffer.AppendFormat("&{0}={1}", key, parameters[key]);
+                }
+                else
+                {
+                    buffer.AppendFormat("{0}={1}", key, parameters[key]);
+                }
+                i++;
+            }
+
+            result = about.ServerUrl+"?" + buffer.ToString();
+
+            return result;
+        }
+
+        public string GetRceiverSearchPGUrl(About about, string packageCode,string telNum, int pageNum)
+        {
+            string result = "";
+            string loginUrl = about.ServerUrl;
+            IDictionary<string, string> parameters = new Dictionary<string, string>();
+            string datetime = UnixTime.ConvertDateTimeToUnixTime(DateTime.Now).ToString();
+            string token = CMD5.UserMd5(about.CabinetCode) + CMD5.UserMd5(datetime);
+            parameters.Add("token", CMD5.UserMd5(token));
+            parameters.Add("cabinetCode", about.CabinetCode);
+            parameters.Add("packageCode", packageCode);
+            parameters.Add("receiverTelNum", telNum);
+            parameters.Add("datetime", datetime);
+            parameters.Add("reqPageNum", pageNum.ToString());
+            parameters.Add("c", "Receiver");
+            parameters.Add("a", "packstatus");
+
+            StringBuilder buffer = new StringBuilder();
+            int i = 0;
+            foreach (string key in parameters.Keys)
+            {
+                if (i > 0)
+                {
+                    buffer.AppendFormat("&{0}={1}", key, parameters[key]);
+                }
+                else
+                {
+                    buffer.AppendFormat("{0}={1}", key, parameters[key]);
+                }
+                i++;
+            }
+
+            result = about.ServerUrl + "?" + buffer.ToString();
+
+            return result;
+        }
     }
 }

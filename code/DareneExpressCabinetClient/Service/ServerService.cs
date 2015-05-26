@@ -109,8 +109,24 @@ namespace DareneExpressCabinetClient.Service
         /// <returns></returns>
         //ServerCallback3 SyncPackState(Package pack, About about);
 
+        /// <summary>
+        /// 12.	快递员查询快件 (2.0新增)
+        /// </summary>
+        /// <param name="about"></param>
+        /// <param name="courier"></param>
+        /// <param name="pageNum"></param>
+        /// <returns></returns>
+        string GetCourierSearchPGUrl(About about, Courier courier, int pageNum);
 
-
+        /// <summary>
+        /// 13.	收件人查询快件 (2.0新增)
+        /// </summary>
+        /// <param name="about"></param>
+        /// <param name="packageCode"></param>
+        /// <param name="telNum"></param>
+        /// <param name="pageNum"></param>
+        /// <returns></returns>
+        string GetRceiverSearchPGUrl(About about, string packageCode, string telNum, int pageNum);
     }
 
     public class ServerCallback

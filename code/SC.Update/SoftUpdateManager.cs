@@ -101,7 +101,9 @@ namespace SC.Update
             try
             {
                 if (!isUpdate)
+                {
                     return;
+                }
 
                 WebClient wc = new WebClient();
 
@@ -115,9 +117,6 @@ namespace SC.Update
                 {
                     filename = Path.GetDirectoryName(loadFile) + "\\" + softName + exten;
                 }
-
-                //IniConfigManager ini = new IniConfigManager();
-                //filename = ini.GetUpdateAppPath() + "/" + Path.GetFileNameWithoutExtension(loadFile) + exten;
 
                 wc.DownloadFile(download, filename);
                 wc.Dispose();
@@ -148,9 +147,13 @@ namespace SC.Update
                         foreach (XmlNode xml in node)
                         {
                             if (xml.Name == "Verson")
+                            {
                                 newVerson = xml.InnerText;
+                            }
                             else
+                            {
                                 download = xml.InnerText;
+                            }
                         }
                     }
                 }
@@ -160,9 +163,13 @@ namespace SC.Update
                 int tm = verson.CompareTo(ver);
 
                 if (tm >= 0)
+                {
                     isUpdate = false;
+                }
                 else
+                {
                     isUpdate = true;
+                }
             }
             catch (Exception ex)
             {

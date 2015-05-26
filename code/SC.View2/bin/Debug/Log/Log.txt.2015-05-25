@@ -1,0 +1,159 @@
+INFO  2015-05-25 21:00:45,389 [Domain.CLog4net] System starting！
+INFO  2015-05-25 21:00:45,707 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-25 21:00:46,174 [Domain.CLog4net] Select * from about 执行结束:312ms
+INFO  2015-05-25 21:00:46,180 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-25 21:00:46,253 [Domain.CLog4net] Select * from box 执行结束:15ms
+ERROR 2015-05-25 21:00:46,338 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-25 21:00:46,338 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-25 21:00:46,403 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-05-25 21:00:46,405 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-25 21:00:46,472 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-25 21:00:46,490 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-25 21:00:46,542 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-25 21:00:46,756 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-25 21:00:47,877 [Domain.CLog4net] 服务器连接：{success:true,servertime:1432558848}
+
+INFO  2015-05-25 21:00:48,017 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:00:48,346 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:00:48,706 [Domain.CLog4net] 启动完成
+INFO  2015-05-25 21:03:50,708 [Domain.CLog4net] System starting！
+INFO  2015-05-25 21:03:50,815 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-25 21:03:51,115 [Domain.CLog4net] Select * from about 执行结束:187ms
+INFO  2015-05-25 21:03:54,046 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-25 21:03:54,110 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-25 21:03:54,149 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-25 21:03:54,149 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-25 21:03:54,202 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-25 21:03:54,203 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-25 21:03:54,259 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-25 21:03:54,288 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-25 21:03:54,342 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-25 21:03:54,493 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-25 21:03:55,238 [Domain.CLog4net] 服务器连接：{success:true,servertime:1432559035}
+
+INFO  2015-05-25 21:03:55,361 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:03:55,678 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:03:56,062 [Domain.CLog4net] 启动完成
+INFO  2015-05-25 21:04:02,775 [Domain.CLog4net] 点击后台，进入身份验证界面
+INFO  2015-05-25 21:04:04,723 [Domain.CLog4net] 点击后台，进入超级管理员控制面板
+INFO  2015-05-25 21:09:15,368 [Domain.CLog4net] System starting！
+INFO  2015-05-25 21:09:15,477 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-25 21:09:15,789 [Domain.CLog4net] Select * from about 执行结束:187ms
+INFO  2015-05-25 21:09:21,889 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-25 21:09:21,951 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-25 21:09:21,998 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-25 21:09:21,998 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-25 21:09:22,060 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-25 21:09:22,060 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-25 21:09:22,123 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-25 21:09:22,154 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-25 21:09:22,216 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-25 21:09:22,388 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-25 21:09:23,074 [Domain.CLog4net] 服务器连接：{success:true,servertime:1432559363}
+
+INFO  2015-05-25 21:09:23,277 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:09:23,589 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:09:23,948 [Domain.CLog4net] 启动完成
+INFO  2015-05-25 21:33:06,212 [Domain.CLog4net] System starting！
+INFO  2015-05-25 21:33:06,353 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-25 21:33:06,680 [Domain.CLog4net] Select * from about 执行结束:234ms
+INFO  2015-05-25 21:33:06,680 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-25 21:33:06,743 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-25 21:33:06,805 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-25 21:33:06,805 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-25 21:33:06,868 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-25 21:33:06,868 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-25 21:33:06,930 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-25 21:33:06,961 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-25 21:33:07,024 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-25 21:33:07,211 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-25 21:33:07,960 [Domain.CLog4net] 服务器连接：{success:true,servertime:1432560787}
+
+INFO  2015-05-25 21:33:08,131 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:33:08,443 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:33:08,818 [Domain.CLog4net] 启动完成
+INFO  2015-05-25 21:41:09,110 [Domain.CLog4net] System starting！
+INFO  2015-05-25 21:41:09,219 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-25 21:41:09,531 [Domain.CLog4net] Select * from about 执行结束:187ms
+INFO  2015-05-25 21:41:09,531 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-25 21:41:09,593 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-25 21:41:09,656 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-25 21:41:09,656 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-25 21:41:09,718 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-25 21:41:09,718 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-25 21:41:09,781 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-25 21:41:09,812 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-25 21:41:09,874 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-25 21:41:10,061 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-25 21:41:11,060 [Domain.CLog4net] 服务器连接：{success:true,servertime:1432561271}
+
+INFO  2015-05-25 21:41:11,278 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:41:11,590 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 21:47:27,555 [Domain.CLog4net] System starting！
+INFO  2015-05-25 21:47:27,664 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-25 21:47:27,991 [Domain.CLog4net] Select * from about 执行结束:187ms
+INFO  2015-05-25 21:47:27,991 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-25 21:47:28,054 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-25 21:47:28,116 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-25 21:47:28,116 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-25 21:47:28,179 [Domain.CLog4net] Select * from elock 执行结束:0ms
+INFO  2015-05-25 21:47:28,179 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-25 21:47:28,241 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-25 21:47:28,272 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-25 21:47:28,335 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-25 21:47:28,522 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-25 21:47:29,286 [Domain.CLog4net] 服务器连接：{success:true,servertime:1432561649}
+
+INFO  2015-05-25 21:47:29,442 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 22:21:27,721 [Domain.CLog4net] System starting！
+INFO  2015-05-25 22:21:27,805 [Domain.CLog4net] 服务工厂启动
+INFO  2015-05-25 22:21:28,068 [Domain.CLog4net] Select * from about 执行结束:172ms
+INFO  2015-05-25 22:21:28,072 [Domain.CLog4net] AboutConfig is loaded
+INFO  2015-05-25 22:21:28,132 [Domain.CLog4net] Select * from box 执行结束:0ms
+ERROR 2015-05-25 22:21:28,144 [Domain.CLog4net] CanManager load:System.DllNotFoundException: 无法加载 DLL“ECanVci”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.VCI_OpenDevice(Int32 DeviceType, Int32 DeviceInd, Int32 Reserved)
+   在 DareneExpressCabinetClient.Tools.UsbCanCom.OpenDevice() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\UsbCanCom.cs:行号 192
+   在 DareneExpressCabinetClient.Tools.CanManager.Load() 位置 D:\projects\c#\EUGV2\EUGV2\code\DareneExpressCabinetClient\Tools\Can\CanManager.cs:行号 50
+INFO  2015-05-25 22:21:28,145 [Domain.CLog4net] BoxsManager is Loaded
+INFO  2015-05-25 22:21:28,198 [Domain.CLog4net] Select * from elock 执行结束:15ms
+INFO  2015-05-25 22:21:28,199 [Domain.CLog4net] ELocksManager is Loaded
+INFO  2015-05-25 22:21:28,254 [Domain.CLog4net] Select * from package where taken='1' 执行结束:0ms
+INFO  2015-05-25 22:21:28,281 [Domain.CLog4net] PackageManager is loaded
+INFO  2015-05-25 22:21:28,333 [Domain.CLog4net] RemoteOpenLogic is loaded
+ERROR 2015-05-25 22:21:28,458 [Domain.CLog4net] 未检测到摄像头
+INFO  2015-05-25 22:21:29,337 [Domain.CLog4net] 服务器连接：{success:true,servertime:1432563689}
+
+INFO  2015-05-25 22:21:29,535 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 22:21:29,848 [Domain.CLog4net] 服务器连接：{success:true,message:'今天是周一 05月25日 (实时：20℃),今天天气多云,东风3-4级,18℃。建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。'}
+
+INFO  2015-05-25 22:21:29,852 [Domain.CLog4net] 启动完成
