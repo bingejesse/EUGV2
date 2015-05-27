@@ -123,10 +123,25 @@ namespace DareneExpressCabinetClient.Service
         /// </summary>
         /// <param name="about"></param>
         /// <param name="packageCode"></param>
-        /// <param name="telNum"></param>
         /// <param name="pageNum"></param>
         /// <returns></returns>
-        string GetRceiverSearchPGUrl(About about, string packageCode, string telNum, int pageNum);
+        string GetRceiverSearchPGUrl(About about, string packageCode, int pageNum);
+
+        /// <summary>
+        /// 14.	首页广告查询
+        /// </summary>
+        /// <param name="about"></param>
+        /// <returns></returns>
+        ServerCallback4 GetAdImageNames(About about);
+
+
+        /// <summary>
+        /// 15.	首页广告下载
+        /// </summary>
+        /// <param name="about"></param>
+        /// <param name="imageName"></param>
+        /// <returns></returns>
+        System.Drawing.Image DownloadImage(About about, string imageName);
     }
 
     public class ServerCallback
@@ -204,6 +219,24 @@ namespace DareneExpressCabinetClient.Service
         /// </summary>
         public string Message { get; set; }
 
+    }
+
+    public class ServerCallback4
+    {
+        /// <summary>
+        /// 是否收到回执
+        /// </summary>
+        public bool Success { get; set; }
+
+        /// <summary>
+        /// 消息：成功为空，不成功返回错误指示
+        /// </summary>
+        public string Message { get; set; }
+
+        /// <summary>
+        /// 广告图片的名称代码列表
+        /// </summary>
+        public List<string> Files { get; set; }
     }
 
 }

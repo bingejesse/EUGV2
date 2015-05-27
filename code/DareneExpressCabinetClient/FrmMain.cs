@@ -83,58 +83,13 @@ namespace DareneExpressCabinetClient
 
         private void button5_Click(object sender, EventArgs e)
         {
-
-            //string targetResult = string.Format("{\"v\":{0}}", 20);
-
-            //string datetime = "1408202160";
-            //string password = "1";
-            //string temp = password + datetime;
-            //string taken = CMD5.UserMd5(password + datetime);
-
-            string clearText = UnixTime.ConvertDateTimeToUnixTime(new DateTime(2014, 9, 1)).ToString() + "30";
-            string key = "ABCDEFGHIJKLMNOP";
-            CryptoHelper helper = new CryptoHelper(key);
-            string encryptedText = helper.Encrypt(clearText);
-            Console.WriteLine(encryptedText);
-
-            //string clearText1 = CryptoHelper.Decrypt(encryptedText, key);
-            //string tempDate = clearText1.Substring(0, 10);
-            //DateTime tempTime = UnixTime.ConverUnixTimeToDateTime(Convert.ToInt32(tempDate));
-            //string tempDay = clearText1.Remove(0, 10);
-            //Console.WriteLine(clearText1);
-
-            //string source = temp;
-            //using (MD5 md5Hash = MD5.Create())
-            //{
-            //    string hash = CMD5.GetMd5Hash(md5Hash, source);
-
-            //    Console.WriteLine("The MD5 hash of " + source + " is: " + hash + ".");
-
-            //    Console.WriteLine("Verifying the hash...");
-
-            //    if (CMD5.VerifyMd5Hash(md5Hash, source, hash))
-            //    {
-            //        Console.WriteLine("The hashes are the same.");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("The hashes are not same.");
-            //    }
-
-            //    //taken = hash;
-
-            //}
-
-
-            //if (taken == "2b4109904540e7f1a858a70f99c76dad")
-            //{
-            //    Console.WriteLine("true");
-            //}
-
-            //HttpWebResponseUtility.TestJson();
-            //HttpWebResponseUtility.TestPostHttps();
-            //HttpWebResponseUtility.TestPostHttp();
-            //WebServiceCall.TestGet();
+            ServerService service = Service.Factory.ServicesFactory.GetInstance().GetServerService();
+            About a = new About();
+            a.ServerUrl = "https://www.darene.cn:8363/index";
+            a.CabinetCode = "20140801001";
+            ServerCallback4 sc4 = service.GetAdImageNames(a);
+            System.Drawing.Image image = service.DownloadImage(a, sc4.Files[0]);
+            panelCamera.BackgroundImage = image;
         }
 
         private void button7_Click(object sender, EventArgs e)

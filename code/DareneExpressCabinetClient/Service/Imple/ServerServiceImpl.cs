@@ -715,7 +715,7 @@ namespace DareneExpressCabinetClient.Service.Imple
             return result;
         }
 
-        public string GetRceiverSearchPGUrl(About about, string packageCode,string telNum, int pageNum)
+        public string GetRceiverSearchPGUrl(About about, string packageCode, int pageNum)
         {
             string result = "";
             string loginUrl = about.ServerUrl;
@@ -725,7 +725,6 @@ namespace DareneExpressCabinetClient.Service.Imple
             parameters.Add("token", CMD5.UserMd5(token));
             parameters.Add("cabinetCode", about.CabinetCode);
             parameters.Add("packageCode", packageCode);
-            parameters.Add("receiverTelNum", telNum);
             parameters.Add("datetime", datetime);
             parameters.Add("reqPageNum", pageNum.ToString());
             parameters.Add("c", "Receiver");
@@ -749,6 +748,90 @@ namespace DareneExpressCabinetClient.Service.Imple
             result = about.ServerUrl + "?" + buffer.ToString();
 
             return result;
+        }
+
+
+        public ServerCallback4 GetAdImageNames(About about)
+        {
+            ServerCallback4 sc = new ServerCallback4();
+            string loginUrl = about.ServerUrl;
+            Encoding encoding = Encoding.GetEncoding("gb2312");
+
+            IDictionary<string, string> parameters = new Dictionary<string, string>();
+            string datetime = UnixTime.ConvertDateTimeToUnixTime(DateTime.Now).ToString();
+            string token = CMD5.UserMd5(about.CabinetCode) + CMD5.UserMd5(datetime);
+            parameters.Add("token", CMD5.UserMd5(token));
+            parameters.Add("cabinetCode", about.CabinetCode);
+            parameters.Add("datetime", datetime);
+            parameters.Add("c", "Adimage");
+            parameters.Add("a", "query");
+            try
+            {
+                string result = "";
+                using (HttpWebResponse response = HttpWebResponseUtility.CreatePostHttpResponse(loginUrl, parameters, timeoutMSecond, null, encoding, null))
+                {
+
+                    string cookieString = response.Headers["Set-Cookie"];
+                    using (StreamReader reader = new StreamReader(response.GetResponseStream(), System.Text.Encoding.UTF8))
+                    {
+                        result = reader.ReadToEnd();
+                    }
+                }
+
+                StringReader sr = new StringReader(result);
+                JsonSerializer serializer = new JsonSerializer();
+
+                try
+                {
+                    sc = (ServerCallback4)serializer.Deserialize(new JsonTextReader(sr), typeof(ServerCallback4));
+                }
+                catch (Exception e)
+                {
+                    CLog4net.LogError(e.ToString());
+
+                }
+                CLog4net.LogInfo("服务器连接：" + result);
+            }
+            catch (Exception e)
+            {
+                CLog4net.LogError("GetAdImageNames" + e);
+            }
+            return sc;
+        }
+
+        public System.Drawing.Image DownloadImage(About about, string imageName)
+        {
+            System.Drawing.Image ad = null;
+            string loginUrl = about.ServerUrl;
+            Encoding encoding = Encoding.GetEncoding("gb2312");
+
+            IDictionary<string, string> parameters = new Dictionary<string, string>();
+            string datetime = UnixTime.ConvertDateTimeToUnixTime(DateTime.Now).ToString();
+            string token = CMD5.UserMd5(about.CabinetCode) + CMD5.UserMd5(datetime);
+            parameters.Add("token", CMD5.UserMd5(token));
+            parameters.Add("cabinetCode", about.CabinetCode);
+            parameters.Add("filename", imageName);
+            parameters.Add("datetime", datetime);
+            parameters.Add("c", "Adimage");
+            parameters.Add("a", "download");
+            try
+            {
+                using (HttpWebResponse response = HttpWebResponseUtility.CreatePostHttpResponse(loginUrl, parameters, timeoutMSecond, null, encoding, null))
+                {
+                    Stream stream = response.GetResponseStream();
+
+                    ad = System.Drawing.Bitmap.FromStream(stream);
+                    stream.Close();  
+                }
+
+                
+                CLog4net.LogInfo("服务器连接：获得图片");
+            }
+            catch (Exception e)
+            {
+                CLog4net.LogError("GetAdImageNames" + e);
+            }
+            return ad;
         }
     }
 }

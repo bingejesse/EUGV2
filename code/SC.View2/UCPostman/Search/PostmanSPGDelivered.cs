@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using DareneExpressCabinetClient.Resource;
+using Domain;
 
 namespace SC.View2
 {
@@ -39,13 +40,14 @@ namespace SC.View2
             this.frmMain.SceneTransit(Roster.Home);
         }
 
-        int pageNum = 0;
+        private int pageNum = 1;
+        private int totalPageNum = 1;
         private string GetRequestUrl()
         {
             string result = "";
-            if (pageNum < 0)
+            if (pageNum < 1)
             {
-                pageNum = 0;
+                pageNum = 1;
             }
 
             result = frmMain.serverService.GetCourierSearchPGUrl(frmMain.about, courier, pageNum);
@@ -70,19 +72,37 @@ namespace SC.View2
 
         private void buttonNextPage_Click(object sender, EventArgs e)
         {
-            pageNum += 1;
-            RefreshWebBrowser();
+            GetTotalPageNum();
+
+            if (totalPageNum > pageNum)
+            {
+                pageNum += 1;
+                RefreshWebBrowser();
+            }
         }
 
         private void buttonPreviousPage_Click(object sender, EventArgs e)
         {
             pageNum -= 1;
-            if (pageNum < 0)
+            if (pageNum < 1)
             {
-                pageNum = 0;
+                pageNum = 1;
             }
             RefreshWebBrowser();
         }
-        
+
+        private void GetTotalPageNum()
+        {
+            try
+            {
+                string value = this.wb.Document.GetElementById("totPageCnt").GetAttribute("value").ToString();
+                totalPageNum = Convert.ToInt32(value);
+            }
+            catch (Exception e)
+            {
+                CLog4net.LogError("GetTotalPageNum:"+e);
+            }
+        }
+
     }
 }

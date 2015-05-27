@@ -22,6 +22,8 @@ namespace SC.View2
             base.frmMain = frmMain;
             base.Countdown = time;
             base.key = this.Name;
+
+            pgInfo = "";
         }
 
         public override void Start(params object[] args)
@@ -32,9 +34,14 @@ namespace SC.View2
             this.textBoxPGInfo.Focus();
         }
 
+        string pgInfo = "";
+
         private void buttonNext_Click(object sender, EventArgs e)
         {
-            this.frmMain.SceneTransit(Roster.C_S_PGSearched);
+            if (VerifyEntryInfo())
+            {
+                this.frmMain.SceneTransit(Roster.C_S_PGSearched,pgInfo);
+            }
         }
 
         private void buttonHome_Click(object sender, EventArgs e)
@@ -42,6 +49,17 @@ namespace SC.View2
             this.frmMain.SceneTransit(Roster.Home);
         }
 
-        
+        private bool VerifyEntryInfo()
+        {
+            pgInfo = this.textBoxPGInfo.Text.Trim();
+            if (pgInfo != "")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
