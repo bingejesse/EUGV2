@@ -31,7 +31,7 @@ namespace SC.View2
         {
             base.Start(args);
 
-            adImages = ADManager.GetADImages();
+            adImages = frmMain.adManager.AdImages;
 
             this.timerAD.Enabled = true;
         }
@@ -56,6 +56,11 @@ namespace SC.View2
 
         private void timerAD_Tick(object sender, EventArgs e)
         {
+            if (adImages == null)
+            {
+                return;
+            }
+
             int tempIndex = adImages.Count;
 
             if (tempIndex == 0)

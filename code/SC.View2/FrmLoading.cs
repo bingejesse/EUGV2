@@ -33,11 +33,12 @@ namespace SC.View2
         }
 
         private SystemController systemController;
+        private int sytemNum=0;
         private void LoadingSystem()
         {
             try
             {
-                this.systemController.Load(backgroundWorkerLoading);
+                sytemNum=this.systemController.Load(backgroundWorkerLoading);
             }
             catch (Exception e)
             {
@@ -57,7 +58,7 @@ namespace SC.View2
 
         private void backgroundWorkerLoading_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            this.progressBar1.Value = e.ProgressPercentage*100/8;
+            this.progressBar1.Value = e.ProgressPercentage * 100 / 9;
             this.labelSystemInfo.Text = e.UserState.ToString();
             this.labelSystemInfo.Left = (this.Width - this.labelSystemInfo.Width) / 2;
         }

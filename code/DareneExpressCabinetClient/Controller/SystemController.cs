@@ -18,46 +18,54 @@ namespace DareneExpressCabinetClient.Controller
         private PackageManager packageManager;
         private ELocksManager elocksManager;
         private RemoteOpenLogic remoteOpenLogic;
+        private ADManager adManager;
         private Timer SystemTimer;//系统主逻辑时钟启动
 
         private const int delay = 50;
-        public void Load(BackgroundWorker bw)
+        private int stepNum = 0;
+        public int Load(BackgroundWorker bw)
         {
             #region 获取初始化基本信息
-            bw.ReportProgress(1, "starting......");
+            bw.ReportProgress(stepNum+=1, "starting......");
 
             this.databaseService = ServicesFactory.GetInstance().GetDatabaseService();
             this.aboutConfig = AboutConfig.GetInstance();
             this.elocksManager = ELocksManager.GetInstance();
             this.boxManager = BoxsManager.GetInstance();
             this.packageManager = PackageManager.GetInstance();
+            this.adManager = ADManager.GetInstance();
             this.remoteOpenLogic = RemoteOpenLogic.GetInstance();
 
             this.SystemTimer = new Timer(new TimerCallback(this.SystemTimer_Elapsed), null, Timeout.Infinite, Timeout.Infinite);
             #endregion
 
             System.Threading.Thread.Sleep(delay);
-            bw.ReportProgress(2, "aboutConfig loading......");
+            bw.ReportProgress(stepNum += 1, "aboutConfig loading......");
             this.aboutConfig.Load();
             System.Threading.Thread.Sleep(delay);
-            bw.ReportProgress(3, "boxManager loading......");
+            bw.ReportProgress(stepNum += 1, "boxManager loading......");
             this.boxManager.Load();
             System.Threading.Thread.Sleep(delay);
-            bw.ReportProgress(4, "elocksManager loading......");
+            bw.ReportProgress(stepNum += 1, "elocksManager loading......");
             this.elocksManager.Load();
             System.Threading.Thread.Sleep(delay);
-            bw.ReportProgress(5, "packageManager loading......");
+            bw.ReportProgress(stepNum += 1, "packageManager loading......");
             this.packageManager.Load();
             System.Threading.Thread.Sleep(delay);
-            bw.ReportProgress(6, "remoteOpenLogic loading......");
+            bw.ReportProgress(stepNum += 1, "remoteOpenLogic loading......");
             this.remoteOpenLogic.Load();
             System.Threading.Thread.Sleep(delay);
-            bw.ReportProgress(7, "packageEvent loading......");
+            bw.ReportProgress(stepNum += 1, "adManager loading......");
+            this.adManager.Load();
+            System.Threading.Thread.Sleep(delay);
+            bw.ReportProgress(stepNum += 1, "packageEvent loading......");
             this.packageManager.PackageCreatedEvent += new PackageManager.PackageCreatedDelegate(packageManager_PackageCreatedEvent);
             this.packageManager.PackageTakedEvent += new PackageManager.PackageTakedDelegate(packageManager_PackageTakedEvent);
             this.SystemTimer.Change(0, 600 * 1000);
             System.Threading.Thread.Sleep(delay);
-            bw.ReportProgress(8, "over");
+            bw.ReportProgress(stepNum += 1, "over");
+
+            return stepNum;
         }
 
         /// <summary>

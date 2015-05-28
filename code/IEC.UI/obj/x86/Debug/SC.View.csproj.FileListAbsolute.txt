@@ -1847,6 +1847,3 @@ D:\projects\c#\EUGV2\EUGV2\code\IEC.UI\obj\x86\Debug\IEC.UI.FrmLoading.resources
 D:\projects\c#\EUGV2\EUGV2\code\IEC.UI\obj\x86\Debug\IEC.UI.superManager.resources
 D:\projects\c#\EUGV2\EUGV2\code\IEC.UI\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\projects\c#\EUGV2\EUGV2\code\IEC.UI\obj\x86\Debug\GenerateResource.write.1.tlog
-D:\projects\c#\EUGV2\EUGV2\code\IEC.UI\bin\Debug\ADResource\b2de9c82d158ccbf2796dc301bd8bc3eb1354195.jpg
-D:\projects\c#\EUGV2\EUGV2\code\IEC.UI\bin\Debug\ADResource\eac4b74543a982266eea422d8882b9014a90eb95.jpg
-D:\projects\c#\EUGV2\EUGV2\code\IEC.UI\bin\Debug\ADResource\32fa828ba61ea8d3b8462a09950a304e251f5852.jpg

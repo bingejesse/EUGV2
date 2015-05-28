@@ -189,9 +189,6 @@ D:\projects\c#\EUGV2\EUGV2\code\SC.View2\obj\x86\Debug\GenerateResource.read.1.t
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\update.xml
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\configInfo\配置说明.txt
-D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\ADResource\32fa828ba61ea8d3b8462a09950a304e251f5852.jpg
-D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\ADResource\b2de9c82d158ccbf2796dc301bd8bc3eb1354195.jpg
-D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\ADResource\eac4b74543a982266eea422d8882b9014a90eb95.jpg
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\Customer.hbm.xml
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\configInfo\config.ini
 D:\projects\c#\EUGV2\EUGV2\code\SC.View2\bin\Debug\configInfo\logo.png

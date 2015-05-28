@@ -36,12 +36,12 @@
             this.labelCountdown = new System.Windows.Forms.Label();
             this.labelMessage = new System.Windows.Forms.Label();
             this.panelBR = new System.Windows.Forms.Panel();
+            this.labelUrl = new System.Windows.Forms.Label();
             this.labelTel = new System.Windows.Forms.Label();
             this.panelQR = new System.Windows.Forms.Panel();
             this.panelCenter = new System.Windows.Forms.Panel();
             this.timerSceneInfo = new System.Windows.Forms.Timer(this.components);
             this.timerMain = new System.Windows.Forms.Timer(this.components);
-            this.labelUrl = new System.Windows.Forms.Label();
             this.panelButtom.SuspendLayout();
             this.panelBLeft.SuspendLayout();
             this.panelBR.SuspendLayout();
@@ -115,6 +115,18 @@
             this.panelBR.Size = new System.Drawing.Size(400, 98);
             this.panelBR.TabIndex = 4;
             // 
+            // labelUrl
+            // 
+            this.labelUrl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelUrl.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelUrl.Location = new System.Drawing.Point(17, 31);
+            this.labelUrl.Name = "labelUrl";
+            this.labelUrl.Size = new System.Drawing.Size(291, 26);
+            this.labelUrl.TabIndex = 4;
+            this.labelUrl.Text = "www.darene.cn";
+            this.labelUrl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // labelTel
             // 
             this.labelTel.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -152,18 +164,6 @@
             // timerMain
             // 
             this.timerMain.Tick += new System.EventHandler(this.timerMain_Tick);
-            // 
-            // labelUrl
-            // 
-            this.labelUrl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelUrl.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelUrl.Location = new System.Drawing.Point(17, 31);
-            this.labelUrl.Name = "labelUrl";
-            this.labelUrl.Size = new System.Drawing.Size(291, 26);
-            this.labelUrl.TabIndex = 4;
-            this.labelUrl.Text = "www.darene.cn";
-            this.labelUrl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // FrmMain
             // 

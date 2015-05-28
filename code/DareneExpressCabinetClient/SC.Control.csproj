@@ -75,7 +75,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ADManager.cs" />
+    <Compile Include="Resource\ADManager.cs" />
     <Compile Include="Controller\RemoteOpenLogic.cs" />
     <Compile Include="Controller\SystemController.cs" />
     <Compile Include="Resource\AboutConfig.cs" />
@@ -177,15 +177,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ADResource\32fa828ba61ea8d3b8462a09950a304e251f5852.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="ADResource\b2de9c82d158ccbf2796dc301bd8bc3eb1354195.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="ADResource\eac4b74543a982266eea422d8882b9014a90eb95.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="ADResource\32fa828ba61ea8d3b8462a09950a304e251f5852.jpg" />
+    <Content Include="ADResource\b2de9c82d158ccbf2796dc301bd8bc3eb1354195.jpg" />
+    <Content Include="ADResource\eac4b74543a982266eea422d8882b9014a90eb95.jpg" />
     <Content Include="SCSystem.vdproj" />
     <Content Include="Storage\dll\AForge.Video.DirectShow.dll" />
     <Content Include="Storage\dll\AForge.Video.dll" />

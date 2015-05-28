@@ -12,6 +12,7 @@ using DareneExpressCabinetClient.Service;
 using DareneExpressCabinetClient.Resource;
 using DareneExpressCabinetClient.Controller;
 using DareneExpressCabinetClient.Service.Factory;
+using DareneExpressCabinetClient;
 
 namespace SC.View2
 {
@@ -26,6 +27,7 @@ namespace SC.View2
         internal CameraService cameraService;
         internal InfoCenterLister infoCenterLister;
         internal About about;
+        internal ADManager adManager;
 
         public FrmMain()
         {
@@ -49,6 +51,7 @@ namespace SC.View2
             this.cameraService = ServicesFactory.GetInstance().GetCameraService();
             this.about = AboutConfig.GetInstance().GetAbout();
             this.infoCenterLister = InfoCenterLister.GetInsatnce();
+            this.adManager = ADManager.GetInstance();
 
             this.AddUCScene(Roster.Home, new Home(this,0));
             this.AddUCScene(Roster.P_ControlPanel, new PostmanControlPanel(this, 5));
