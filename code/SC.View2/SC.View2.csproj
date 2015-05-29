@@ -24,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -79,6 +80,56 @@
     <Compile Include="FrmProgressbar.Designer.cs">
       <DependentUpon>FrmProgressbar.cs</DependentUpon>
     </Compile>
+    <Compile Include="GBYControls\ad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GBYControls\ad.designer.cs">
+      <DependentUpon>ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GBYControls\GBYAlphaTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GBYControls\GBYAlphaTextBox.designer.cs">
+      <DependentUpon>GBYAlphaTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GBYControls\GBYButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GBYControls\GBYButton.designer.cs">
+      <DependentUpon>GBYButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GBYControls\GBYButtonMultiText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GBYControls\GBYButtonMultiText.designer.cs">
+      <DependentUpon>GBYButtonMultiText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GBYControls\GBYLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GBYControls\GBYLabel.Designer.cs">
+      <DependentUpon>GBYLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GBYControls\GBYPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GBYControls\GBYPanel.designer.cs">
+      <DependentUpon>GBYPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GBYControls\GBYTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GBYControls\GBYTextBox.designer.cs">
+      <DependentUpon>GBYTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GBYControls\WIN32.cs" />
+    <Compile Include="Keyboard\MyKeyBoard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Keyboard\MyKeyBoard.designer.cs">
+      <DependentUpon>MyKeyBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keyboard\TextShadow.cs" />
     <Compile Include="UCAdministrator\AdministratorControlPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -270,6 +321,57 @@
     <Compile Include="UCBasic\UCSceneBasic.Designer.cs">
       <DependentUpon>UCSceneBasic.cs</DependentUpon>
     </Compile>
+    <None Include="Resources\back_cancel_select_down.png" />
+    <None Include="Resources\back_cancel_select_normal.png" />
+    <None Include="Resources\back_keyboard.png" />
+    <None Include="Resources\back_keyboard_delate.png" />
+    <None Include="Resources\back_keyboard_delate_down.png" />
+    <None Include="Resources\back_keyboard_number.png" />
+    <None Include="Resources\back_keyboard_number_down.png" />
+    <None Include="Resources\back_main_226x132_down.png" />
+    <None Include="Resources\back_main_226x132_normal.png" />
+    <None Include="Resources\back_message.png" />
+    <None Include="Resources\back_next_226x132_down.png" />
+    <None Include="Resources\back_next_226x132_normal.png" />
+    <None Include="Resources\back_next_select_down.png" />
+    <None Include="Resources\back_next_select_normal.png" />
+    <None Include="Resources\background_bottom.png" />
+    <None Include="Resources\background_button_down.png" />
+    <None Include="Resources\background_button_normal.png" />
+    <None Include="Resources\background_panel.png" />
+    <None Include="Resources\background_panel_left.png" />
+    <None Include="Resources\background_panel_left_big.png" />
+    <None Include="Resources\background_panel_right.png" />
+    <None Include="Resources\bg.png" />
+    <None Include="Resources\button_182x108_comm10.png" />
+    <None Include="Resources\button_custom_getpackage_down.png" />
+    <None Include="Resources\button_custom_getpackage_normal.png" />
+    <None Include="Resources\button_custom_query_down.png" />
+    <None Include="Resources\button_custom_query_normal.png" />
+    <None Include="Resources\guanggao.png" />
+    <None Include="Resources\guanggao1.png" />
+    <None Include="Resources\guanggao2.png" />
+    <None Include="Resources\guanggao3.png" />
+    <None Include="Resources\inputBg_348x93.png" />
+    <None Include="Resources\inputBg_348x93_focus.png" />
+    <None Include="Resources\button_247x177_blue_down.png" />
+    <None Include="Resources\button_247x177_blue_normal.png" />
+    <None Include="Resources\button_247x177_yellow_down.png" />
+    <None Include="Resources\button_247x177_yellow_normal.png" />
+    <None Include="Resources\button_182x108_blue_down.png" />
+    <None Include="Resources\button_182x108_blue_normal.png" />
+    <None Include="Resources\button_182x108_yellow_down.png" />
+    <None Include="Resources\button_182x108_yellow_normal.png" />
+    <None Include="Resources\button_postman_cancelsave_down.png" />
+    <None Include="Resources\button_postman_cancelsave_normal.png" />
+    <None Include="Resources\button_postman_return_down.png" />
+    <None Include="Resources\button_postman_return_normal.png" />
+    <None Include="Resources\middlebox_checked.png" />
+    <None Include="Resources\middlebox_normal.png" />
+    <None Include="Resources\bigbox_checked.png" />
+    <None Include="Resources\bigbox_normal.png" />
+    <None Include="Resources\smallbox_checked.png" />
+    <None Include="Resources\smallbox_normal.png" />
     <Content Include="update.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -278,6 +380,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmProgressbar.resx">
       <DependentUpon>FrmProgressbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GBYControls\ad.resx">
+      <DependentUpon>ad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GBYControls\GBYButton.resx">
+      <DependentUpon>GBYButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GBYControls\GBYLabel.resx">
+      <DependentUpon>GBYLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GBYControls\GBYPanel.resx">
+      <DependentUpon>GBYPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GBYControls\GBYTextBox.resx">
+      <DependentUpon>GBYTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCAdministrator\AdministratorControlPanel.resx">
       <DependentUpon>AdministratorControlPanel.cs</DependentUpon>
@@ -406,9 +523,7 @@
       <Name>SC.Database</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="configInfo\logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

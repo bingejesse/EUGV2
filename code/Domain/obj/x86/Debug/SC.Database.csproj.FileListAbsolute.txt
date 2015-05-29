@@ -396,3 +396,16 @@ D:\projects\c#\EUGV2\EUGV2\code\Domain\obj\x86\Debug\GenerateResource.read.1.tlo
 D:\projects\c#\EUGV2\EUGV2\code\Domain\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\projects\c#\EUGV2\EUGV2\code\Domain\obj\x86\Debug\Domain.exe
 D:\projects\c#\EUGV2\EUGV2\code\Domain\obj\x86\Debug\Domain.pdb
+F:\projects\temp\EUGV2\code\Domain\bin\Debug\Customer.hbm.xml
+F:\projects\temp\EUGV2\code\Domain\bin\Debug\Domain.exe.config
+F:\projects\temp\EUGV2\code\Domain\bin\Debug\Domain.exe
+F:\projects\temp\EUGV2\code\Domain\bin\Debug\Domain.pdb
+F:\projects\temp\EUGV2\code\Domain\bin\Debug\Iesi.Collections.dll
+F:\projects\temp\EUGV2\code\Domain\bin\Debug\log4net.dll
+F:\projects\temp\EUGV2\code\Domain\bin\Debug\MySql.Data.dll
+F:\projects\temp\EUGV2\code\Domain\bin\Debug\NHibernate.dll
+F:\projects\temp\EUGV2\code\Domain\obj\x86\Debug\Domain.Form1.resources
+F:\projects\temp\EUGV2\code\Domain\obj\x86\Debug\Domain.Properties.Resources.resources
+F:\projects\temp\EUGV2\code\Domain\obj\x86\Debug\SC.Database.csproj.GenerateResource.Cache
+F:\projects\temp\EUGV2\code\Domain\obj\x86\Debug\Domain.exe
+F:\projects\temp\EUGV2\code\Domain\obj\x86\Debug\Domain.pdb

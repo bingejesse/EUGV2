@@ -147,14 +147,20 @@ namespace SC.View2
         {
             if (this.scenesKey != Roster.Home)
             {
-                labelCountdown.Visible = true;
+                //labelCountdown.Visible = true;
+                panelBLeft.Width = 545;
+                panelBLeft.BackgroundImage = Properties.Resources.background_panel_left;
+                panel_count.Visible = true;
                 labelScenesMessage.Visible = true;
                 labelMessage.Visible = false;
             }
             else
             {
                 labelMessage.Visible = true;
-                labelCountdown.Visible = false;
+                //labelCountdown.Visible = false;
+                panelBLeft.Width = 685;
+                panelBLeft.BackgroundImage = Properties.Resources.background_panel_left_big;
+                panel_count.Visible = false;
                 labelScenesMessage.Visible = false;
 
                 this.cameraService.Close();
@@ -179,8 +185,8 @@ namespace SC.View2
             SetStyle(ControlStyles.UserPaint, true);
 
             IniConfigManager ini = new IniConfigManager();
-            this.labelTel.Text = ini.GetAboutTel();
-            this.labelUrl.Text = ini.GetAboutUrl();
+            //this.labelTel.Text = ini.GetAboutTel();
+            //this.labelUrl.Text = ini.GetAboutUrl();
         }
 
         private void RunOnce()

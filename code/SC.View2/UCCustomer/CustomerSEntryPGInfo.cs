@@ -14,6 +14,8 @@ namespace SC.View2
         public CustomerSEntryPGInfo()
         {
             InitializeComponent();
+
+            
         }
 
         public CustomerSEntryPGInfo(FrmMain frmMain, int time)

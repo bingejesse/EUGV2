@@ -117,25 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panelQR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAARgAAAEYAQMAAAC9QHvPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAGUExURf///wAAAFXC034AAALLSURBVGje5VqxkYQwDBRDQEgJlEJnB9eZS6EEQgLGeu1K5m9u
-        vgHrHdxgswS2VtJKPpGkY1SMc91FFr2nQ6otvsZTttsWMPa8mMvWJlvS0zBcPmWISbF3a6+YRathXr53
-        LVXmYh/IZm+Kn0pyjD3NCtvbspbtng/YvX+MmVoPkNtMPdP2m175Mb+c31vgehl4/9svusFEjHrD1KAw
-        SNAmX3EsG6aNgTSflEdS+eX1naP6wjhrLTSF+9qrFxwbBB8u2D0zxp6M83psPIvJjua2BTj2EHbvD4Mn
-        hGSTDwtMvWIZ+XYHn/FBXoz98nzM1IfcnMzFPRyO7RmrQwxmFTu0ve/UhxajuHfs2/mcFePnwzS76KiO
-        4QdMwFQiXWLovrZdDCTg4DP0oazi3EiMGfwVOH8I/LnCseEAevWLWXQIOWzvPU7RhVH82N6L5MWExLBT
-        gPseqx1Jgfiglw9Xi3XdYZBzlTHKBVOFjmrqqU6aGOMeK16yU1TZ+XgCtiGtdugPw5BMLRHEndSlvmpj
-        RGqMiPdkQHMUfsZ5hY4qTWt1iAlJuHtBd4AAxIAE6vE5LUaPtcUxUhzm3vSrfu8PE3WcyOh2Ly4fZt1/
-        J3kxDMfru5V32oqE8YljPWKCzyhx0JcwEkAso0mBh/rpy+kwnmZnrax3HvedKZTXR2t1h2kdbY32NuLz
-        +mbeuZYyRBzLiZFo7TNJsX/ofbZoED99id4wtG4rx7l3s/nbE5EXP3kxKAWEnFdKDBY/DMvxAeud/jDR
-        3qaEiMuMyLnUFuwLZ8XEYG4S11Gq7PPjPUVyl5i4v/A+PwNW2y77h1NqjN9bmS/jSGzEvTkcWyR6p11i
-        /I7VwxIm4o2nzfvC4cuZMb78/GeAtZ5XgV/3sJ1hVq9jn7IVTX8k3+lMjSHn/QouWoZaeXf+oSE7xESM
-        oh9L9IRRw+3eJJ0/4lg2zD8eP9ZIGe8RNMDjAAAAAElFTkSuQmCC
-</value>
-  </data>
   <metadata name="timerSceneInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

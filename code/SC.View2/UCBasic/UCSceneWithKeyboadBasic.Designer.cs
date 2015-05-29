@@ -30,11 +30,14 @@
         {
             DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable virtualKeyboardColorTable1 = new DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable();
             DevComponents.DotNetBar.Keyboard.FlatStyleRenderer flatStyleRenderer1 = new DevComponents.DotNetBar.Keyboard.FlatStyleRenderer();
-            this.virtualNumKeyboard = new DevComponents.DotNetBar.Keyboard.KeyboardControl();
+            this.virtualNumKeyboard = new SC.View2.MyKeyBoard();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // virtualNumKeyboard
             // 
+            this.virtualNumKeyboard.BackColor = System.Drawing.Color.Transparent;
+            this.virtualNumKeyboard.BackgroundImage = global::SC.View2.Properties.Resources.back_keyboard;
             virtualKeyboardColorTable1.BackgroundColor = System.Drawing.Color.Black;
             virtualKeyboardColorTable1.DarkKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
             virtualKeyboardColorTable1.DownKeysColor = System.Drawing.Color.White;
@@ -46,14 +49,14 @@
             virtualKeyboardColorTable1.ToggleTextColor = System.Drawing.Color.Green;
             virtualKeyboardColorTable1.TopBarTextColor = System.Drawing.Color.White;
             this.virtualNumKeyboard.ColorTable = virtualKeyboardColorTable1;
-            this.virtualNumKeyboard.IsTopBarVisible = false;
-            this.virtualNumKeyboard.Location = new System.Drawing.Point(560, 180);
+            this.virtualNumKeyboard.Location = new System.Drawing.Point(612, 186);
             this.virtualNumKeyboard.Name = "virtualNumKeyboard";
             flatStyleRenderer1.ColorTable = virtualKeyboardColorTable1;
             flatStyleRenderer1.ForceAntiAlias = false;
             this.virtualNumKeyboard.Renderer = flatStyleRenderer1;
-            this.virtualNumKeyboard.Size = new System.Drawing.Size(400, 400);
-            this.virtualNumKeyboard.TabIndex = 2;
+            this.virtualNumKeyboard.Size = new System.Drawing.Size(335, 366);
+            this.virtualNumKeyboard.TabIndex = 3;
+            this.virtualNumKeyboard.Text = "myKeyBoard1";
             // 
             // UCSceneWithKeyboadBasic
             // 
@@ -61,15 +64,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.virtualNumKeyboard);
             this.Name = "UCSceneWithKeyboadBasic";
-            this.Controls.SetChildIndex(this.labelMessage, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.virtualNumKeyboard, 0);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        protected DevComponents.DotNetBar.Keyboard.KeyboardControl virtualNumKeyboard;
+        protected MyKeyBoard virtualNumKeyboard;
+
 
     }
 }

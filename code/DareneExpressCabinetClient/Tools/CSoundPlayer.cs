@@ -15,7 +15,7 @@ namespace DareneExpressCabinetClient.Tools
 
         public CSoundPlayer()
         {
-            InitResources();
+            //InitResources();
         }
 
         private void InitResources()

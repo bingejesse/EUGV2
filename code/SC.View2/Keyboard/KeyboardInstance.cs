@@ -14,9 +14,9 @@ namespace SC.View2
 
             LinearKeyboardLayout keyboardlayout = new LinearKeyboardLayout();
 
-            keyboardlayout.AddKey("7");
-            keyboardlayout.AddKey("8");
-            keyboardlayout.AddKey("9");
+            keyboardlayout.AddKey("1");
+            keyboardlayout.AddKey("2");
+            keyboardlayout.AddKey("3");
             keyboardlayout.AddLine();
 
             keyboardlayout.AddKey("4");
@@ -24,13 +24,13 @@ namespace SC.View2
             keyboardlayout.AddKey("6");
             keyboardlayout.AddLine();
 
-            keyboardlayout.AddKey("1");
-            keyboardlayout.AddKey("2");
-            keyboardlayout.AddKey("3");
+            keyboardlayout.AddKey("7");
+            keyboardlayout.AddKey("8");
+            keyboardlayout.AddKey("9");
             keyboardlayout.AddLine();
 
             keyboardlayout.AddKey("0");
-            keyboardlayout.AddKey("←退格", "{BACKSPACE}", width: 21);
+            keyboardlayout.AddKey("删除", "{BACKSPACE}", width: 21);
 
             keyboard.Layouts.Add(keyboardlayout);
 

@@ -118,4 +118,154 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="background_bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_button_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_button_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_button_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_button_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_panel_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_panel_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_panel_left_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_panel_left_big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_panel_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_panel_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_cancel_select_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_cancel_select_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_cancel_select_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_cancel_select_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_keyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_keyboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_keyboard_delate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_keyboard_delate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_keyboard_delate_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_keyboard_delate_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_keyboard_number" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_keyboard_number.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_keyboard_number_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_keyboard_number_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_main_226x132_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_main_226x132_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_main_226x132_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_main_226x132_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_next_226x132_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_next_226x132_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_next_226x132_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_next_226x132_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_next_select_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_next_select_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_next_select_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_next_select_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bigbox_checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bigbox_checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bigbox_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bigbox_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_custom_getpackage_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_custom_getpackage_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_custom_getpackage_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_custom_getpackage_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_custom_query_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_custom_query_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_custom_query_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_custom_query_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guanggao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guanggao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guanggao1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guanggao1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guanggao2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guanggao2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guanggao3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guanggao3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inputBg_348x93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inputBg_348x93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inputBg_348x93_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inputBg_348x93_focus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middlebox_checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\middlebox_checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middlebox_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\middlebox_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallbox_checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallbox_checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallbox_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallbox_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_247x177_blue_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_247x177_blue_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_247x177_blue_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_247x177_blue_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_247x177_yellow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_247x177_yellow_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_247x177_yellow_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_247x177_yellow_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_182x108_blue_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_182x108_blue_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_182x108_blue_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_182x108_blue_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_182x108_yellow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_182x108_yellow_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_182x108_yellow_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_182x108_yellow_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_postman_cancelsave_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_postman_cancelsave_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_postman_cancelsave_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_postman_cancelsave_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_postman_return_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_postman_return_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_postman_return_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_postman_return_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

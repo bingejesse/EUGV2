@@ -15,7 +15,7 @@ namespace DareneExpressCabinetClient.Service.Imple
 
         public void BroadcastOnce(string key)
         {
-            player.StartPlaying(key);
+            //player.StartPlaying(key);
         }
 
         public void BroadcastLooping(string key)

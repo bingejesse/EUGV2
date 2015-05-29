@@ -29,40 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.buttonPostman = new System.Windows.Forms.Button();
-            this.buttonCustomer = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.panelPicture = new System.Windows.Forms.Panel();
             this.ad = new System.Windows.Forms.PictureBox();
             this.timerAD = new System.Windows.Forms.Timer(this.components);
+            this.buttonPostman = new GBY.GBYButton();
+            this.buttonCustomer = new GBY.GBYButton();
             this.panelPicture.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ad)).BeginInit();
             this.SuspendLayout();
-            // 
-            // buttonPostman
-            // 
-            this.buttonPostman.Location = new System.Drawing.Point(585, 513);
-            this.buttonPostman.Name = "buttonPostman";
-            this.buttonPostman.Size = new System.Drawing.Size(214, 105);
-            this.buttonPostman.TabIndex = 1;
-            this.buttonPostman.Text = "我是快递员";
-            this.buttonPostman.UseVisualStyleBackColor = true;
-            this.buttonPostman.Click += new System.EventHandler(this.buttonPostman_Click);
-            // 
-            // buttonCustomer
-            // 
-            this.buttonCustomer.BackColor = System.Drawing.Color.Transparent;
-            this.buttonCustomer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCustomer.FlatAppearance.BorderSize = 0;
-            this.buttonCustomer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonCustomer.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonCustomer.Location = new System.Drawing.Point(226, 513);
-            this.buttonCustomer.Name = "buttonCustomer";
-            this.buttonCustomer.Size = new System.Drawing.Size(214, 105);
-            this.buttonCustomer.TabIndex = 0;
-            this.buttonCustomer.Text = "我是业主";
-            this.buttonCustomer.UseVisualStyleBackColor = false;
-            this.buttonCustomer.Click += new System.EventHandler(this.buttonCustomer_Click);
             // 
             // panelPicture
             // 
@@ -70,7 +45,7 @@
             this.panelPicture.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPicture.Location = new System.Drawing.Point(0, 0);
             this.panelPicture.Name = "panelPicture";
-            this.panelPicture.Size = new System.Drawing.Size(1024, 480);
+            this.panelPicture.Size = new System.Drawing.Size(1024, 440);
             this.panelPicture.TabIndex = 2;
             // 
             // ad
@@ -79,7 +54,7 @@
             this.ad.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ad.Location = new System.Drawing.Point(0, 0);
             this.ad.Name = "ad";
-            this.ad.Size = new System.Drawing.Size(1024, 480);
+            this.ad.Size = new System.Drawing.Size(1024, 440);
             this.ad.TabIndex = 0;
             this.ad.TabStop = false;
             // 
@@ -88,12 +63,58 @@
             this.timerAD.Interval = 2000;
             this.timerAD.Tick += new System.EventHandler(this.timerAD_Tick);
             // 
+            // buttonPostman
+            // 
+            this.buttonPostman.BackColor = System.Drawing.Color.Transparent;
+            this.buttonPostman.Checked = false;
+            this.buttonPostman.Del_X = 0F;
+            this.buttonPostman.Del_Y = 1F;
+            this.buttonPostman.DownImg = ((System.Drawing.Image)(resources.GetObject("buttonPostman.DownImg")));
+            this.buttonPostman.Font = new System.Drawing.Font("方正中倩简体", 36F);
+            this.buttonPostman.HighLight = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.buttonPostman.HoverImg = null;
+            this.buttonPostman.Location = new System.Drawing.Point(523, 472);
+            this.buttonPostman.Name = "buttonPostman";
+            this.buttonPostman.NormalImg = ((System.Drawing.Image)(resources.GetObject("buttonPostman.NormalImg")));
+            this.buttonPostman.Size = new System.Drawing.Size(398, 177);
+            this.buttonPostman.TabIndex = 4;
+            this.buttonPostman.Text = "我是快递员";
+            this.buttonPostman.TextColor = System.Drawing.Color.White;
+            this.buttonPostman.TextLeft = 0F;
+            this.buttonPostman.TextTop = 10F;
+            this.buttonPostman.Toogle = false;
+            this.buttonPostman.UseVisualStyleBackColor = false;
+            this.buttonPostman.Click += new System.EventHandler(this.buttonPostman_Click);
+            // 
+            // buttonCustomer
+            // 
+            this.buttonCustomer.BackColor = System.Drawing.Color.Transparent;
+            this.buttonCustomer.Checked = false;
+            this.buttonCustomer.Del_X = 0F;
+            this.buttonCustomer.Del_Y = 1F;
+            this.buttonCustomer.DownImg = ((System.Drawing.Image)(resources.GetObject("buttonCustomer.DownImg")));
+            this.buttonCustomer.Font = new System.Drawing.Font("方正中倩简体", 36F);
+            this.buttonCustomer.HighLight = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.buttonCustomer.HoverImg = null;
+            this.buttonCustomer.Location = new System.Drawing.Point(100, 472);
+            this.buttonCustomer.Name = "buttonCustomer";
+            this.buttonCustomer.NormalImg = ((System.Drawing.Image)(resources.GetObject("buttonCustomer.NormalImg")));
+            this.buttonCustomer.Size = new System.Drawing.Size(398, 177);
+            this.buttonCustomer.TabIndex = 3;
+            this.buttonCustomer.Text = "我是业主";
+            this.buttonCustomer.TextColor = System.Drawing.Color.White;
+            this.buttonCustomer.TextLeft = 0F;
+            this.buttonCustomer.TextTop = 10F;
+            this.buttonCustomer.Toogle = false;
+            this.buttonCustomer.UseVisualStyleBackColor = false;
+            this.buttonCustomer.Click += new System.EventHandler(this.buttonCustomer_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panelPicture);
             this.Controls.Add(this.buttonPostman);
+            this.Controls.Add(this.panelPicture);
             this.Controls.Add(this.buttonCustomer);
             this.Name = "Home";
             this.Size = new System.Drawing.Size(1024, 668);
@@ -105,10 +126,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonPostman;
-        private System.Windows.Forms.Button buttonCustomer;
         private System.Windows.Forms.Panel panelPicture;
         private System.Windows.Forms.PictureBox ad;
         private System.Windows.Forms.Timer timerAD;
+        private GBY.GBYButton buttonPostman;
+        private GBY.GBYButton buttonCustomer;
     }
 }

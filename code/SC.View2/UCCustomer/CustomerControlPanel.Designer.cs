@@ -28,29 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonSearch = new System.Windows.Forms.Button();
-            this.buttonTakePG = new System.Windows.Forms.Button();
+            this.buttonTakePG = new GBY.GBYButton();
+            this.buttonSearch = new GBY.GBYButton();
             this.SuspendLayout();
-            // 
-            // buttonSearch
-            // 
-            this.buttonSearch.Location = new System.Drawing.Point(554, 318);
-            this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(222, 83);
-            this.buttonSearch.TabIndex = 1;
-            this.buttonSearch.Text = "查询快递";
-            this.buttonSearch.UseVisualStyleBackColor = true;
-            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // buttonTakePG
             // 
-            this.buttonTakePG.Location = new System.Drawing.Point(245, 318);
+            this.buttonTakePG.BackColor = System.Drawing.Color.Transparent;
+            this.buttonTakePG.Checked = false;
+            this.buttonTakePG.Del_X = 0F;
+            this.buttonTakePG.Del_Y = 1F;
+            this.buttonTakePG.DownImg = global::SC.View2.Properties.Resources.button_custom_getpackage_down;
+            this.buttonTakePG.Font = new System.Drawing.Font("方正中倩简体", 36F);
+            this.buttonTakePG.HighLight = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.buttonTakePG.HoverImg = null;
+            this.buttonTakePG.Location = new System.Drawing.Point(102, 268);
             this.buttonTakePG.Name = "buttonTakePG";
-            this.buttonTakePG.Size = new System.Drawing.Size(222, 83);
-            this.buttonTakePG.TabIndex = 0;
+            this.buttonTakePG.NormalImg = global::SC.View2.Properties.Resources.button_custom_getpackage_normal;
+            this.buttonTakePG.Size = new System.Drawing.Size(398, 177);
+            this.buttonTakePG.TabIndex = 2;
             this.buttonTakePG.Text = "取快递";
-            this.buttonTakePG.UseVisualStyleBackColor = true;
+            this.buttonTakePG.TextColor = System.Drawing.Color.White;
+            this.buttonTakePG.TextLeft = -20F;
+            this.buttonTakePG.TextTop = 10F;
+            this.buttonTakePG.Toogle = false;
+            this.buttonTakePG.UseVisualStyleBackColor = false;
             this.buttonTakePG.Click += new System.EventHandler(this.buttonTakePG_Click);
+            // 
+            // buttonSearch
+            // 
+            this.buttonSearch.BackColor = System.Drawing.Color.Transparent;
+            this.buttonSearch.Checked = false;
+            this.buttonSearch.Del_X = 0F;
+            this.buttonSearch.Del_Y = 1F;
+            this.buttonSearch.DownImg = global::SC.View2.Properties.Resources.button_custom_query_down;
+            this.buttonSearch.Font = new System.Drawing.Font("方正中倩简体", 36F);
+            this.buttonSearch.HighLight = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.buttonSearch.HoverImg = null;
+            this.buttonSearch.Location = new System.Drawing.Point(525, 268);
+            this.buttonSearch.Name = "buttonSearch";
+            this.buttonSearch.NormalImg = global::SC.View2.Properties.Resources.button_custom_query_normal;
+            this.buttonSearch.Size = new System.Drawing.Size(398, 177);
+            this.buttonSearch.TabIndex = 2;
+            this.buttonSearch.Text = "查询快递";
+            this.buttonSearch.TextColor = System.Drawing.Color.White;
+            this.buttonSearch.TextLeft = 50F;
+            this.buttonSearch.TextTop = 10F;
+            this.buttonSearch.Toogle = false;
+            this.buttonSearch.UseVisualStyleBackColor = false;
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // CustomerControlPanel
             // 
@@ -67,7 +93,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonSearch;
-        private System.Windows.Forms.Button buttonTakePG;
+        private GBY.GBYButton buttonTakePG;
+        private GBY.GBYButton buttonSearch;
+
     }
 }

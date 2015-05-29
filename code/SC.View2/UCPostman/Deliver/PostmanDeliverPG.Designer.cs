@@ -75,7 +75,6 @@
             this.Controls.Add(this.buttonPrevious);
             this.Controls.Add(this.buttonNext);
             this.Name = "PostmanDeliverPG";
-            this.Controls.SetChildIndex(this.labelMessage, 0);
             this.Controls.SetChildIndex(this.buttonNext, 0);
             this.Controls.SetChildIndex(this.buttonPrevious, 0);
             this.Controls.SetChildIndex(this.buttonCancel, 0);

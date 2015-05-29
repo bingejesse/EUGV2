@@ -149,7 +149,6 @@
             this.Controls.Add(this.labelPass);
             this.Controls.Add(this.labelUser);
             this.Name = "AdminVerify";
-            this.Controls.SetChildIndex(this.labelMessage, 0);
             this.Controls.SetChildIndex(this.labelUser, 0);
             this.Controls.SetChildIndex(this.labelPass, 0);
             this.Controls.SetChildIndex(this.textBoxUser, 0);

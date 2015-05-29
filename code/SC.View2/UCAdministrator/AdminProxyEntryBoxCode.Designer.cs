@@ -111,7 +111,6 @@
             this.Controls.Add(this.textBoxCode);
             this.Controls.Add(this.labelCode);
             this.Name = "AdminProxyEntryBoxCode";
-            this.Controls.SetChildIndex(this.labelMessage, 0);
             this.Controls.SetChildIndex(this.labelCode, 0);
             this.Controls.SetChildIndex(this.textBoxCode, 0);
             this.Controls.SetChildIndex(this.buttonNext, 0);

@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using DevComponents.DotNetBar.Keyboard;
 using System.Drawing;
+using GBY;
+using System.Drawing.Drawing2D;
+using System.Drawing.Text;
 
 namespace SC.View2
 {
@@ -22,12 +25,7 @@ namespace SC.View2
 
         public override void DrawBackground(BackgroundRendererEventArgs args)
         {
-            using (Brush brush = new SolidBrush(Color.White))
-            {
-                //brush.WrapMode = System.Drawing.Drawing2D.WrapMode.Tile;
-                args.Graphics.FillRectangle(brush, args.Bounds);
-                Draw3DBorder(args.Graphics, args.Bounds, ColorTable.DarkKeysBrush, ColorTable.LightKeysBrush);
-            }
+            //args.Graphics.DrawImage((Image)Properties.Resources.back_keyboard, args.Bounds, new Rectangle(0, 0, Properties.Resources.back_keyboard.Width, Properties.Resources.back_keyboard.Height), GraphicsUnit.Pixel);
         }
 
         public override void DrawCloseButton(CloseButtonRendererEventArgs args)
@@ -47,37 +45,79 @@ namespace SC.View2
             }
         }
 
+        TextShadow tShadow = new TextShadow();
         public override void DrawKey(KeyRendererEventArgs args)
         {
-            /**
-             * 调背景色和字体颜色
-             * */
-            SolidBrush brush = new SolidBrush(SystemColors.Control);
-            SolidBrush brush2 = new SolidBrush(Color.Black);
-            SolidBrush brush3 = new SolidBrush(Color.Orange);
-            Rectangle keyBounds = args.Bounds;
-            args.Graphics.FillRectangle(brush, keyBounds);
+            tShadow.Radius = 1;
+            tShadow.Distance = 2;
+            tShadow.Alpha = 146;
+            Graphics g = args.Graphics;
+            g.SmoothingMode = SmoothingMode.HighQuality;
+            g.TextRenderingHint = TextRenderingHint.AntiAlias;
 
-            if (args.IsDown || args.Key.Style == KeyStyle.Pressed || args.Key.Style == KeyStyle.Toggled)
+            SolidBrush brush = new SolidBrush(Color.Black);
+            SolidBrush brush2 = new SolidBrush(Color.White);
+            //Rectangle keyBackBounds = args.Bounds;
+            //Rectangle keyBackBounds = new Rectangle(args.Bounds.X, args.Bounds.Y, args.Bounds.Width + 4, args.Bounds.Height + 4);
+            Rectangle keyBackBounds = (args.Key.Info != "{BACKSPACE}") ? new Rectangle(args.Bounds.X, args.Bounds.Y, args.Bounds.Width + 4, args.Bounds.Height + 4) : new Rectangle(args.Bounds.X, args.Bounds.Y, args.Bounds.Width + 4, args.Bounds.Height + 4);
+            //keyBackBounds.Inflate(2, 2);
+            Rectangle keyTextBounds = args.Bounds;
+            keyTextBounds.Inflate(2, 2);
+            keyTextBounds.Offset(-3, 0);
+
+            if (args.Key.Info != "{BACKSPACE}")
             {
-                Draw3DBorder(args.Graphics, keyBounds, ColorTable.DarkKeysBrush, ColorTable.LightKeysBrush);
-                keyBounds.Offset(1, 1);
-                args.Graphics.FillRectangle(brush3, keyBounds);
-                if (args.Key.Style == KeyStyle.Toggled)
-                    args.Graphics.DrawString(args.Key.Caption, _Font, brush2, keyBounds, _Format);
+                if (args.IsDown || args.Key.Style == KeyStyle.Pressed || args.Key.Style == KeyStyle.Toggled)
+                {
+                    g.DrawImage(Properties.Resources.back_keyboard_number_down, keyBackBounds, new Rectangle(0, 0, Properties.Resources.back_keyboard_number_down.Width, Properties.Resources.back_keyboard_number_down.Height), GraphicsUnit.Pixel);
+                    if (args.Key.Style == KeyStyle.Toggled)
+                    {
+                        tShadow.Draw(g, args.Key.Caption, _Font, keyTextBounds, _Format);
+                        g.DrawString(args.Key.Caption, _Font, brush2, keyTextBounds, _Format);
+                    }
+                    else
+                    {
+                        keyTextBounds.Offset(1, 1);
+                        tShadow.Draw(g, args.Key.Caption, _Font, keyTextBounds, _Format);
+                        g.DrawString(args.Key.Caption, _Font, brush2, keyTextBounds, _Format);
+                    }
+                }
                 else
-                    args.Graphics.DrawString(args.Key.Caption, _Font, brush2, keyBounds, _Format);
+                {
+                    g.DrawImage(Properties.Resources.back_keyboard_number, keyBackBounds, new Rectangle(0, 0, Properties.Resources.back_keyboard_number.Width, Properties.Resources.back_keyboard_number.Height), GraphicsUnit.Pixel);
+                    tShadow.Draw(g, args.Key.Caption, _Font, keyTextBounds, _Format);
+                    g.DrawString(args.Key.Caption, _Font, brush2, keyTextBounds, _Format);
+                }
             }
             else
             {
-                args.Graphics.FillRectangle(brush, keyBounds);
-                Draw3DBorder(args.Graphics, keyBounds, ColorTable.LightKeysBrush, ColorTable.DarkKeysBrush);
-                args.Graphics.DrawString(args.Key.Caption, _Font, brush2, keyBounds, _Format);
+                keyTextBounds.Offset(10, 0);
+                if (args.IsDown || args.Key.Style == KeyStyle.Pressed || args.Key.Style == KeyStyle.Toggled)
+                {
+                    g.DrawImage(Properties.Resources.back_keyboard_delate_down, keyBackBounds, new Rectangle(0, 0, Properties.Resources.back_keyboard_delate_down.Width, Properties.Resources.back_keyboard_delate_down.Height), GraphicsUnit.Pixel);
+                    if (args.Key.Style == KeyStyle.Toggled)
+                    {
+                        tShadow.Draw(g, args.Key.Caption, _Font, keyTextBounds, _Format);
+                        g.DrawString(args.Key.Caption, _Font, brush2, keyTextBounds, _Format);
+                    }
+                    else
+                    {
+                        keyTextBounds.Offset(1, 1);
+                        tShadow.Draw(g, args.Key.Caption, _Font, keyTextBounds, _Format);
+                        g.DrawString(args.Key.Caption, _Font, brush2, keyTextBounds, _Format);
+                    }
+                }
+                else
+                {
+                    g.DrawImage(Properties.Resources.back_keyboard_delate, keyBackBounds, new Rectangle(0, 0, Properties.Resources.back_keyboard_delate.Width, Properties.Resources.back_keyboard_delate.Height), GraphicsUnit.Pixel);
+                    tShadow.Draw(g, args.Key.Caption, _Font, keyTextBounds, _Format);
+                    g.DrawString(args.Key.Caption, _Font, brush2, keyTextBounds, _Format);
+                }
+
             }
 
             brush.Dispose();
             brush2.Dispose();
-            brush3.Dispose();
         }
 
         public override void DrawTopBar(TopBarRendererEventArgs args)
@@ -96,6 +136,5 @@ namespace SC.View2
             g.DrawLine(dpen, bounds.Right, bounds.Bottom, bounds.Left, bounds.Bottom);
             g.DrawLine(dpen, bounds.Right, bounds.Bottom, bounds.Right, bounds.Top);
         }
-
     }
 }

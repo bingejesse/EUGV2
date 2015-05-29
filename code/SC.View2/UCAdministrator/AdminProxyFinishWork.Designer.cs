@@ -63,7 +63,6 @@
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.buttonNext);
             this.Name = "AdminProxyFinishWork";
-            this.Controls.SetChildIndex(this.labelMessage, 0);
             this.Controls.SetChildIndex(this.buttonNext, 0);
             this.Controls.SetChildIndex(this.buttonHome, 0);
             this.ResumeLayout(false);

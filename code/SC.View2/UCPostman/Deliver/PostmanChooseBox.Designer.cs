@@ -28,46 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonLBox = new System.Windows.Forms.Button();
-            this.buttonMBox = new System.Windows.Forms.Button();
-            this.buttonSBox = new System.Windows.Forms.Button();
             this.buttonHome = new System.Windows.Forms.Button();
             this.buttonNext = new System.Windows.Forms.Button();
+            this.buttonMBox = new GBY.GBYButtonMultiText();
+            this.buttonLBox = new GBY.GBYButtonMultiText();
+            this.buttonSBox = new GBY.GBYButtonMultiText();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // buttonLBox
-            // 
-            this.buttonLBox.FlatAppearance.BorderColor = System.Drawing.Color.DarkOrange;
-            this.buttonLBox.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonLBox.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.buttonLBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonLBox.Location = new System.Drawing.Point(63, 203);
-            this.buttonLBox.Name = "buttonLBox";
-            this.buttonLBox.Size = new System.Drawing.Size(236, 172);
-            this.buttonLBox.TabIndex = 0;
-            this.buttonLBox.Text = "大箱子\r\n可用数量10";
-            this.buttonLBox.UseVisualStyleBackColor = true;
-            this.buttonLBox.Click += new System.EventHandler(this.buttonLBox_Click);
-            // 
-            // buttonMBox
-            // 
-            this.buttonMBox.Location = new System.Drawing.Point(392, 203);
-            this.buttonMBox.Name = "buttonMBox";
-            this.buttonMBox.Size = new System.Drawing.Size(236, 172);
-            this.buttonMBox.TabIndex = 1;
-            this.buttonMBox.Text = "中箱子\r\n可用数量10";
-            this.buttonMBox.UseVisualStyleBackColor = true;
-            this.buttonMBox.Click += new System.EventHandler(this.buttonMBox_Click);
-            // 
-            // buttonSBox
-            // 
-            this.buttonSBox.Location = new System.Drawing.Point(721, 203);
-            this.buttonSBox.Name = "buttonSBox";
-            this.buttonSBox.Size = new System.Drawing.Size(236, 172);
-            this.buttonSBox.TabIndex = 2;
-            this.buttonSBox.Text = "小箱子\r\n可用数量10";
-            this.buttonSBox.UseVisualStyleBackColor = true;
-            this.buttonSBox.Click += new System.EventHandler(this.buttonSBox_Click);
             // 
             // buttonHome
             // 
@@ -89,32 +56,112 @@
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
+            // buttonMBox
+            // 
+            this.buttonMBox.Checked = true;
+            this.buttonMBox.Del_X = 0F;
+            this.buttonMBox.Del_Y = 1F;
+            this.buttonMBox.DownImg = global::SC.View2.Properties.Resources.middlebox_checked;
+            this.buttonMBox.Font = new System.Drawing.Font("方正中倩简体", 36F);
+            this.buttonMBox.HighLight = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.buttonMBox.HoverImg = null;
+            this.buttonMBox.Location = new System.Drawing.Point(363, 180);
+            this.buttonMBox.MultiText = "可用数量：10";
+            this.buttonMBox.MultiTextLeft = 0F;
+            this.buttonMBox.MultiTextTop = 50F;
+            this.buttonMBox.MutiFont = new System.Drawing.Font("方正中倩简体", 25F);
+            this.buttonMBox.Name = "buttonMBox";
+            this.buttonMBox.NormalImg = global::SC.View2.Properties.Resources.middlebox_normal;
+            this.buttonMBox.Size = new System.Drawing.Size(288, 300);
+            this.buttonMBox.TabIndex = 24;
+            this.buttonMBox.Text = "中箱子";
+            this.buttonMBox.TextColor = System.Drawing.Color.White;
+            this.buttonMBox.TextLeft = 0F;
+            this.buttonMBox.TextTop = 100F;
+            this.buttonMBox.Toogle = true;
+            this.buttonMBox.UseVisualStyleBackColor = true;
+            this.buttonMBox.Click += new System.EventHandler(this.buttonMBox_Click);
+            // 
+            // buttonLBox
+            // 
+            this.buttonLBox.Checked = false;
+            this.buttonLBox.Del_X = 0F;
+            this.buttonLBox.Del_Y = 1F;
+            this.buttonLBox.DownImg = global::SC.View2.Properties.Resources.bigbox_checked;
+            this.buttonLBox.Font = new System.Drawing.Font("方正中倩简体", 36F);
+            this.buttonLBox.HighLight = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.buttonLBox.HoverImg = null;
+            this.buttonLBox.Location = new System.Drawing.Point(50, 180);
+            this.buttonLBox.MultiText = "可用数量：10";
+            this.buttonLBox.MultiTextLeft = 0F;
+            this.buttonLBox.MultiTextTop = 50F;
+            this.buttonLBox.MutiFont = new System.Drawing.Font("方正中倩简体", 25F);
+            this.buttonLBox.Name = "buttonLBox";
+            this.buttonLBox.NormalImg = global::SC.View2.Properties.Resources.bigbox_normal;
+            this.buttonLBox.Size = new System.Drawing.Size(288, 300);
+            this.buttonLBox.TabIndex = 24;
+            this.buttonLBox.Text = "大箱子";
+            this.buttonLBox.TextColor = System.Drawing.Color.White;
+            this.buttonLBox.TextLeft = 0F;
+            this.buttonLBox.TextTop = 100F;
+            this.buttonLBox.Toogle = true;
+            this.buttonLBox.UseVisualStyleBackColor = true;
+            this.buttonLBox.Click += new System.EventHandler(this.buttonLBox_Click);
+            // 
+            // buttonSBox
+            // 
+            this.buttonSBox.Checked = false;
+            this.buttonSBox.Del_X = 0F;
+            this.buttonSBox.Del_Y = 1F;
+            this.buttonSBox.DownImg = global::SC.View2.Properties.Resources.smallbox_checked;
+            this.buttonSBox.Font = new System.Drawing.Font("方正中倩简体", 36F);
+            this.buttonSBox.HighLight = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.buttonSBox.HoverImg = null;
+            this.buttonSBox.Location = new System.Drawing.Point(657, 180);
+            this.buttonSBox.MultiText = "可用数量：10";
+            this.buttonSBox.MultiTextLeft = 0F;
+            this.buttonSBox.MultiTextTop = 50F;
+            this.buttonSBox.MutiFont = new System.Drawing.Font("方正中倩简体", 25F);
+            this.buttonSBox.Name = "buttonSBox";
+            this.buttonSBox.NormalImg = global::SC.View2.Properties.Resources.smallbox_normal;
+            this.buttonSBox.Size = new System.Drawing.Size(288, 300);
+            this.buttonSBox.TabIndex = 24;
+            this.buttonSBox.Text = "小箱子";
+            this.buttonSBox.TextColor = System.Drawing.Color.White;
+            this.buttonSBox.TextLeft = 0F;
+            this.buttonSBox.TextTop = 100F;
+            this.buttonSBox.Toogle = true;
+            this.buttonSBox.UseVisualStyleBackColor = true;
+            this.buttonSBox.Click += new System.EventHandler(this.buttonSBox_Click);
+            // 
             // PostmanChooseBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.buttonHome);
-            this.Controls.Add(this.buttonNext);
+            this.Controls.Add(this.buttonLBox);
             this.Controls.Add(this.buttonSBox);
             this.Controls.Add(this.buttonMBox);
-            this.Controls.Add(this.buttonLBox);
+            this.Controls.Add(this.buttonHome);
+            this.Controls.Add(this.buttonNext);
             this.Name = "PostmanChooseBox";
-            this.Controls.SetChildIndex(this.labelMessage, 0);
-            this.Controls.SetChildIndex(this.buttonLBox, 0);
-            this.Controls.SetChildIndex(this.buttonMBox, 0);
-            this.Controls.SetChildIndex(this.buttonSBox, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.buttonNext, 0);
             this.Controls.SetChildIndex(this.buttonHome, 0);
+            this.Controls.SetChildIndex(this.buttonMBox, 0);
+            this.Controls.SetChildIndex(this.buttonSBox, 0);
+            this.Controls.SetChildIndex(this.buttonLBox, 0);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button buttonLBox;
-        private System.Windows.Forms.Button buttonMBox;
-        private System.Windows.Forms.Button buttonSBox;
         private System.Windows.Forms.Button buttonHome;
         private System.Windows.Forms.Button buttonNext;
+        private GBY.GBYButtonMultiText buttonMBox;
+        private GBY.GBYButtonMultiText buttonLBox;
+        private GBY.GBYButtonMultiText buttonSBox;
     }
 }

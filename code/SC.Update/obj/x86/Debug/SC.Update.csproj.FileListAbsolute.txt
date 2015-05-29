@@ -8,3 +8,9 @@ D:\projects\c#\EUGV2\EUGV2\code\SC.Update\bin\UpdateApp\SC.Update.exe
 D:\projects\c#\EUGV2\EUGV2\code\SC.Update\bin\UpdateApp\SC.Update.pdb
 D:\projects\c#\EUGV2\EUGV2\code\SC.Update\bin\UpdateApp\ICSharpCode.SharpZipLib.dll
 D:\projects\c#\EUGV2\EUGV2\code\SC.Update\bin\UpdateApp\SCSystem.ini
+F:\projects\temp\EUGV2\code\SC.Update\bin\UpdateApp\SCSystem.ini
+F:\projects\temp\EUGV2\code\SC.Update\bin\UpdateApp\SC.Update.exe
+F:\projects\temp\EUGV2\code\SC.Update\bin\UpdateApp\SC.Update.pdb
+F:\projects\temp\EUGV2\code\SC.Update\bin\UpdateApp\ICSharpCode.SharpZipLib.dll
+F:\projects\temp\EUGV2\code\SC.Update\obj\x86\Debug\SC.Update.exe
+F:\projects\temp\EUGV2\code\SC.Update\obj\x86\Debug\SC.Update.pdb

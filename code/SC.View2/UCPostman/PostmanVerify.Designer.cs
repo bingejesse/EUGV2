@@ -108,7 +108,6 @@
             this.Controls.Add(this.labelPass);
             this.Controls.Add(this.labelCode);
             this.Name = "PostmanVerify";
-            this.Controls.SetChildIndex(this.labelMessage, 0);
             this.Controls.SetChildIndex(this.labelCode, 0);
             this.Controls.SetChildIndex(this.virtualNumKeyboard, 0);
             this.Controls.SetChildIndex(this.labelPass, 0);

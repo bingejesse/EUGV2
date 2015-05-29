@@ -49,9 +49,9 @@ namespace SC.View2
 
         private void updateBoxNum(int bigBoxNum, int mediumBoxNum, int smallBoxNum)
         {
-            this.buttonLBox.Text = "大箱子\r可用数量：" + bigBoxNum.ToString();
-            this.buttonMBox.Text = "中箱子\r可用数量：" + mediumBoxNum.ToString();
-            this.buttonSBox.Text = "小箱子\r可用数量：" + smallBoxNum.ToString();
+            this.buttonLBox.MultiText = "可用数量：" + bigBoxNum.ToString();
+            this.buttonMBox.MultiText = "可用数量：" + mediumBoxNum.ToString();
+            this.buttonSBox.MultiText = "可用数量：" + smallBoxNum.ToString();
 
             this.buttonLBox.Enabled = true ? bigBoxNum > 0 : false;
             this.buttonMBox.Enabled = true ? mediumBoxNum > 0 : false;
